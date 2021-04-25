@@ -1,0 +1,342 @@
+<header class="second_header" style="border-bottom: 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-12">
+                <div class="logo-head-wrap">
+                    <img loading="lazy" width="48" height="48" src="/vzo_theme/img/logo_vzo.png" alt="Все Займы Онлайн" title="Все Займы Онлайн">
+                    <span>#ВЗО</span>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-7 col-sm-12">
+                <ul>
+                    <li class="jsMenuLi">
+                        <a class="dropdown-toggle-js" href="/">Займы</a>
+                        <ul style="display: none;">
+                            <li>
+                                <a class="submenu-zaim" href="/mfo">
+										<span class="menu-green-background">
+											<span class="menu-icon" style="background-image:url(/images/menu/icon_16px-1.png)">Все МФО</span>
+										</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/bez-zvonkov">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-2.png)">Без звонков</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/bez-karty">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-3.png)">Без карты</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" href="/bez-otkaza">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-23.png)">Без отказа</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/besplatnyj-zajm">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-5.png)">Без процентов</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/dolgosrochnye">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-6.png)">Долгосрочные</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" href="/card">
+										<span class="menu-green-background">
+											<span class="menu-icon" style="background-image:url(/images/menu/icon_16px-7.png)">Займ на карту</span>
+										</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/qiwi">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-8.png)">На Киви-кошелек</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/novye-zajmy">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-9.png)">Новые</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/zajm-18">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-29.png)">С 18 лет</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/history">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-31.png)">С плохой кредитной историей</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zaim" rel="nofollow" href="/100-procentov">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-32.png)">Со 100% одобрением</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="jsMenuLi">
+                        <a class="dropdown-toggle-js" href="/online-credit">Кредиты</a>
+                        <ul>
+                            <li>
+                                <a class="submenu-credit" href="/autocredit">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-13.png)">Автокредиты</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit" rel="nofollow" href="/online-credit/bez-otkaza">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-23.png)">Без отказа</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit" rel="nofollow" href="/online-credit/bez-podtverzhdeniya-dohoda">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-15.png)">Без подтверждения дохода</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit" rel="nofollow" href="/online-credit/bez-posesheniya-banka">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-16.png)">Без посещения банка</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit" rel="nofollow" href="/online-credit/18-let">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-29.png)">С 18 лет</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit" rel="nofollow" href="/online-credit/differencirovannye-platezhi">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-19.png)">С диф. платежами</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit" rel="nofollow" href="/online-credit/momentalnoe-reshenie">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-20.png)">С моментальным решением</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit" rel="nofollow" href="/online-credit/100-procentnoe-odobrenie">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-32.png)">Со 100% одобрением</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit" rel="nofollow" href="/online-credit/3-goda">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-22.png)">Сроком от 3 лет</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="jsMenuLi">
+                        <a class="dropdown-toggle-js" href="/credit-cards">Кредитные карты</a>
+                        <ul style="display: none;">
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/bez-otkaza">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-23.png)">Без отказа</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/bez-proverok">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-24.png)">Без проверок</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/dlya-bezrabotnyh">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-25.png)">Безработным</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/dlya-pensionerov">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-26.png)">Пенсионерам</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/pasport">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-28.png)">По паспорту</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/18-let">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-29.png)">С 18 лет</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/kuryerom">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-30.png)">С доставкой курьером</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/plohaja-kreditnaja-istorija">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-31.png)">С плохой кредитной историей</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-credit-cards" rel="nofollow" href="/credit-cards/so-100-procentnym-odobreniem">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-32.png)">Со 100% одобрением</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="jsMenuLi">
+                        <a class="dropdown-toggle-js" href="/rko">РКО</a>
+                        <ul>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/v-evro">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-33.png)">В евро</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/vygodnye">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-34.png)">Выгодные</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/deshevyj">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-35.png)">Дешевые</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/dlya-ip">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-36.png)">Для ИП</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/za-odin-den">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-37.png)">За один день</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/valyutnyj-kontrol">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-39.png)">С валютным контролем</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/zarplatnye-proekty">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-40.png)">С зарплатным проектом</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/internet-ekvajring">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-41.png)">С интернет-эквайрингом</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-rko" rel="nofollow" href="/rko/torgovyi-ekvajring">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-42.png)">С торговым эквайрингом</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="jsMenuLi">
+                        <a class="dropdown-toggle-js" href="/zalogi">Залоги</a>
+                        <ul>
+                            <li>
+                                <a class="submenu-zalog" rel="nofollow" href="/zalogi/ekaterinburg">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-43.png)">В Екатеринбурге</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" rel="nofollow" href="/zalogi/krasnodar">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-44.png)">В Краснодаре</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" href="/zalogi/moskva">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-45.png)">В Москве</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" rel="nofollow" href="/zalogi/novosibirsk">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-46.png)">В Новосибирске</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" rel="nofollow" href="/zalogi/rostov-na-donu">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-47.png)">В Ростове-на-Дону</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" rel="nofollow" href="/zalogi/samara">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-48.png)">В Самаре</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" rel="nofollow" href="/zalogi/sankt-peterburg">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-49.png)">В Санкт-Петербурге</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" rel="nofollow" href="/zalogi/tyumen">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-50.png)">В Тюмени</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" rel="nofollow" href="/zalogi/ulan-udje">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-51.png)">В Улан-Удэ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="submenu-zalog" href="/zalogi/chelyabinsk">
+                                    <span class="menu-icon" style="background-image:url(/images/menu/icon_16px-52.png)">В Челябинске</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-5 col-md-3 col-sm-12">
+                <div class="menu menu-top desktop">
+                    <ul id="menu-verhnee-menyu-new">
+                        <li class="jsMenuLi">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" rel="nofollow" href="#">Помощь</a>
+                            <ul style="display: none;">
+                                <li>
+                                    <a rel="nofollow" href="/info/ploxaya-kreditnaya-istoriya.html">Плохая кредитная история?</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/news/actions">Акции и промокоды</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/info/otsutstvie-kreditnoj-istorii.html">Нет кредитной истории?</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/reviews">Обзоры</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/info/neobxodimye-dokumenty.html">Какие нужны документы?</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/ratings">Рейтинги</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/info/procentnaya-stavka.html">О процентной ставке</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/rko/business">Для бизнеса</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/instruction">Инструкция по сайту</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/sovety">Советы</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/info/neoficialnoe-trudoustrojstvo.html">Неофициальное трудоустройство</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/news">Новости</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" href="/info/dosrochnoe-pogashenie.html">Нюансы досрочного погашения</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a class="header-label-rating" href="/get-rating" rel="nofollow">Бесплатный кредитный рейтинг</a>
+                <i class="header-search-js fa fa-search"></i>
+            </div>
+        </div>
+    </div>
+</header>
