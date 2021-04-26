@@ -1,0 +1,39 @@
+    /* footer */
+.f-line-1 {
+    display: flex;
+}
+
+.f-1 {
+    flex: 1;
+}
+
+.f-line-1 ul li{
+    line-height: 3;
+    list-style-type: none;
+}
+
+.f-line-1 ul a{
+    color: #292929;
+    text-decoration: none;
+}
+
+.f-2-menu li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.f-2-menu a{
+    color: #87919F;
+    text-decoration: none;
+}
+
+.f-copyright{
+    display: flex;
+}
+
+.f-copyright p{
+    color: #A3A3A3;
+    flex: 1;
+    font-size: 0.8em;
+}
+
