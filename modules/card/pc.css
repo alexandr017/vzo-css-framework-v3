@@ -1,0 +1,49 @@
+.card {
+    box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.card hr {
+    margin:30px 0;
+}
+
+.card .card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .top-card, .conditions {
+    display: flex;
+}
+
+.card .top-card .logo,
+.card .conditions .first
+{
+    display: flex;
+    justify-content: center;
+    width:19%;
+    margin-right: 1%;
+}
+
+.card .top-card .content,
+.card .conditions .second {
+    width:79%;
+    margin-right: 2%;
+}
+
+.card .conditions .second .items {
+    display: flex;
+}
+.card .conditions .second .items .item {
+    width:40px;
+    height: 40px;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    margin-right: 1em;
+}
+
+.card .text-conditions {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,7 +1,12 @@
 .grid-1-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
     font-family: 'Proxima Nova Rg';
+}
+.grid-1-2 div {
+    flex-grow: 2;
 }
 
 .grid-1-2 .title {
