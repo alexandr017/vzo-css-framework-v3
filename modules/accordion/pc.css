@@ -1,0 +1,46 @@
+.accordion-container {
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+}
+.accordion {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    /*transition: 0.5s;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion.active .arrow{
+    transform: rotate(-90deg);
+}
+.active, .accordion:hover {
+    background-color: #fff;
+}
+.panel {
+    padding: 0 18px;
+    color: #212121;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #EBEBEB;
+    transition: max-height 0.3s ease-out;
+}
+.panel p {
+    display: inline-block;
+}
+
+.panel li {
+    color: #A4C634;
+    margin-bottom: 10px;
+}
+.panel li span {
+    color: #292929;
+}

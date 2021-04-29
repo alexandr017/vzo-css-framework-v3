@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <style>body{padding: 100px 0 !important;}</style>
+    <link rel="stylesheet" href="<?='/modules/general/prism.css'?>">
 </head>
 <body>
 <?php require_once 'inc-framework/sidebar.php'; ?>
@@ -21,6 +22,7 @@ if (isset($_GET['module'])) {
 }
 ?>
 </div>
+<script src="<?='/modules/general/prism.js'?>"></script>
 </body>
 </html>
 

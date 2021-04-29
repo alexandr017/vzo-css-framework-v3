@@ -77,3 +77,29 @@
     font-size: 1.063em;
     cursor: pointer;
 }
+
+/* Other */
+.post-label-dark {
+    min-height: 35px;
+    background-color: #017AD3;
+    border-radius: 5px;
+    font-size: 1.063em;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 16px;                  /* PX to EM */
+    text-align: center;
+}
+.post-label-light {
+    min-height: 35px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    font-size: 1.063em;
+    color: #262626;
+    display: inline-block;
+    padding: 4px 16px;                  /* PX to EM */
+    text-align: center;
+}
+.post-label-dark svg, .post-label-light svg {
+    margin-bottom:-4px;                 /* PX to EM */
+    margin-right:6px;
+}

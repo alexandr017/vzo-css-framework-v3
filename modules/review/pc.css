@@ -1,0 +1,46 @@
+.review {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
+    -moz-box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
+    box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
+    /*padding: 1.3em 3em;*/
+    padding: 1em 3em 1.7em 3em;
+}
+
+.header-review {
+    margin-top:30px;
+}
+
+.review p {
+    font-family: 'Proxima Nova Rg';
+    margin-top: 0;
+}
+
+.review p.text-review {
+    line-height: 27.65px;
+}
+
+.review a {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Proxima Nova Rg';
+    color: #017AD3;
+    text-decoration: none;
+}
+
+.review span.plus, .review span.minus {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.review span.plus {
+    color: #A5CA38;
+}
+.review span.minus {
+    color: #FF7A5C;
+}
+
+.grid-1-2-between {
+    display: flex;
+    justify-content: space-between
+}

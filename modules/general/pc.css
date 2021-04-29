@@ -8,7 +8,7 @@
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
-.MJXc-TeX-main-R{font-family: 'Proxima Nova Rg' !important;}
+.MJXc-TeX-main-R{font-family: 'Futura PT' !important;}
 body{
     padding: 0;
     margin: 0;
@@ -18,11 +18,11 @@ body{
     color: #292929;
     text-align: left;
     background-color: #fff;
-    font-family: 'Proxima Nova Rg'
+    font-family: 'Futura PT'
 }
 
 button{
-    font-family: 'Proxima Nova Rg'
+    font-family: 'Futura PT'
 }
 
 p,li{color: #292929;}

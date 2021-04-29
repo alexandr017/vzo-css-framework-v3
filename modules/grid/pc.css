@@ -1,0 +1,25 @@
+.grid-1-2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Proxima Nova Rg';
+}
+
+.grid-1-2 .title {
+    font-size: 18px;
+    color: #292929;
+    font-weight: bold;
+    font-family: 'Futura PT';
+}
+
+ul.success li {
+    color: #A4C634;
+    margin-bottom: 10px;
+}
+ul.danger li {
+    color: #EA674A;
+    margin-bottom: 10px;
+}
+
+ul.success li span, ul.danger li span {
+    color: #292929;
+}
