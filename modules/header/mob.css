@@ -58,7 +58,7 @@
 }
 .link a::after{
     content: " ";
-    background: url("/images/arrow-right.svg");
+    background: url("/v3/images/arrow-right.svg");
     background-size: contain;
     width:10px;
     height: 17px;
@@ -78,7 +78,7 @@
 }
 .header-block .link a.city::before {
     content: " ";
-    background: url("/images/place.svg");
+    background: url("/v3/images/place.svg");
     background-size: contain;
     width:20px;
     height: 27.6px;
