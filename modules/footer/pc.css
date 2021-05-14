@@ -1,39 +1,177 @@
-    /* footer */
+footer {
+    padding: 0;
+    margin: 0;
+    font-family: 'Proxima Nova Rg';
+}
+
 .f-line-1 {
     display: flex;
+    justify-content: space-between;
 }
 
 .f-1 {
-    flex: 1;
+    padding: 0;
+    font-size: 14px;
+    line-height: 42px;
 }
 
-.f-line-1 ul li{
+.f-support-label {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 23.08px;
+    font-family: 'Futura PT';
+}
+
+.f-line-1 .f-support .contact-info {
+    line-height: 20px;
+}
+
+.f-support-phone {
+    text-decoration: none;
+    font-size: 18px;
+    color: #292929;
+    margin:0;
+}
+
+.f-support-text {
+    font-size: 12px;
+    line-height: 14.62px;
+}
+
+.f-line-1 .f-support .call-back-info {
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.f-line-1 .f-support .call-back {
+    font-weight: 600;
+    color: #017AD3;
+    font-size: 16px;
+}
+
+f-1 f-support .f-support-text {
+    margin-bottom:20px;
+}
+
+.f-line-1 .f-support .email {
+    color: #A5CA38;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.f-line-1 .f-support .btn-chat div {
+    display: block;
+}
+
+.f-line-1 ul li {
     line-height: 3;
     list-style-type: none;
 }
 
-.f-line-1 ul a{
+.f-line-1 ul a {
     color: #292929;
     text-decoration: none;
 }
 
-.f-2-menu li{
-    display: inline-block;
+footer ul.f-2-menu {
+    display: flex;
+    justify-content: space-between ;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.f-2-menu li {
     list-style-type: none;
 }
 
-.f-2-menu a{
+.f-2-menu a {
     color: #87919F;
     text-decoration: none;
 }
 
-.f-copyright{
+.f-copyright {
     display: flex;
 }
 
-.f-copyright p{
+.f-copyright p {
     color: #A3A3A3;
     flex: 1;
-    font-size: 0.8em;
+    font-size: 13px;
+    line-height: 19.5px;
 }
 
+.f-copyright p:first-of-type {
+    margin-right: 42px;
+}
+
+footer .social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+footer .social .soc-network a,
+footer .social .soc-reviews a {
+    margin-right: 10.93px;
+}
+footer .social .soc-reviews a:first-of-type {
+   margin-left: 10px;
+}
+
+footer .social .soc-network-2 a.tik-tok {
+    height: 31px;
+    width: 31px;
+    margin-right: 18px;
+}
+
+footer .social .soc-network-2 a.alice {
+    margin-right: 2px;
+}
+
+footer .social .soc-network-2 a.yandex img {
+    margin-bottom: -5px;
+}
+
+footer .social .soc-reviews .more-reviews a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:#87919F;
+    margin-left: 10.93px;
+}
+
+footer .social .soc-network-2 .bot {
+    font-size: 16px;
+    color:#292929;
+}
+
+footer .social .soc-network-2 .telegram-name {
+   color: #87919F;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+footer .f-3 {
+    margin-top: 30px;
+}
+
+footer .f-3 .policy {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .f-3 .policy a {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #87919F;
+}
+
+footer hr {
+    border: 1px solid #EBEBEB;
+}
