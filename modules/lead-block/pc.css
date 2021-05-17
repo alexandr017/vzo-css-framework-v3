@@ -1,0 +1,125 @@
+.p-h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 35px;
+    color:#212529;
+    font-weight: 400;
+    font-family: 'Futura PT';
+}
+
+.main {
+    display: inline-block;
+    color:#212529;
+}
+
+lwb {
+    width: 200px;
+    height: 200px;
+}
+
+.lpt {
+    padding: 0;
+    font-family: 'Proxima Nova Rg';
+    /*margin: 0;*/
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    margin-left: 230px;
+    margin-top: -200px;
+}
+
+.lpt .pup-inner {
+    font-size: 16px;
+    line-height: 24px;
+    width: 189.83px;
+    height: 30px;
+    background-color: #f3f3f3;
+    margin: 0 0 20px;
+    padding: 3px 10px;
+}
+
+.lpt .pupcount {
+    width: 64.73px;
+    height: 30px;
+    background-color: #ffcc64;
+    font-size: 16px;
+    padding: 3px 10px;
+}
+
+.lpt .listing_lead_wrap p {
+    width: 880px;
+    line-height: 24px;
+}
+
+.lpt .listing_lead_wrap ul {
+    padding: 0;
+    margin-left: 16px;
+}
+
+.lpt .listing_lead_wrap ul li {
+    color: #00b5f4;
+}
+
+.lpt .listing_lead_wrap ul li span {
+    color: #292929;
+}
+
+a.zero-pos-more {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #007bff;
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg';
+    width: 1110px;
+    margin:10px 0 20px 0 ;
+    padding: 5px 10px;
+}
+
+a.zero-pos-more:hover, a.zero-pos-more:focus {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.zero-pos {
+    width: 1110px;
+    background-color: #f3f3f3;
+    margin: 0 0 20px;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.zero-pos h2 {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Futura PT';
+    color:#212529;
+    line-height: 25px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+
+.zero-pos .accordeon-list {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Proxima Nova Rg';
+    margin-left: 10px;
+}
+
+.zero-pos .accordeon-list li:last-of-type {
+    margin-bottom: 30px;
+}
+
+.zero-pos .accordeon-list li a {
+    color:#212529;
+}
+
+.zero-pos .accordeon-list li a:hover,
+.zero-pos .accordeon-list li a:focus {
+    color: #1098c7;
+}
+

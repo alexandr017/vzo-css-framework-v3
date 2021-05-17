@@ -1,0 +1,51 @@
+.main-news {
+    width: 1165px;
+    padding-left: 79px;
+    padding-right: 78px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.main-news h4 {
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 30.77px;
+    font-family: 'Futura PT';
+    text-align: center;
+    margin-top: 79px;
+}
+
+.main-news .slider-post-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+.main-news .slider-post-block a.slider-part {
+    text-decoration: none;
+    width: 266px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(65, 81, 92, 0.1);
+    border-radius: 5px;
+}
+
+.main-news .slider-post-block a.slider-part p {
+    font-size: 14px;
+    color: #87919F;
+    line-height: 17.05px;
+    padding: 15px 22px 15px 20px;
+}
+
+.main-news .slider-post-block a.slider-part div {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #292929;
+    padding: 0 10px 31px 20px;
+}
+
+.main-news .slider-post-block a.btn {
+    margin-top: 15%;
+    width: 45px;
+    height: 45px;
+}
+

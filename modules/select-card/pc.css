@@ -1,0 +1,53 @@
+.select-card {
+    width: 840px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.select-card h1 {
+    font-size: 48px;
+    line-height: 61.54px;
+    font-weight: 450;
+    font-family: 'Futura PT';
+}
+
+.select-card .container-text p ,
+.select-card .container-cards .container-type-cards p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.select-card .container-text p:first-of-type {
+    margin-top: -15px;
+}
+
+.select-card .container-text a,
+.select-card .container-cards .container-type-cards .container-intro div a {
+    text-decoration: none;
+    color:#017AD3;
+}
+
+.select-card .container-cards .container-type-cards .container-intro {
+    width: 597px;
+    height: 151px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+}
+
+.select-card .container-cards .container-type-cards div.container-intro:not(:last-of-type) {
+    margin-bottom: 28.76px;
+}
+
+.select-card .container-cards .container-type-cards div.last {
+    margin-bottom: 20px;
+    margin-top: 29.41px;
+}
+
+.select-card .container-cards .container-type-cards .container-intro img {
+    width: 220px;
+    height: 150px;
+}
+
+.select-card .container-cards .container-type-cards .container-intro div {
+    margin-top: -97px;
+    margin-left: 261px;
+}
