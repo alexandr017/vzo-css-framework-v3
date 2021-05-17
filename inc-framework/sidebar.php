@@ -143,9 +143,10 @@
     <a href="/?module=short-codes/comparison" class="vzo-ux-framework-link" title="[comparison]">Сравнение</a>
     <a href="/?module=short-codes/tarify" class="vzo-ux-framework-link" title="[tarify]">Тарифы</a>
     <a href="/?module=short-codes/phone" class="vzo-ux-framework-link" title="[phone]">&#10004; Телефон</a>
-    <a href="/?module=short-codes/phone_complaint" class="vzo-ux-framework-link" title="[phone_complaint]">&#10004; Жалоба</a>
+    <a href="/?module=short-codes/phone_complaint" class="vzo-ux-framework-link" title="[phone_complaint]">Жалоба</a>
     <a href="/?module=short-codes/go_to_account" class="vzo-ux-framework-link" title="[go_to_account]">Перейти в ЛК</a>
     <a href="/?module=short-codes/author" class="vzo-ux-framework-link" title="[author]">Вставки другого автора</a>
+    <a href="/?module=short-codes/related" class="vzo-ux-framework-link" title="[related]">Блок читайте так же</a>
     <a href="/?module=short-codes/rko_calc_ooo_and_ip" class="vzo-ux-framework-link" title="[rko_calc_ooo_and_ip]">&#10004; Кальк РКО ИП и ООО</a>
     <a href="/?module=short-codes/overpayment_table" class="vzo-ux-framework-link" title="[overpayment_table]">Таблица переплаты</a>
     <a href="/?module=short-codes/quote" class="vzo-ux-framework-link" title="[quote]">Цитаты</a>
