@@ -116,6 +116,7 @@ footer .social {
 footer .social .soc-network a,
 footer .social .soc-reviews a {
     margin-right: 10.93px;
+    text-decoration: none;
 }
 footer .social .soc-reviews a:first-of-type {
    margin-left: 10px;
