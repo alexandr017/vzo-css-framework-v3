@@ -1,0 +1,45 @@
+<ul class="sort-menu">
+    <li>Сортировать:</li>
+    <li class="sort-item sort-active sort-up" data-field="km5"><span class="sort-child">По рейтингу</span></li>
+    <li class="sort-item" data-field="sum_max"><span class="sort-child">По сумме</span></li>
+    <li class="sort-item" data-field="term_max"><span class="sort-child">По сроку</span></li>
+    <li class="sort-item" data-field="percent"><span class="sort-child">По процентной ставке</span></li>
+    <li class="sort-item" data-field="title"><span class="sort-child">По имени</span></li>
+</ul>
+
+
+<script>
+    document.querySelectorAll(".sort-menu .sort-item").forEach(el => {
+        //el.addEventListener('click', sortingArrows);
+        el.addEventListener('click',fn => {
+            sortingArrows(el);
+        });
+    });
+
+    function sortingArrows(elem) {
+        if(elem.classList.contains('sort-active')){
+            if(elem.classList.contains('sort-up')){
+                elem.classList.remove('sort-up');
+                elem.classList.add('sort-down');
+                window.sort_type = 'desc';
+            } else {
+                window.sort_type = 'asc';
+                elem.classList.add('sort-up');
+                elem.classList.remove('sort-down');
+            }
+            window.default_sorting_counter = 0;
+        } else {
+            document.querySelectorAll('.sort-menu li').forEach(sortingLineElem => {
+                sortingLineElem.classList.remove('sort-active');
+                if (sortingLineElem != undefined)
+                    sortingLineElem.setAttribute('class','');
+            });
+
+            elem.classList.add('sort-up');
+            elem.classList.add('sort-item');
+            elem.classList.add('sort-active');
+
+        }
+
+    }
+</script>

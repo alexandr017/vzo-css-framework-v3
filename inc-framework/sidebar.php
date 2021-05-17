@@ -109,6 +109,8 @@
         Список постов
     </a>
 
+    <a href="/?module=sorting" class="vzo-ux-framework-link">&#10004; Сортировка</a>
+
     <div class="vzo-ux-framework-header"></div>
 
     <h3 class="vzo-ux-framework-section-title">Блоки</h3>

@@ -1,0 +1,23 @@
+
+
+.sort-menu {margin: 0;padding: 0;}
+.sort-menu li{display: inline-block;padding: 2px 6px 5px; line-height: 24px;}
+.sort-menu .sort-item{cursor: pointer;}
+.sort-menu .sort-child{padding: 3px 0}
+.sort-menu .sort-child{color: #797979;border-bottom: 1px dotted #797979;}
+.sort-menu .sort-active .sort-child {color: #017AD3;border-bottom: 1px dotted #017AD3;}
+
+.sort-menu .sort-active.sort-up:before, .sort-menu .sort-active.sort-down:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 3px;
+    background: url(/v3/images/sort-arrow.svg) no-repeat;
+    background-size: contain;
+    vertical-align: -2px;
+}
+
+.sort-menu .sort-active.sort-down:before{
+    transform: rotate(180deg);
+}
