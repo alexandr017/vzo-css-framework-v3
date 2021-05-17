@@ -104,6 +104,11 @@
         </svg>
         Карточка займа
     </a>
+
+    <a href="/?module=posts-block" class="vzo-ux-framework-link">
+        Список постов
+    </a>
+
     <div class="vzo-ux-framework-header"></div>
 
     <h3 class="vzo-ux-framework-section-title">Блоки</h3>
@@ -121,12 +126,38 @@
     </a>
     <a href="/" class="vzo-ux-framework-link">Сайдбар</a>
 
-    <h3 class="vzo-ux-framework-section-title">Интерактивные (JS)</h3>
-    <a href="/" class="vzo-ux-framework-link">куаука</a>
+    <h3 class="vzo-ux-framework-section-title">Формы</h3>
+    <a href="/" class="vzo-ux-framework-link">Элементы</a>
+    <a href="/" class="vzo-ux-framework-link">Отзывы</a>
+
     <div class="vzo-ux-framework-header"></div>
 
     <h3 class="vzo-ux-framework-section-title">Шорткоды</h3>
-    <a href="/" class="vzo-ux-framework-link">Аккардеоны</a>
+    <a href="/?module=short-codes/bg_block" class="vzo-ux-framework-link" title="[bg_block]">Фоновый блок</a>
+    <a href="/?module=short-codes/of_rat_block" class="vzo-ux-framework-link" title="[of_rat_block] и др">Подробное описание</a>
+    <a href="/?module=short-codes/vsezaimy_accordion" class="vzo-ux-framework-link" title="[vsezaimy_accordion]">Аккордеон</a>
+    <a href="/?module=short-codes/short_button" class="vzo-ux-framework-link" title="[short_button]">&#10004; Одиночная кнопка</a>
+    <a href="/?module=short-codes/vsezaimy_important" class="vzo-ux-framework-link" title="[vsezaimy_important]">Сообщение (Зеленое)</a>
+    <a href="/?module=short-codes/vsezaimy_info" class="vzo-ux-framework-link" title="[vsezaimy_info]">Сообщение (Синее)</a>
+    <a href="/?module=short-codes/rat_block_wrap" class="vzo-ux-framework-link" title="[rat_block_wrap]">Краткий обзор</a>
+    <a href="/?module=short-codes/comparison" class="vzo-ux-framework-link" title="[comparison]">Сравнение</a>
+    <a href="/?module=short-codes/tarify" class="vzo-ux-framework-link" title="[tarify]">Тарифы</a>
+    <a href="/?module=short-codes/phone" class="vzo-ux-framework-link" title="[phone]">&#10004; Телефон</a>
+    <a href="/?module=short-codes/phone_complaint" class="vzo-ux-framework-link" title="[phone_complaint]">&#10004; Жалоба</a>
+    <a href="/?module=short-codes/go_to_account" class="vzo-ux-framework-link" title="[go_to_account]">Перейти в ЛК</a>
+    <a href="/?module=short-codes/author" class="vzo-ux-framework-link" title="[author]">Вставки другого автора</a>
+    <a href="/?module=short-codes/rko_calc_ooo_and_ip" class="vzo-ux-framework-link" title="[rko_calc_ooo_and_ip]">&#10004; Кальк РКО ИП и ООО</a>
+    <a href="/?module=short-codes/overpayment_table" class="vzo-ux-framework-link" title="[overpayment_table]">Таблица переплаты</a>
+    <a href="/?module=short-codes/quote" class="vzo-ux-framework-link" title="[quote]">Цитаты</a>
+    <a href="/?module=short-codes/insert_video" class="vzo-ux-framework-link" title="[insert_video]">Вставка видео</a>
+    <a href="/?module=short-codes/vzo_news" class="vzo-ux-framework-link" title="[vzo_news]">&#10004; Наши новости</a>
+    <a href="/?module=short-codes/ours_command" class="vzo-ux-framework-link" title="[ours_command]">Наша редакция</a>
+    <a href="/?module=short-codes/timeline_wrap" class="vzo-ux-framework-link" title="[timeline_wrap]">Хронология</a>
+    <a href="/?module=short-codes/expert" class="vzo-ux-framework-link" title="[expert]">Эксперты</a>
+    <a href="/?module=short-codes/our_experts" class="vzo-ux-framework-link" title="[our_experts]">Эксперты</a>
+    <a href="/?module=short-codes/bank_requisites" class="vzo-ux-framework-link" title="[bank_requisites]">&#10004; Банковские реквизиты</a>
+
+
     <div class="vzo-ux-framework-header"></div>
 
 </div>

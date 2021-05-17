@@ -3,7 +3,7 @@
 /**
  * pc | mob | amp
  */
-$mode = 'pc';
+$mode = $_GET['mode'] ?? 'pc';
 
 require_once 'inc-framework/loader.php';
 
