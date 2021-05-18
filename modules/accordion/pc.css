@@ -3,7 +3,7 @@
     border-radius: 5px;
 }
 
-.accordion {
+.accordion{
     background-color: #fff;
     color: #000;
     cursor: pointer;
@@ -13,11 +13,28 @@
     text-align: left;
     outline: none;
     font-size: 18px;
-    /*transition: 0.5s;*/
+    transition: 0.5s;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.accordion svg.minus{
+    display: none;
+    fill: #848484;
+}
+
+.accordion svg.plus{
+    display: inline;
+}
+
+.accordion.active svg.minus{
+    display:inline;
+}
+
+.accordion.active svg.plus{
+    display: none;
 }
 
 .accordion.active .arrow {
@@ -59,6 +76,7 @@ h2 {
 }
 
 .second .accordion {
+
     display: flex;
     justify-content: left;
 }
@@ -66,6 +84,7 @@ h2 {
 .second .accordion svg {
     margin-right: 12px;
 }
+
 
 .second .accordion span {
     font-size: 18px;
@@ -108,6 +127,13 @@ h2 {
 .according-content ul li svg {
     margin-right: 15px;
 }
+
+
+.accordion input, .tab-content { display: none; }
+
+
+
+
 
 
 

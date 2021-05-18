@@ -1,5 +1,5 @@
 .main-news {
-    width: 1165px;
+    width: 1100px;
     padding-left: 79px;
     padding-right: 78px;
     font-family: 'Proxima Nova Rg';
@@ -12,20 +12,26 @@
     font-family: 'Futura PT';
     text-align: center;
     margin-top: 79px;
+    margin-bottom: 0;
 }
 
 .main-news .slider-post-block {
     display: flex;
-    justify-content: space-between;
-    margin-top: 37px;
+    flex-wrap: wrap;
 }
 
 .main-news .slider-post-block a.slider-part {
     text-decoration: none;
     width: 266px;
     background: #FFFFFF;
-    box-shadow: 0px 6px 20px rgba(65, 81, 92, 0.1);
     border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 37px;
+}
+
+.main-news .slider-post-block a.slider-part img{
+    border: 1px solid #ebebeb;
+    border-radius: 5px 0 0;
 }
 
 .main-news .slider-post-block a.slider-part p {

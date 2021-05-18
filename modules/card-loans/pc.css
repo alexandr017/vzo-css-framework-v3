@@ -14,11 +14,15 @@
     margin-left:40px;
     margin-top: -20px ;
 }
-
 .card-loans .top {
     padding: 20px 40px;
 }
+hr {
+    height: 1px;
+    border: none;
+    background-color:red;
 
+}
 .card-loans .top .header {
     width: 100%;
     display: flex;
@@ -92,42 +96,53 @@
 
 .card-loans .content {
     padding: 0 40px;
+    margin-top: -20px;
 }
 
 .card-loans .content .head {
-    text-align: center;
     color: #017AD3;
     font-size: 16px;
     font-family: 'Futura PT';
     font-weight: 400;
 }
 
-.card-loans .content .text {
+.card-loans .content .head .more-loan{
+    text-align: center;
+    color: #017AD3;
+    font-size: 16px;
+    font-family: 'Futura PT';
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.card-loans .content .head .hidden-card-loan .text {
     color: #292929;
     font-size: 16px;
     line-height: 27.65px;
+    font-family: 'Proxima Nova Rg';
 }
 
-.card-loans .content .info {
+.card-loans .content .hidden-card-loan .info {
     color: #292929;
     font-weight: 600;
     float: right;
     font-size: 14px;
+    font-family: 'Proxima Nova Rg';
 }
 
-.tab-wrap{
-    padding: 40px;
+.hidden-card-loan .tab-wrap{
+    padding: 40px 0;
 }
 
-.tab {
+.hidden-card-loan .tab {
     display: flex;
     overflow: hidden;
     border-bottom: 2px solid #EBEBEB ;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 15px 40px;
 }
 
-.tab button {
+.hidden-card-loan .tab button {
     background-color: inherit;
     float: left;
     border: none;
@@ -137,35 +152,35 @@
     transition: 0.3s;
 }
 
-.tab button:hover {
+.hidden-card-loan .tab button:hover {
     color: #017AD3;
 }
 
-.tab button.active {
+.hidden-card-loan .tab button.active {
     color: #017AD3;
 }
 
-.tabcontent.active {
+.hidden-card-loan .tabcontent.active {
     display: block;
 }
 
-.tabcontent {
+.hidden-card-loan .tabcontent {
     display: none;
     padding: 6px 12px;
     margin-top: 32px;
 }
 
-.card-loans .slider {
-    padding: 40px;
+.card-loans .hidden-card-loan .slider {
+    padding: 40px 20px;
 }
 
-.card-loans .slider .slider-block {
+.card-loans .hidden-card-loan .slider .slider-block {
     display: flex;
     justify-content: space-between;
 
 }
 
-.card-loans .slider .slider-block  .slider-buttom {
+.card-loans .hidden-card-loan  .slider .slider-block  .slider-buttom {
     width: 50px;
     height: 50px;
     padding: 15px 20px;
@@ -174,15 +189,15 @@
     margin-top: 15px;
 }
 
-.card-loans .slider .slider-block  div.slider-buttom:last-of-type{
+.card-loans .hidden-card-loan  .slider .slider-block  div.slider-buttom:last-of-type{
    background-color: #81DAC8;
 }
 
-.card-loans .slider .slider-block .slider-info {
+.card-loans .hidden-card-loan  .slider .slider-block .slider-info {
     position: center;
 }
 
-.card-loans .slider .slider-block .slider-info div {
+.card-loans .hidden-card-loan  .slider .slider-block .slider-info div {
     border: 1px solid #EBEBEB ;
     border-radius:5px ;
     width:48px;
@@ -191,16 +206,16 @@
     margin: auto;
 }
 
-.card-loans .slider .slider-block .slider-info div svg {
+.card-loans .hidden-card-loan .slider .slider-block .slider-info div svg {
     width: 23px;
 }
 
-.card-loans .slider .slider-block .slider-info p {
+.card-loans .hidden-card-loan  .slider .slider-block .slider-info p {
     color: #292929;
     font-size: 14px;
 }
 
-.card-loans .print {
+.card-loans .hidden-card-loan .print {
     border: 1px solid #017AD3;
     padding: 15px;
     margin-right: 40px;
@@ -208,12 +223,15 @@
     width: 50.27px;
     height: 50px;
     border-radius: 5px;
+    margin-top: 28px;
 }
 
-.card-loans .btn {
+.card-loans .hidden-card-loan .btn {
     padding: 40px;
     display: inline-flex;
+    margin-top: 28px;
 }
+
 
 
 
