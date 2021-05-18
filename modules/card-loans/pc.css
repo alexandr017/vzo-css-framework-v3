@@ -17,10 +17,10 @@
 .card-loans .top {
     padding: 20px 40px;
 }
-hr {
+.card-loans hr {
     height: 1px;
     border: none;
-    background-color:red;
+    background-color:#ebebeb;
 
 }
 .card-loans .top .header {
