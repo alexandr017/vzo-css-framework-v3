@@ -26,6 +26,7 @@
 import('fonts/futura-pt');
 import('fonts/proxima-nova');
 import('general');
+import('grid');
 if (isset($_GET['module'])) {
     import($_GET['module']);
 }
