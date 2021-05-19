@@ -174,5 +174,7 @@ footer .f-3 .policy a {
 }
 
 footer hr {
-    border: 1px solid #EBEBEB;
+    height: 1px;
+    border: none;
+    background-color:#EBEBEB;
 }

@@ -27,7 +27,7 @@
 
                 <div class=" block-row prise">
 
-                    <h4>от 3 000 до 30 000 руб.</h4>
+                    <div class="loan-head-intro">от 3 000 до 30 000 руб.</div>
 
                     <p>Сумма</p>
 
@@ -35,7 +35,7 @@
 
                 <div class=" block-row percent">
 
-                    <h4>0.83%</h4>
+                    <div class="loan-head-intro">0.83%</div>
 
                     <p>Ставка в день</p>
 
@@ -43,7 +43,7 @@
 
                 <div class="block-row period">
 
-                    <h4>от 7 до 30 дней</h4>
+                    <div class="loan-head-intro">от 7 до 30 дней</div>
 
                     <p>Срок</p>
 
@@ -242,6 +242,25 @@
 </div>
 
 <script>
+    document.addEventListener("click", function(e) {
+        if(e.target && e.target.classList.contains("more-loan")) {
+            e.target.classList.toggle("active");
+            var panel = e.target.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                e.target.innerHTML = 'Подробнее <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">\n' +
+                    '<path d="M10 1L5.5 5L1 1" stroke="#017AD3"/>\n' +
+                    '</svg>\n' +
+                    '<span uk-icon="icon: chevron-down"></span> ';
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + 0+ "px";
+                e.target.innerHTML = 'Подробнее <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">\n' +
+                    '<path d="M1 5L5.5 1L10 5" stroke="#017AD3"/>\n' +
+                    '</svg> '+'<span uk-icon="icon: chevron-up"></span>';
+            }
+        }
+    });
+
     function openTab(evt, rules) {
         // Declare all variables
         var i, tabcontent, tablinks;

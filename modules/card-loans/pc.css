@@ -17,10 +17,11 @@
 .card-loans .top {
     padding: 20px 40px;
 }
+
 .card-loans hr {
     height: 1px;
     border: none;
-    background-color:#ebebeb;
+    background-color:#EBEBEB;
 
 }
 .card-loans .top .header {
@@ -63,11 +64,16 @@
     color: #87919F;
 }
 
+.card-loans .top .block .block-row .loan-head-intro{
+    height: 1em;
+    font-weight: 700;
+}
+
 .card-loans .top .block .block-row p {
-    position: absolute;
-    margin-top: -20px;
     color: #87919F;
-    font-size: 14px;
+    font-size: 0.87em;
+    line-height: 1.3em;
+
 }
 
 .card-loans .top .two-columns {
@@ -115,6 +121,11 @@
     cursor: pointer;
 }
 
+.card-loans .content .head .hidden-card-loan {
+    overflow: hidden;
+    max-height: 0;
+}
+
 .card-loans .content .head .hidden-card-loan .text {
     color: #292929;
     font-size: 16px;
@@ -137,9 +148,9 @@
 .hidden-card-loan .tab {
     display: flex;
     overflow: hidden;
-    border-bottom: 2px solid #EBEBEB ;
-    justify-content: space-between;
-    padding: 15px 40px;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    width:740px;
 }
 
 .hidden-card-loan .tab button {
@@ -150,14 +161,18 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    border-bottom: 2px solid #EBEBEB ;
+    width: 240px;
 }
 
 .hidden-card-loan .tab button:hover {
     color: #017AD3;
+    border-bottom: 2px solid #017AD3;
 }
 
 .hidden-card-loan .tab button.active {
     color: #017AD3;
+    border-bottom: 2px solid #017AD3;
 }
 
 .hidden-card-loan .tabcontent.active {
