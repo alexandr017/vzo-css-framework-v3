@@ -1,30 +1,18 @@
-.grid-1-2 {
+.row {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
     align-items: stretch;
-    font-family: 'Proxima Nova Rg';
-}
-.grid-1-2 div {
-    flex-grow: 2;
 }
 
-.grid-1-2 .title {
-    font-size: 18px;
-    color: #292929;
-    font-weight: bold;
-    font-family: 'Futura PT';
-}
-
-ul.success li {
-    color: #A4C634;
-    margin-bottom: 10px;
-}
-ul.danger li {
-    color: #EA674A;
-    margin-bottom: 10px;
-}
-
-ul.success li span, ul.danger li span {
-    color: #292929;
-}
+.col-2{flex-grow: 2;}
+.col-3{flex-grow: 3;}
+.col-4{flex-grow: 4;}
+.col-5{flex-grow: 5;}
+.col-6{flex-grow: 6;}
+.col-7{flex-grow: 7;}
+.col-8{flex-grow: 8;}
+.col-9{flex-grow: 9;}
+.col-10{flex-grow: 10;}
+.col-11{flex-grow: 11;}
+.col-12{flex-grow: 12;}
