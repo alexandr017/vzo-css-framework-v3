@@ -114,4 +114,16 @@ h5,.h5{font-size: 1.1em;margin: 10px 0;}
     color:#A5CA38;
 }
 
+/*border radius*/
+
+.border-radius{
+    border-radius: 5px;
+}
+
+/*liks*/
+
+a, a:visited {
+    color: #017AD3;
+}
+
 

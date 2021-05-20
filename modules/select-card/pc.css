@@ -30,7 +30,6 @@
     width: 597px;
     height: 151px;
     border: 1px solid #EAEAEA;
-    border-radius: 5px;
 }
 
 .select-card .container-cards .container-type-cards div.container-intro:not(:last-of-type) {

@@ -11,13 +11,13 @@
 .lwb .lead-label-dark {
     height: 22px;
     background-color: #3c97d3;
-    border-radius: 5px;
     font-size: 0.75em;
     color: #fff;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 8px 3px 8px;
+    padding: 0 10px 3px 10px;
     margin-left: 3px;
+    margin-top: 10px;
 }
 
 .lwb .lead-label-dark svg {
@@ -25,11 +25,13 @@
     margin-right: 5px;
 }
 
-.lwb p {
+.lwb .lead-label-green {
     font-size: 0.75em;
     font-weight: 600;
     text-align: center;
-    margin-top: 5px;
+    background-color: #A5CA38;
+    height: 20px;
+    color: #fff;
 }
 
 .lpt {

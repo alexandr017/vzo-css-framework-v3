@@ -1,9 +1,4 @@
 .review {
-    border-radius: 5px;
-    -webkit-box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
-    -moz-box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
-    box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
-    /*padding: 1.3em 3em;*/
     padding: 1em 3em 1.7em 3em;
 }
 
@@ -33,9 +28,11 @@
     margin-bottom: 10px;
     display: inline-block;
 }
+
 .review span.plus {
     color: #A5CA38;
 }
+
 .review span.minus {
     color: #FF7A5C;
 }
@@ -43,4 +40,148 @@
 .grid-1-2-between {
     display: flex;
     justify-content: space-between
+}
+
+.slide-short-review {
+    width: 1165px;
+    padding-left: 79px;
+    padding-right: 78px;
+    font-family: 'Proxima Nova Rg';
+    color: #292929;
+}
+
+.slide-short-review h4 {
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 30.77px;
+    font-family: 'Futura PT';
+    text-align: center;
+    margin-top: 79px;
+}
+
+.slide-short-review .slide-review-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    padding-bottom: 32px;
+}
+
+.slide-short-review .slide-review-part .new-review {
+    width: 266px;
+    background: #FFFFFF;
+    padding-bottom: 32px ;
+}
+
+.slide-short-review .slide-review-part a.btn {
+    margin-top: 15%;
+    width: 45px;
+    height: 45px;
+}
+
+.slide-short-review .slide-review-part .rating {
+    margin-top: 53px;
+    margin-left: 23px;
+}
+
+.slide-short-review .slide-review-part .review-name {
+    margin-top: 14.83px;
+    margin-left: 23px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.slide-short-review .slide-review-part div {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 23px;
+    font-size: 16px;
+    line-height: 27.65px;
+    width: 223px;
+}
+
+.slide-short-review .slide-review-part .review-text .review__button_show,
+.slide-short-review .slide-review-part .review-text .review__button_hide {
+    text-decoration: none;
+    color: #017AD3;
+    font-weight: 600;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.slide-bank-review{
+    width: 1165px;
+    padding-left: 79px;
+    padding-right: 78px;
+    font-family: 'Proxima Nova Rg';
+    color: #292929;
+}
+
+.slide-bank-review h4 {
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 30.77px;
+    font-family: 'Futura PT';
+    text-align: center;
+    margin-top: 79px;
+}
+
+.slide-bank-review .bank-review-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    padding-bottom: 32px;
+}
+
+.slide-bank-review .bank-review-part .btn {
+    margin-top: 15%;
+    width: 45px;
+    height: 45px;
+}
+
+.slide-bank-review .bank-review-part .bank-review {
+    text-decoration: none;
+    width: 266px;
+    background: #FFFFFF;
+    padding-bottom: 32px ;
+}
+
+.slide-bank-review .bank-review-part .bank-review .bank-name {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 26px 31px;
+    text-align: center;
+}
+
+.slide-bank-review .bank-review-part .rating {
+    text-align: center;
+    margin: 0;
+}
+
+.slide-bank-review .bank-review-part .client {
+    margin-top: 14.83px;
+    margin-left: 23px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.slide-bank-review .bank-review-part .bank-review-text {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 23px;
+    font-size: 16px;
+    line-height: 27.65px;
+    width: 223px;
+}
+
+.slide-bank-review .bank-review-part .bank-review-text .review__button_show,
+.slide-bank-review .bank-review-part .bank-review-text .review__button_hide {
+    text-decoration: none;
+    color: #017AD3;
+    font-weight: 600;
+    margin-left: 0;
+    cursor: pointer;
+    margin-top:10px;
 }

@@ -1,0 +1,39 @@
+.wrap-popular-banks {
+    width: 1165px;
+    padding-left: 79px;
+    padding-right: 78px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.wrap-popular-banks h4 {
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 30.77px;
+    font-family: 'Futura PT';
+    text-align: center;
+    margin-top: 79px;
+}
+
+.wrap-popular-banks .slider-popular-banks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    padding-bottom: 32px;
+}
+
+.wrap-popular-banks .slider-popular-banks .btn {
+    margin-top: 5%;
+    width: 45px;
+    height: 45px;
+}
+
+.wrap-popular-banks .slider-popular-banks .slider-part-banks {
+    text-decoration: none;
+    width: 266px;
+    background: #FFFFFF;
+    padding: 36px 42px;
+}
+
+
+
+

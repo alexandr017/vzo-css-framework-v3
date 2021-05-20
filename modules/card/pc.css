@@ -1,6 +1,5 @@
 .card {
     box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
-    border-radius: 5px;
     padding: 2em;
     font-family: 'Proxima Nova Rg';
     width:825px;
@@ -50,7 +49,6 @@
     width:40px;
     height: 40px;
     border: 1px solid #EBEBEB;
-    border-radius: 5px;
     margin-right: 1em;
     display: flex;
     justify-content: center;
@@ -80,9 +78,9 @@
     padding: 1em;
 }
 
-.card .features div {
+.card .features .third {
     color: #292929;
-    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .card .features div:last-child {
@@ -132,8 +130,15 @@
     width: 50%;
 }
 
-.card .features .right-block .content .second {
+.card .features .right-block .content  .second {
     width: 40%;
+}
+
+.card .features .right-block .content  .second .percent{
+    height: 10px;
+    background: #A5CA38;
+    border-radius: 28px;
+    margin-top: 6px;
 }
 
 .card .features .right-block .content .third {
@@ -143,7 +148,6 @@
 
 .card-types {
     box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
-    border-radius: 5px;
     font-family: 'Proxima Nova Rg';
     width: 825px;
     margin-top: 40px;
@@ -268,7 +272,6 @@
 
 
 .card-types .hidden .second-part div svg {
-
     width: 18px;
     height: 18px;
 }

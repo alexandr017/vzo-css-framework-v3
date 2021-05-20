@@ -6,7 +6,6 @@
 
 .card-loans .stock {
     background: #FF7A5C;
-    border-radius:5px ;
     padding:8px 16px;
     color: #fff;
     position: absolute;
@@ -49,7 +48,6 @@
 
 .card-loans .top .block .logo {
     border: 1px solid #EBEBEB;
-    border-radius: 5px;
     width: 164.44px;
     height: 95px;
     padding: 24.18px 26.94px 24.18px  27.22px;
@@ -214,7 +212,6 @@
 
 .card-loans .hidden-card-loan  .slider .slider-block .slider-info div {
     border: 1px solid #EBEBEB ;
-    border-radius:5px ;
     width:48px;
     height: 48px;
     padding: 12px;
@@ -237,7 +234,6 @@
     float: right;
     width: 50.27px;
     height: 50px;
-    border-radius: 5px;
     margin-top: 28px;
 }
 
