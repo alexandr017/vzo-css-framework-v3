@@ -1,10 +1,11 @@
 <div class="header">
     <div class="menu-btn">
         <img class="burger-menu" src="/v3/images/burger.png" onclick="openNav()">
-        <svg class="close" onclick="openNav()" style="display:none;"xmlns="http://www.w3.org/2000/svg" height="18pt" viewBox="0 0 329.26933 329" width="18pt">
-            <path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219
-            0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063
-             0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"/>
+        <svg class="close" onclick="openNav()"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 496.096 496.096" style="display:none; stroke:#000;stroke-width: 5px; width:26px; height:26px; " xml:space="preserve">
+            <path d="M259.41,247.998L493.754,13.654c3.123-3.124,3.123-8.188,0-11.312c-3.124-3.123-8.188-3.123-11.312,0L248.098,236.686
+            L13.754,2.342C10.576-0.727,5.512-0.639,2.442,2.539c-2.994,3.1-2.994,8.015,0,11.115l234.344,234.344L2.442,482.342
+            c-3.178,3.07-3.266,8.134-0.196,11.312s8.134,3.266,11.312,0.196c0.067-0.064,0.132-0.13,0.196-0.196L248.098,259.31
+            l234.344,234.344c3.178,3.07,8.242,2.982,11.312-0.196c2.995-3.1,2.995-8.016,0-11.116L259.41,247.998z"/>
         </svg>
 
     </div>
@@ -31,40 +32,115 @@
     <div class="margin-50"></div>
 
     <div class="link">
-        <a href="#" class="main">Займы</a>
+        <input type="checkbox" id="tab1" name="tab-group">
+        <label for="tab1" class="tab-title main active">Займы</label>
+        <section class="tab-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </section>
     </div>
-
     <div class="link">
-        <a href="#" class="main">Кредиты</a>
+        <input type="checkbox" id="tab2" name="tab-group">
+        <label for="tab2" class="tab-title main">Кредиты</label>
+        <section class="tab-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </section>
     </div>
-
     <div class="link">
-        <a href="#" class="main">Карты</a>
+        <input type="checkbox" id="tab3" name="tab-group">
+        <label for="tab3" class="tab-title main">Карты</label>
+        <section class="tab-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </section>
     </div>
-
     <div class="link">
-        <a href="#" class="main">Прочее</a>
+        <input type="checkbox" id="tab4" name="tab-group">
+        <label for="tab4" class="tab-title main">Прочее</label>
+        <section class="tab-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </section>
     </div>
-
     <div class="link">
         <a href="#" class="secondary">МФО</a>
-    </div>
-
-    <div class="link">
-        <a href="#" class="secondary">Банки</a>
     </div>
 
     <div class="link">
         <a href="#" class="secondary">О нас</a>
     </div>
 
-    <div class="margin-50"></div>
-
-    <div class="link">
-        <a href="#" class="city">Санкт-Петербург</a>
+    <div class="choose-city link">
+        <a data-modal="modal-city" class="city">Санкт-Петербург</a>
     </div>
 
 </div>
+
+
+<div class="modal-choose-city" id="modal-city">
+    <div class="modal-bg modal-exit"></div>
+    <div class="modal-container">
+        <div class="modal-content">
+            <div class="modal__title"><b>Город</b></div>
+            <button class="modal-close modal-exit">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.32868 7.50002L14.8284 1.00029C15.0572 0.771451 15.0572 0.400436 14.8284 0.171628C14.5996 -0.0571801 14.2285 -0.0572094 13.9997 0.171628L7.49999 6.67136L1.00029 0.171628C0.771451 -0.0572094 0.400436 -0.0572094 0.171628 0.171628C-0.0571801 0.400466 -0.0572094 0.771481 0.171628 1.00029L6.67133 7.49999L0.171628 13.9997C-0.0572094 14.2286 -0.0572094 14.5996 0.171628 14.8284C0.286032 14.9428 0.436003 15 0.585973 15C0.735943 15 0.885885 14.9428 1.00032 14.8284L7.49999 8.32868L13.9997 14.8284C14.1141 14.9428 14.2641 15 14.414 15C14.564 15 14.714 14.9428 14.8284 14.8284C15.0572 14.5996 15.0572 14.2285 14.8284 13.9997L8.32868 7.50002Z" fill="black"/>
+                </svg>
+            </button>
+
+            <div class="modal-search-block">
+                <input class="modal-search-block__input" type="text" placeholder="Введите ваш город">
+            </div>
+            <svg class="modal-search-block__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.2124 14.5735L11.4044 10.6129C12.3835 9.44901 12.92 7.98455 12.92 6.45999C12.92 2.89801 10.022 0 6.45999 0C2.89801 0 0 2.89801 0 6.45999C0 10.022 2.89801 12.92 6.45999 12.92C7.79721 12.92 9.07152 12.5167 10.161 11.751L13.998 15.7416C14.1583 15.9082 14.374 16 14.6052 16C14.824 16 15.0316 15.9166 15.1891 15.7649C15.5239 15.4428 15.5346 14.9085 15.2124 14.5735ZM6.45999 1.68522C9.09286 1.68522 11.2348 3.82713 11.2348 6.45999C11.2348 9.09286 9.09286 11.2348 6.45999 11.2348C3.82713 11.2348 1.68522 9.09286 1.68522 6.45999C1.68522 3.82713 3.82713 1.68522 6.45999 1.68522Z" fill="#87919F"/>
+            </svg>
+
+            <div class="modal-list-container">
+
+                <div class="modal-list__el">
+                    <a href="#">
+                        Москва
+                    </a>
+                </div>
+                <div class="modal-list__el">
+                    <a href="#">
+                        Санкт-Петербург
+                    </a>
+                </div>
+                <div class="modal-list__el">
+                    <a href="#">
+                        Волгоград
+                    </a>
+                </div>
+                <div class="modal-list__el">
+                    <a href="#">
+                        Воронеж
+                    </a>
+                </div>
+                <div class="modal-list__el">
+                    <a href="#">
+                        Екатеринбург
+                    </a>
+                </div>
+                <div class="modal-list__el">
+                    <a href="#">
+                        Казань
+                    </a>
+                </div>
+                <div class="modal-list__el">
+                    <a href="#">
+                        Красноярск
+                    </a>
+                </div>
+                <div class="modal-list__el">
+                    <a href="#">
+                        Нижний Новгород
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <script>
     function openNav(){
@@ -85,4 +161,21 @@
             menuBtn.style.display = 'block'
         }
     }
+
+    var modals = document.querySelectorAll("[data-modal]");
+
+    modals.forEach(function (trigger) {
+        trigger.addEventListener("click", function (event) {
+            event.preventDefault();
+            var modal = document.getElementById(trigger.dataset.modal);
+            modal.classList.add("open");
+            var exits = modal.querySelectorAll(".modal-exit");
+            exits.forEach(function (exit) {
+                exit.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    modal.classList.remove("open");
+                });
+            });
+        });
+    });
 </script>

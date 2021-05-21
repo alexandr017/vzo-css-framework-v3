@@ -1,0 +1,301 @@
+.card {
+    box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
+    padding: 2em;
+    font-family: 'Proxima Nova Rg';
+    width:825px;
+}
+
+.card hr {
+    margin:30px 0;
+}
+
+.card .card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .top-card, .conditions {
+    display: flex;
+}
+
+.card .top-card .logo,
+.card .conditions .first {
+    display: flex;
+    justify-content: center;
+    width:19%;
+    margin-right: 1%;
+}
+
+.card .conditions .first {
+    margin-top:.4em;
+}
+
+.card .conditions .first svg {
+    margin-left: .7em;
+}
+
+.card .top-card .content,
+.card .conditions .second {
+    width:79%;
+    margin-right: 2%;
+}
+
+.card .conditions .second .items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .conditions .second .items .item {
+    width:40px;
+    height: 40px;
+    border: 1px solid #EBEBEB;
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .7em;
+}
+
+.card .text-conditions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .text-conditions .content {
+    font-weight: bold;
+    color: #292929;
+}
+
+.card .text-conditions .head {
+    font-size: .87em;
+    color: #87919F;
+}
+
+.card .features {
+    display: flex;
+    margin-top:40px;
+    background: #fafafa;
+    padding: 1em;
+}
+
+.card .features .third {
+    color: #292929;
+    margin-left: 2%;
+}
+
+.card .features div:last-child {
+     margin-right: 0;
+ }
+
+.card .features div svg {
+    margin-bottom:-4px;
+    margin-right:10px;
+}
+
+.card .features .left-block {
+    width:35%;
+}
+
+.card .features .left-block .content {
+    display: flex;
+    margin-top: 1em;
+}
+
+.card .features .left-block .content:first-child {
+    margin-top: 0;
+}
+
+.card .features .left-block .check {
+    width: 15%;
+}
+
+.card .features .left-block .text {
+    width: 85%;
+}
+
+.card .features .right-block {
+    width:65%;
+}
+
+.card .features .right-block .content {
+    display: flex;
+    margin-top: .7em;
+}
+
+.card .features .right-block .content:first-child {
+    margin-top: 0;
+}
+
+.card .features .right-block .content .first {
+    width: 50%;
+}
+
+.card .features .right-block .content  .second {
+    width: 40%;
+}
+
+.card .features .right-block .content  .second .percent{
+    height: 10px;
+    background: #A5CA38;
+    border-radius: 28px;
+    margin-top: 6px;
+}
+
+.card .features .right-block .content .third {
+    width: 10%;
+    font-weight: bold;
+}
+
+.card-types {
+    box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
+    font-family: 'Proxima Nova Rg';
+    width: 825px;
+    margin-top: 40px;
+}
+
+.card-types h1 {
+    font-family: 'Futura PT';
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 1em 1.5em 0 1.5em;
+}
+
+.card-types .description {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.card-types .description .type-logo {
+    width: 174px;
+    height: 105px;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    padding: 30px 26px;
+    margin-right: 19px;
+}
+
+.card-types .description .type-logo div {
+    width: 122.82px;
+    height: 45.13px;
+}
+
+.card-types .description .advantages {
+    margin-top: -10px;
+}
+
+.card-types .description .advantages .info,
+.card-types .hidden .advantages .info {
+    display: flex;
+}
+
+.card-types .description .advantages .info div,
+.card-types .hidden .advantages .info div {
+    font-size: 12px;
+}
+
+.card-types .description .advantages .info div:first-of-type {
+    width: 145px;
+    line-height: 20.74px;
+    margin-left: -90px;
+    margin-top: 7px;
+}
+
+.card-types .description .advantages .info div:last-of-type,
+.card-types .hidden .info div:last-of-type {
+    font-weight: 600;
+    line-height: 16px;
+    width: 255px;
+    margin-top: 7px;
+}
+
+.card-types .more {
+    color: #017AD3;
+    font-size: 13px;
+    font-family: 'Futura PT';
+    position: absolute;
+    margin-left: 198px;
+    margin-top: -35px;
+    cursor: pointer;
+    padding: 0 40px ;
+}
+
+.card-types .hidden {
+    overflow: hidden;
+    max-height: 0;
+}
+
+.card-types .hidden .first-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em 2em 2em;
+}
+
+.card-types .hidden .reviews {
+    text-align: center;
+    font-family: 'Futura PT';
+    margin-top: -5px;
+}
+
+.card-types .hidden .reviews a {
+    text-decoration: none;
+    color: #017AD3;
+    font-size: 13px;
+    margin-left: 14px;
+}
+
+.card-types .hidden .info div:first-of-type {
+    width: 145px;
+    line-height: 20.74px;
+    margin-left: -80px;
+    margin-top: 7px;
+}
+
+.card-types .hidden .second-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.card-types .hidden .second-part .part-block {
+    width: 198px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-types .hidden .second-part .part-block:not(:last-of-type) {
+    margin-right: 11px ;
+}
+
+
+.card-types .hidden .second-part div svg {
+    width: 18px;
+    height: 18px;
+}
+
+.card-types .hidden .second-part div span {
+    font-size: 12px;
+    line-height: 16.9px;
+    width: 189px;
+    height: 28px;
+}
+
+.card-types .hidden .print {
+    text-align: center;
+    font-size: 12px;
+    color: #017AD3;
+    margin-top: 1em;
+    padding-bottom: 13px;
+}
+
+.card-types .hidden .second {
+    background: #F8F8F8;
+    padding-top: 15px;
+}
+
+
+
+

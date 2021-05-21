@@ -7,7 +7,7 @@
 
 .wrap-popular-banks h4 {
     font-size: 24px;
-    font-weight: 450;
+    font-weight: 500;
     line-height: 30.77px;
     font-family: 'Futura PT';
     text-align: center;
@@ -22,7 +22,7 @@
 }
 
 .wrap-popular-banks .slider-popular-banks .btn {
-    margin-top: 5%;
+    margin-top: 50px;
     width: 45px;
     height: 45px;
 }
