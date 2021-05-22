@@ -6,5 +6,6 @@
 $mode = $_GET['mode'] ?? 'pc';
 
 require_once 'inc-framework/loader.php';
+require_once 'inc-framework/mode.php';
 
 require_once 'inc-framework/layout.php';

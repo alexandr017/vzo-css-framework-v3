@@ -1,0 +1,23 @@
+footer{
+    padding: 10px 0;
+}
+
+.f-support-phone{
+    color: #A5CA38;
+    font-size: 1.3rem;
+}
+.f-support-text{
+    display: block;
+}
+.f-icons-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    width: 255px;
+}
+.f-icon{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    margin: 5px;
+}
