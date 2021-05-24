@@ -27,7 +27,7 @@
     font-weight: 600;
 }
 
-.card-loans .top  .logo {
+.card-loans .top .logo {
     border: 1px solid #EBEBEB;
     width: 314px;
     height: 134px;
@@ -208,10 +208,6 @@
 
 .card-loans .hidden-card-loan  .slider .slider-block  div.slider-button:last-of-type{
    background-color: #81DAC8;
-}
-
-.card-loans .hidden-card-loan  .slider .slider-block .slider-info {
-    position: center;
 }
 
 .card-loans .hidden-card-loan  .slider .slider-block .slider-info div {
@@ -460,7 +456,6 @@
 }
 
 .card-insurance.hidden-card-insurance  .slider .slider-block .slider-info li {
-    position: center;
     margin-left: 10px;
 }
 

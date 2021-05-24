@@ -1,8 +1,8 @@
 .main-news {
-    width: 1100px;
     padding-left: 79px;
     padding-right: 78px;
     font-family: 'Proxima Nova Rg';
+    width: 100%;
 }
 
 .main-news h4 {
@@ -18,19 +18,21 @@
 .main-news .slider-post-block {
     display: flex;
     flex-wrap: wrap;
+    width: 75%;
 }
 
 .main-news .slider-post-block a.slider-part {
     text-decoration: none;
-    width: 266px;
+    width: 30%;
     background: #FFFFFF;
-    margin-left: 35px;
+    margin-left:3%;
     margin-top: 37px;
 }
 
 .main-news .slider-post-block a.slider-part img{
     border: 1px solid #ebebeb;
     border-radius: 5px 5px 0 0;
+    width: 100%;
 }
 
 .main-news .slider-post-block a.slider-part p {

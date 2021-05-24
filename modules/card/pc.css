@@ -1,7 +1,7 @@
 .card-loans {
     border: 4px solid #FCE6A4;
     font-family: 'Proxima Nova Rg';
-    width: 825px;
+    width: 100%;
 }
 
 .card-loans .stock {
@@ -137,10 +137,7 @@
     float: right;
     font-size: 14px;
     font-family: 'Proxima Nova Rg';
-}
-
-.hidden-card-loan .tab-wrap{
-    padding: 40px 0;
+    margin-bottom: 40px;
 }
 
 .hidden-card-loan .tab {
@@ -148,7 +145,7 @@
     overflow: hidden;
     flex-wrap: wrap;
     padding: 15px 0;
-    width:740px;
+    width:100%;
 }
 
 .hidden-card-loan .tab button {
@@ -160,7 +157,7 @@
     padding: 14px 16px;
     transition: 0.3s;
     border-bottom: 2px solid #EBEBEB ;
-    width: 240px;
+    width: 33%;
 }
 
 .hidden-card-loan .tab button:hover {
@@ -181,10 +178,44 @@
     display: none;
     padding: 6px 12px;
     margin-top: 32px;
+    color: #292929;
+}
+/*table*/
+table {
+    font-family: 'Proxima Nova Rg';
+    width: 100%;
+    table-layout:fixed;
+    font-size: 0.87em;
+}
+
+table td {
+    padding: 18px;
+}
+
+table .main {
+    background: #fafafa;
+    font-weight: 600;
+    width: 30%;
+}
+
+table td.main svg{
+    margin-left: 10px;
+}
+
+table.table-info {
+    text-align: left;
+    border: 1px solid #ebebeb;
+    border-collapse: collapse;
+}
+table.table-info tr {
+    border-bottom: 1px solid #ebebeb;
+}
+table.table-info td.main {
+    border-right: 1px solid #ebebeb;
 }
 
 .card-loans .hidden-card-loan .slider {
-    padding: 40px 20px;
+    padding-bottom:  40px;
 }
 
 .card-loans .hidden-card-loan .slider .slider-block {
@@ -243,7 +274,7 @@
     border: 4px solid #FCE6A4;
     font-family: 'Proxima Nova Rg';
     margin-top: 50px;
-    width: 825px;
+    width: 100%;
 }
 
 .card-insurance .top {
@@ -304,7 +335,6 @@
     color: #87919F;
     font-size: 0.87em;
     line-height: 1.3em;
-
 }
 
 .card-insurance .top .two-columns {
@@ -370,10 +400,7 @@
     float: right;
     font-size: 14px;
     font-family: 'Proxima Nova Rg';
-}
-
-.hidden-card-insurance .tab-wrap{
-    padding: 40px 0;
+    margin-bottom: 40px;
 }
 
 .hidden-card-insurance .tab {
@@ -381,7 +408,7 @@
     overflow: hidden;
     flex-wrap: wrap;
     padding: 15px 0;
-    width:740px;
+    width: 100%;
 }
 
 .hidden-card-insurance .tab button {
@@ -393,7 +420,7 @@
     padding: 14px 16px;
     transition: 0.3s;
     border-bottom: 2px solid #EBEBEB ;
-    width: 147px;
+    width: 20%;
 }
 
 .hidden-card-insurance .tab button:hover {
@@ -408,6 +435,7 @@
 
 .hidden-card-insurance .tabcontent.active {
     display: block;
+
 }
 
 .hidden-card-insurance .tabcontent {
@@ -415,9 +443,42 @@
     padding: 6px 12px;
     margin-top: 32px;
 }
+/*table*/
+table {
+    font-family: 'Proxima Nova Rg';
+    width: 100%;
+    table-layout:fixed;
+    font-size: 0.87em;
+}
+
+table td {
+    padding: 18px;
+}
+
+table .main {
+    background: #fafafa;
+    font-weight: 600;
+    width: 30%;
+}
+
+table td.main svg{
+    margin-left: 10px;
+}
+
+table.table-info {
+    text-align: left;
+    border: 1px solid #ebebeb;
+    border-collapse: collapse;
+}
+table.table-info tr {
+    border-bottom: 1px solid #ebebeb;
+}
+table.table-info td.main {
+    border-right: 1px solid #ebebeb;
+}
 
 .card-insurance .hidden-card-insurance .slider {
-    padding: 40px 20px;
+    padding-bottom: 40px;
 }
 
 .card-insurance .hidden-card-insurance .slider .slider-block {
@@ -431,7 +492,7 @@
     padding: 15px 20px;
     border-radius: 50%;
     border: 1px solid #EBEBEB ;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 .card-insurance .hidden-card-insurance .slider .slider-block  div.slider-button:last-of-type{
@@ -439,16 +500,19 @@
 }
 
 .card-insurance .hidden-card-insurance  .slider .slider-block .slider-info {
-    position: center;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 40px;
+    width: 100%;
 }
 
 .card-insurance .hidden-card-insurance  .slider .slider-block .slider-info li{
-    margin-left:10px;
-    margin-right: 10px;
-    width: 25%;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.card-insurance .hidden-card-insurance  .slider .slider-block .slider-info li:last-child{
+    margin-left: 20px;
 }
 
 .card-insurance .hidden-card-insurance .slider .slider-block .slider-info div {
