@@ -1,0 +1,16 @@
+.comparison-block {
+    margin-top: 40px;
+}
+.border-r {
+    border-right: 1px solid #EBEBEB;
+}
+.padding-block-20 {
+    padding: 20px;
+}
+.light-border-without-radius {
+    border:1px solid #EBEBEB;
+    padding: 0 20px;
+}
+.comparison-block .col-lg-6 {
+    padding: 0;
+}
