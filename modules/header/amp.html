@@ -1,0 +1,174 @@
+<!doctype html>
+<html ⚡>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ВЗО UX Framework</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/png" href="/v3/images/logo-header.png" />
+    <link rel="canonical" href="/amp" />
+    <script src="https://cdn.ampproject.org/v0.js" async></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+        .header {
+            position: relative;
+            background: #fff;
+            width:100%;
+            height:80px;
+            box-shadow: 0 4px 2px rgba(0, 0, 0, .04);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1.5em;
+        }
+
+        .header .logo {
+            display: flex;
+            align-items: center;
+            width: 100px;
+        }
+        .header-block {
+            font-family: 'Proxima Nova Rg';
+            position: absolute;
+            top:113px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            background: #fff;
+        }
+        #open-menu:checked + .header + .header-block {
+            display: block;
+            position: inherit;
+            margin-top: 10px;
+        }
+        #open-menu,.header-block, .subMenu,.toggle-submenu {
+            display: none;
+        }
+        .toggle-button:after {
+            content: attr(data-open);
+            display: block;
+            width: 70px;
+            font-size: 26px;
+        }
+        #open-menu:checked + .header .toggle-button:after{
+            content: attr(data-close);
+        }
+        .header-block .link {
+            padding: 1em;
+            position: relative;
+        }
+        .header-block .link a {
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .link .toggle-submenu-label::after{
+            content: " ";
+            background: url("/v3/images/arrow-right.svg");
+            background-size: contain;
+            width:10px;
+            height: 17px;
+            position: absolute;
+            right: 1em;
+            margin-top: 5px;
+        }
+        .header-block .link a.main {
+            color: #292929;
+        }
+        .header-block .link a.secondary, .header-block .link a.city {
+            color: #87919F;
+        }
+
+        .header-block .link a.city {
+            padding-left: 2em;
+        }
+        .link .subMenu a {
+            display: block;
+            width: 100%;
+            color: #292929;
+            padding: 1em;
+        }
+        .header-block .link a.city::before {
+            content: " ";
+            background: url("/v3/images/place.svg");
+            background-size: contain;
+            width:20px;
+            height: 27.6px;
+            position: absolute;
+            left:0.8em;
+        }
+        .toggle-submenu:checked + .sub-menu + .subMenu {
+            display: block;
+            margin-left: 2em;
+        }
+        .toggle-submenu:checked + .sub-menu .toggle-submenu-label::after {
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <input type="checkbox" id="open-menu">
+    <div class="header">
+        <label for="open-menu" data-open="&#9776;" data-close="&#x2715;" class="toggle-button"></label>
+        <div class="logo">
+            <amp-img src="/v3/images/logo-header.png" width="48" height="48" class="logo-header"></amp-img>
+            #ВЗО
+        </div>
+        <div>
+            <amp-img src="/v3/images/user.png" width="19" height="22"></amp-img>
+        </div>
+    </div>
+    <div class="header-block">
+        <div class="link">
+            <input type="checkbox" class="toggle-submenu" id="sub-menu1">
+            <a href="#" class="main sub-menu">
+                <label for="sub-menu1" class="toggle-submenu-label">Займы</label>
+            </a>
+            <div class="subMenu">
+                <a href="https://vsezaimyonline.ru/qiwi">На Киви-кошелек</a>
+                <a href="https://vsezaimyonline.ru/zajm-18">С 18 лет</a>
+                <a href="https://vsezaimyonline.ru/novye-zajmy">Новые</a>
+                <a href="https://vsezaimyonline.ru/bez-karty">Без карты</a>
+            </div>
+        </div>
+
+        <div class="link">
+            <input type="checkbox" class="toggle-submenu" id="sub-menu2">
+            <a href="#" class="main sub-menu">
+                <label for="sub-menu2" class="toggle-submenu-label">Кредиты</label>
+            </a>
+            <div class="subMenu">
+                <a href="https://vsezaimyonline.ru/novye-zajmy">Новые</a>
+                <a href="https://vsezaimyonline.ru/bez-karty">Без карты</a>
+            </div>
+        </div>
+
+        <div class="link">
+            <a href="#" class="main sub-menu">Карты</a>
+        </div>
+
+        <div class="link">
+            <a href="#" class="main sub-menu">Прочее</a>
+        </div>
+
+        <div class="link">
+            <a href="#" class="secondary">МФО</a>
+        </div>
+
+        <div class="link">
+            <a href="#" class="secondary">Банки</a>
+        </div>
+
+        <div class="link">
+            <a href="#" class="secondary">О нас</a>
+        </div>
+
+        <div class="link">
+            <a href="#" class="city">Санкт-Петербург</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

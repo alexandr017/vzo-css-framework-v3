@@ -1,0 +1,19 @@
+.green-message {
+    background-color: #FAFAFA;
+    padding: 30px;
+}
+.green-message-icon {
+    height: 54px;
+    background-color: #5A8D26;
+    width: 54px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.green-message-icon svg {
+    margin: 10px auto;
+}
+.message-mob-block {
+    flex-flow: row wrap;
+    justify-content: center;
+}
