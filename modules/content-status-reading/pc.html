@@ -1,0 +1,21 @@
+<progress value="0">
+    <span class="progress-container">
+        <span class="progress-bar"></span>
+    </span>
+</progress>
+
+<div class="content">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<script>
+    function changeContentStatus()
+    {
+        let offset = window.scrollY / (document.getElementsByClassName('content')[0].clientHeight - window.innerHeight);
+        document.getElementsByClassName('progress-bar')[0].style.width = (100 * offset | 0) + "%";
+        document.getElementsByTagName('progress')[0].value = offset;
+    }
+
+    window.addEventListener('scroll', changeContentStatus);
+    window.addEventListener('resize', changeContentStatus);
+</script>
