@@ -62,24 +62,6 @@ hr{
     padding-right: 15px;
 }
 
-/*
-.row{
-    display: flex;
-    padding-right: -15px;
-    padding-left: -15px;
-}
-
-.row > .content{
-    flex: 3;
-    padding: 0 15px;
-}
-.row > .sidebar{
-    flex: 1;
-    padding: 0 15px;
-}
-*/
-
-
 
 /* content universal code */
 .content ul{padding-left: 0}
