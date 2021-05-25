@@ -56,6 +56,9 @@ hr{
 
 .container{
     max-width: 768px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
