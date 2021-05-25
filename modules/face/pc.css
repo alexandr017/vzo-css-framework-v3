@@ -132,13 +132,16 @@
 
 .card .features .right-block .content  .second {
     width: 40%;
+    height: 10px;
+    background:#EAEAEA;
+    border-radius: 28px;
+    margin-top: 6px;
 }
 
 .card .features .right-block .content  .second .percent{
     height: 10px;
     background: #A5CA38;
     border-radius: 28px;
-    margin-top: 6px;
 }
 
 .card .features .right-block .content .third {

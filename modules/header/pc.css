@@ -4,26 +4,30 @@
     box-shadow: 0 4px 2px rgba(0, 0, 0, .04);
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 0 1.5em;
 }
+
 .header .logo {
     display: flex;
     align-items: center;
 }
+
 .header .logo img {
     margin-right: 10px;
 }
+
 .header .choose-city {
-    width: 50px;
-    margin-left: 60px;
+    margin-right: 60px;
+    margin-left: 50px;
 }
+
 .header a.city {
     color: #87919F;
     text-decoration: none;
     cursor: pointer;
     margin-left: 10px;
 }
+
 .header a.city::before {
     content: " ";
     background: url("/v3/images/place.svg");
@@ -33,32 +37,39 @@
     position: absolute;
     margin-left: -30px;
 }
+
 .header .links {
     display: flex;
-    margin-left: 36px;
+    margin-left: 40px;
     list-style: none;
 }
+
 .header .links a.main {
     color: #292929;
     margin-right: 30px;
 }
+
 .header .links a.main-last {
     color: #292929;
-    margin-right: 35px;
+    margin-right: 25px;
 }
 .header .links a.secondary {
     color: #87919F;
     margin-right: 30px;
 }
 .header .icons {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
+    justify-content: right;
+    margin-right: 0;
 }
 .header .icons a {
     text-decoration: none;
-}
-.header .icons svg {
     margin-right: 26px;
     cursor: pointer;
+}
+
+.header .icons a:last-child{
+    margin-right: 0;
 }
 
 @media only screen and (max-width: 1180px) {
@@ -75,6 +86,9 @@
     .header .links a.main {
         margin-right: 0;
     }
+    .header .links a.main-last {
+        margin-right: 0;
+    }
     .header .links a.secondary {
         margin-right: 0;
     }
@@ -89,7 +103,7 @@
 @media only screen and (max-width: 992px) {
     .header .choose-city {
         width: 50px;
-        margin-left: 0;
+        margin: 0;
     }
     .header a.city {
         margin-left: 50px;
@@ -107,10 +121,11 @@
         margin-right: 0;
     }
     .header .icons {
-        margin-left: 15px;
+        margin-left: 0;
     }
+
     .header .icons svg {
-        margin-right: 7px;
+        margin-right: 0;
     }
     .search-block {
         width: 100% !important;
@@ -190,7 +205,6 @@
     padding: 10px 0;
     width: 873px;
     margin: 0 auto;
-    /*box-shadow: 0 4px 2px rgba(0, 0, 0, .04);*/
 }
 
 .search-block-container {

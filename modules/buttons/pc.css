@@ -1,5 +1,4 @@
 .btn{
-    border-radius: 5px;
     min-width: 225px;
     padding: .6em 2em;
     outline: 0;
@@ -9,7 +8,7 @@
     display: inline-block;
     max-height: 50px;
     vertical-align: top;
-    font-size: 1.063em;
+    font-size: 1em;
     cursor: pointer;
 }
 
@@ -49,7 +48,7 @@
 
 /* Actions */
 .btn-edit {
-    border-radius: 3.21px;
+    border-radius: 3px;
     min-width: 32px;
     max-height: 32px;
     padding: .2em .2em;
@@ -59,12 +58,12 @@
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    font-size: 1.063em;
+    font-size: 1em;
     cursor: pointer;
 }
 
 .btn-delete {
-    border-radius: 3.21px;
+    border-radius: 3px;
     min-width: 32px;
     max-height: 32px;
     padding: .2em .2em;
@@ -74,6 +73,6 @@
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    font-size: 1.063em;
+    font-size: 1em;
     cursor: pointer;
 }
