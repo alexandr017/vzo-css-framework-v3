@@ -1,6 +1,8 @@
 .card-loans {
     border: 4px solid #FCE6A4;
     font-family: 'Proxima Nova Rg';
+    width: 100%;
+
 }
 
 .card-loans .top {
@@ -31,8 +33,11 @@
     border: 1px solid #EBEBEB;
     width: 314px;
     height: 134px;
-    padding: 38px  97px;
     margin-top: 15px;
+}
+
+.card-loans .top .logo img{
+    margin: 38px 97px;
 }
 
 .card-loans .top .reviews {
@@ -73,8 +78,7 @@
     margin-left: 38px;
 }
 
-.card-loans .top .comprasion span {
-   margin-left: 90px;
+.card-loans .top .comprasion p {
     margin-top: 22px;
     color: #87919F;
     font-size: 14px;
@@ -103,7 +107,6 @@
 }
 
 .card-loans .content .head {
-    color: #017AD3;
     font-size: 16px;
     font-family: 'Futura PT';
     font-weight: 400;
@@ -276,8 +279,12 @@
     border: 1px solid #EBEBEB;
     width: 314px;
     height: 134px;
-    padding: 38px  97px;
+    padding: 42px  33px 42px 34px;
     margin-top: 15px;
+}
+
+.card-insurance .top .logo div img{
+    margin-top: -15px;
 }
 
 .card-insurance .top .reviews {
@@ -318,8 +325,7 @@
     margin-left: 38px;
 }
 
-.card-insurance .top .comprasion span {
-    margin-left: 90px;
+.card-insurance .top .comprasion p {
     margin-top: 22px;
     color: #87919F;
     font-size: 14px;
@@ -348,7 +354,6 @@
 }
 
 .card-insurance .content .head {
-    color: #017AD3;
     font-size: 16px;
     font-family: 'Futura PT';
     font-weight: 400;
@@ -457,6 +462,8 @@
 
 .card-insurance.hidden-card-insurance  .slider .slider-block .slider-info li {
     margin-left: 10px;
+    color: #292929 ;
+
 }
 
 .card-insurance .hidden-card-insurance  .slider .slider-block .slider-info div {

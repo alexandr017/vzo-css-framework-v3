@@ -50,7 +50,11 @@
     border: 1px solid #EBEBEB;
     width: 164.44px;
     height: 95px;
-    padding: 24.18px 26.94px 24.18px  27.22px;
+    padding: 26px 24px 27px 24px;
+}
+
+.card-loans .top .block .logo div img {
+    margin-right: 20px;
 }
 
 .card-loans .top .block .logo div {
@@ -180,7 +184,43 @@
     margin-top: 32px;
     color: #292929;
 }
-/*table*/
+
+
+.hidden-card-loan .tabcontent .table {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    margin-bottom: 50px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.hidden-card-loan .tabcontent .table .tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden-card-loan .tabcontent .table .tr .td {
+    padding: 1.5em;
+    font-size: 0.87em;
+}
+
+.hidden-card-loan .tabcontent .table .tr .td svg {
+    margin-left: 10px;
+}
+
+.hidden-card-loan .tabcontent .table .tr .td:first-of-type {
+    width: 30%;
+    background: #FAFAFA;
+    font-weight: 600;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.hidden-card-loan .tabcontent .table .tr .td:last-of-type {
+    width: 70%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+    /*table*/
 table {
     font-family: 'Proxima Nova Rg';
     width: 100%;
@@ -198,7 +238,7 @@ table .main {
     width: 30%;
 }
 
-table td.main svg{
+table td.main svg {
     margin-left: 10px;
 }
 
@@ -207,6 +247,7 @@ table.table-info {
     border: 1px solid #ebebeb;
     border-collapse: collapse;
 }
+
 table.table-info tr {
     border-bottom: 1px solid #ebebeb;
 }
@@ -314,7 +355,7 @@ table.table-info td.main {
     border: 1px solid #EBEBEB;
     width: 164.44px;
     height: 95px;
-    padding: 24.18px 26.94px 24.18px  27.22px;
+    padding: 23px 9px 33px 9px;
 }
 
 .card-insurance .top .block .logo div {

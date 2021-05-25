@@ -3,11 +3,11 @@
     <div class="col-sm-3">
 
         <!-- aside должен иметь класс sidebar а все внутренние блоки сайбара класс например sidebar-inner  -->
-        <aside>
+        <aside class="sidebar">
 
-            <div class="sidebar border-radius shadow">
-                <div class="first-block">
-                    <div class="name">Категория заемщика</div>
+            <div class="sidebar-inner border-radius shadow">
+                <div class="sidebar-inner-part">
+                    <div class="h4">Категория заемщика</div>
                     <a href="#">Пенсионерам</a>
                     <a href="#">Бизнес</a>
                     <a href="#">с 18 лет</a>
@@ -15,8 +15,8 @@
                 </div>
                 <hr>
 
-                <div class="second-block">
-                    <div class="name">Срок займа</div>
+                <div class="sidebar-inner-part">
+                    <div class="h4">Срок займа</div>
                     <a href="#">На пол года</a>
                     <a href="#">На год</a>
                     <a href="#">Долгосрочный</a>
@@ -24,8 +24,8 @@
 
                 <hr>
 
-                <div class="third-block">
-                    <div class="name">Срок принятия решения</div>
+                <div class="sidebar-inner-part">
+                    <div class="h4">Срок принятия решения</div>
                     <a href="#">Срочный</a>
                     <a href="#">Мгновенный</a>
                     <a href="#">Мгновенный</a>
@@ -35,8 +35,8 @@
 
                 <hr>
 
-                <div class="fourth-block">
-                    <div class="name">Способ получения</div>
+                <div class="sidebar-inner-part">
+                    <div class="h4">Способ получения</div>
                     <a href="#">Через систему Contact</a>
                     <a href="#">На дом срочно</a>
                     <a href="#">На карту сбербанка</a>
@@ -48,15 +48,10 @@
                         <a href="#">На карту быстро</a>
                     </div>
                     <div class="more-btn">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
-                            <circle cx="3" cy="3" r="3" fill="#C4C4C4"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
-                            <circle cx="3" cy="3" r="3" fill="#C4C4C4"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
-                            <circle cx="3" cy="3" r="3" fill="#C4C4C4"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667; width:40px; height:40px;" xml:space="preserve">
+                            <circle cx="42.667" cy="213.333" r="42.667" fill="#C4C4C4"/>
+                            <circle cx="213.333" cy="213.333" r="42.667" fill="#C4C4C4"/>
+                            <circle cx="384" cy="213.333" r="42.667"fill="#C4C4C4"/>
                         </svg>
                     </div>
 
@@ -69,36 +64,20 @@
     </div>
 </div>
 
-
-
 <script>
-    document.addEventListener("click", function(e) {
-        if(e.target && e.target.classList.contains("more-btn")) {
-            e.target.classList.toggle("active");
-            var panel = e.target.previousElementSibling;
-            if (panel.style.maxHeight) {
+    var more = document.getElementsByClassName("more-btn");
+    var i;
+    for (i = 0; i < more.length; i++) {
+        more[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.previousElementSibling;
+            if (panel.style.maxHeight){
                 panel.style.maxHeight = null;
-                e.target.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">\n' +
-                    '<circle cx="3" cy="3" r="3" fill="#C4C4C4"/>\n' +
-                    '</svg>\n' +
-                    '<svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">\n' +
-                    '<circle cx="3" cy="3" r="3" fill="#C4C4C4"/>\n' +
-                    '</svg>\n' +
-                    '<svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">\n' +
-                    '<circle cx="3" cy="3" r="3" fill="#C4C4C4"/>\n' +
-                    '</svg>';
+                panel.style.borderBottom = null;
             } else {
-                panel.style.maxHeight = panel.scrollHeight + 0+ "px";
-                e.target.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">\n' +
-                    '<circle cx="3" cy="3" r="3" fill="#C4C4C4"/>\n' +
-                    '</svg>\n' +
-                    '<svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">\n' +
-                    '<circle cx="3" cy="3" r="3" fill="#C4C4C4"/>\n' +
-                    '</svg>\n' +
-                    '<svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">\n' +
-                    '<circle cx="3" cy="3" r="3" fill="#C4C4C4"/>\n' +
-                    '</svg>';
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                this.style.borderBottom = "0";
             }
-        }
-    });
+        });
+    }
 </script>
