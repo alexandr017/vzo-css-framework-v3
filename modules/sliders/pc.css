@@ -50,7 +50,7 @@
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 45%;
+    top: 30%;
     bottom: 60px;
     display: block;
     padding: 0;
@@ -63,6 +63,9 @@
 }
 .jsSlideReview {
     overflow-y: auto;
+}
+.jsSlideReview .jsSlideItem, .jsSlideContent .jsSlideItem {
+    text-align: left;
 }
 .jsAnimateLeft {
     animation: mymoveleft 0.5s;
@@ -82,8 +85,66 @@
 .smi .js-slide-btn-left, .smi .js-slide-btn-right {
     top: 20%;
 }
+.new-item-text {
+    padding: 20px;
+    text-align: left;
+    margin-top: 30px;
+}
+.news-item a {
+    text-decoration: none;
+}
+.new-item-text .post-date {
+    color: #87919F;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+.bank-review-title {
+    font-size: 14px;
+    line-height: 17px;
+}
+.bank-review-title svg {
+    margin: 20px 0;
+}
+.new-item-text .dgeff,.bank-review-name {
+    color: #292929;
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+    font-weight: bold;
+}
+.new-item-text .dgeff {
+    padding-bottom: 15px;
+}
+.news-item img {
+    width: 100%;
+}
+.reviews .star_span {
+    display: block;
+}
 
-
+.star_span {
+    width: 90px;
+    height: 25px;
+    margin: auto;
+}
+.reviews .itm {
+    margin: 10px;
+    padding: 20px;
+}
+.bank-reviews .itm{
+    overflow-y: auto;
+}
+.expert_name {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+.show_the_reviews {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
 
 
 
