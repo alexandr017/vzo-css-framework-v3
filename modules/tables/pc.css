@@ -65,3 +65,135 @@ table.table-info tr {
 table.table-info td.main {
     border-right: 1px solid #e2e2e2;
 }
+
+/*div table*/
+
+.table {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    margin-bottom: 50px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.table .tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table .tr .td {
+    padding: 1.5em;
+    font-size: 1em;
+}
+
+.table .tr .td svg {
+    margin-left: 10px;
+}
+
+.table .tr .td:first-of-type {
+    width: 30%;
+    background: #FAFAFA;
+    font-weight: 600;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.table .tr .td:last-of-type {
+    width: 70%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+/*table 2*/
+
+.table-limit-block {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    margin-bottom: 50px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.table-limit-block .tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-limit-block .tr .th{
+    background: #fafafa;
+    border-bottom: none;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.table-limit-block .tr .td {
+    padding: 32px;
+    font-size: 1em;
+    width: 25%;
+}
+
+.table-limit-block .tr .td {
+    border-bottom: 1px solid #ebebeb;
+}
+
+/*table 3*/
+
+.table-vertical-block {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    margin-bottom: 50px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.table-vertical-block .tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-vertical-block .tr .td:nth-child(2){
+    border-right: 1px solid #ebebeb;
+}
+
+.table-vertical-block .tr .th {
+    background: #fafafa;
+    border-bottom: none;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.table-vertical-block .tr .td {
+    padding: 32px;
+    font-size: 1em;
+    width: 25%;
+}
+
+.table-vertical-block .tr .td {
+    border-bottom: 1px solid #ebebeb;
+}
+
+/*table 4*/
+
+.table-horizontal-block{
+    border: 1px solid #ebebeb;
+}
+
+.table-horizontal-block .tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-horizontal-block .tr .td:nth-child(2){
+    border-left: 1px solid #ebebeb;
+}
+
+.table-horizontal-block .tr .td {
+    padding: 1.5em;
+    font-size:1em;
+    width: 50%;
+    text-align: center;
+    border-left: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    border-left: none;
+}
+
+.table-horizontal-block .tr .th{
+    background: #fafafa;
+    font-size: 1em;
+    font-weight: 700;
+}

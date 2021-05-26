@@ -1,3 +1,6 @@
+.container {
+    margin-left: -15px;
+}
 .header {
     position: absolute;
     background: #fff;
@@ -42,25 +45,29 @@
     padding: 0 1.5em;
     font-size: 14px;
     color:#C0C3C8;
+    width: 100%;
 }
 
 .header-block .search .search-close {
     position: absolute;
-    top:20px;
+    top:17px;
+    right: 65px;
 }
 
 .header-block .search input {
     font-family: 'Proxima Nova Rg';
-    width: 95%;
+    width: 80%;
     border: none;
     outline: none;
-    padding-left: 2.5em;
     padding-top: 20px;
 }
 .header-block .search .search-icon {
     position: absolute;
-    right:1.5em;
-    top:20px;
+    right: 0;
+    height: 59px;
+    width: 59px;
+    border: none;
+    background: #A5CA38;
 }
 
 .header-block .link {

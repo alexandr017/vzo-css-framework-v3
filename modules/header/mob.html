@@ -1,3 +1,5 @@
+<div class="container">
+
 <div class="header">
     <div class="menu-btn">
         <img class="burger-menu" src="/v3/images/burger.png" onclick="openNav()">
@@ -21,21 +23,26 @@
 <div class="header-block" style="display: none">
 
     <div class="search">
-        <div class="search-close">
-            <svg class="search-close-btn" onclick="searchClose()"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 496.096 496.096" style="stroke:#000;stroke-width: 5px; width:21px; height:21px; " xml:space="preserve">
-                <path d="M259.41,247.998L493.754,13.654c3.123-3.124,3.123-8.188,0-11.312c-3.124-3.123-8.188-3.123-11.312,0L248.098,236.686
-                L13.754,2.342C10.576-0.727,5.512-0.639,2.442,2.539c-2.994,3.1-2.994,8.015,0,11.115l234.344,234.344L2.442,482.342
-                c-3.178,3.07-3.266,8.134-0.196,11.312s8.134,3.266,11.312,0.196c0.067-0.064,0.132-0.13,0.196-0.196L248.098,259.31
-                l234.344,234.344c3.178,3.07,8.242,2.982,11.312-0.196c2.995-3.1,2.995-8.016,0-11.116L259.41,247.998z"/>
-            </svg>
-        </div>
+
         <input placeholder="Введите ваш запрос, например, Займер">
 
-        <div class="search-icon">
-            <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20.6807 20.0385L15.5038 14.5928C16.8349 12.9924 17.5642 10.9788 17.5642 8.88249C17.5642 3.98476 13.6245 0 8.7821 0C3.93973 0 0 3.98476 0 8.88249C0 13.7802 3.93973 17.765 8.7821 17.765C10.6 17.765 12.3324 17.2104 13.8135 16.1576L19.0297 21.6447C19.2477 21.8737 19.5409 22 19.8552 22C20.1526 22 20.4348 21.8853 20.649 21.6768C21.1042 21.2338 21.1187 20.4992 20.6807 20.0385ZM8.7821 2.31717C12.3614 2.31717 15.2732 5.2623 15.2732 8.88249C15.2732 12.5027 12.3614 15.4478 8.7821 15.4478C5.20282 15.4478 2.29098 12.5027 2.29098 8.88249C2.29098 5.2623 5.20282 2.31717 8.7821 2.31717Z" fill="#87919F"/>
+        <div class="search-close">
+            <svg class="search-close-btn" onclick="searchClose()" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.05033 7.05025L16.9498 16.9497M7.05033 16.9497L16.9498 7.05025" stroke="#C4C4C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </div>
+
+        <button class="search-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512.005 512.005" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                <g>
+                    <g xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667    S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6    c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587z     M202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z" fill="#ffffff" data-original="#000000" style=""/>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </button>
     </div>
 
     <div class="margin-50"></div>
@@ -183,7 +190,7 @@
     </div>
 </div>
 
-
+</div>
 
 <script>
     function openNav(){

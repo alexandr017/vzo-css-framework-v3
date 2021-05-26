@@ -1,13 +1,56 @@
 .recommended {
     margin: 15px 0;
-    padding: 0 15px 0;
+    padding-bottom: 28px;
+}
+.recommended hr {
+    height: 1px;
+    border: none;
+    background-color:#EBEBEB;
 }
 
 .recommended .recommended-title {
-    border-bottom: 1px solid #EBEBEB;
-    padding-bottom: 10px;
+    padding: 12px 36px;
+    font-size: 1.12em;
+    font-weight: 600;
+    font-family: 'Proxima Nova Rg', sans-serif;
 }
 
 .recommended .recommended-link-wrap {
-    margin: 10px auto;
+    padding: 12px 0 0 36px;
+}
+
+.recommended .recommended-link-wrap a{
+    text-decoration: none;
+    color: #017AD3;
+
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-columns p{
+    margin-left: 34px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.list {
+    margin-top: 55px;
+}
+
+.list p {
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.list p svg{
+    margin-left: -55px;
+    position: absolute;
+}
+
+.list p:last-of-type{
+    margin-left: 55px;
+    margin-top: 25px;
 }
