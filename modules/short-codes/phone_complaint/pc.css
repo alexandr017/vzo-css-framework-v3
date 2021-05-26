@@ -1,0 +1,24 @@
+.phone-gray-col {
+    background: #fafafa;
+    font-weight: bold;
+}
+.phone-gray-col,.phone-white-col {
+    border-bottom: 1px solid #e2e2e2;
+}
+.phone-gray-col{
+    border-right: 1px solid #e2e2e2;
+}
+.phone-shortcode {
+    border: 1px solid #e2e2e2;
+    border-bottom: none;
+}
+.phone-white-col svg {
+    position: relative;
+    top: 5px;
+}
+.phone-support {
+    background: #EBEBEB;
+    border: 0.5px solid #C4C4C4;
+    font-size: 11px;
+    line-height: 14px;
+}

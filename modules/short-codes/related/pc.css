@@ -1,0 +1,13 @@
+.recommended {
+    margin: 15px 0;
+    padding: 0 15px 0;
+}
+
+.recommended .recommended-title {
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 10px;
+}
+
+.recommended .recommended-link-wrap {
+    margin: 10px auto;
+}
