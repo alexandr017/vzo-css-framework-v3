@@ -52,6 +52,7 @@
     position: absolute;
     top:17px;
     right: 65px;
+    cursor: pointer;
 }
 
 .header-block .search input {
@@ -68,6 +69,7 @@
     width: 59px;
     border: none;
     background: #A5CA38;
+    cursor: pointer;
 }
 
 .header-block .link {
