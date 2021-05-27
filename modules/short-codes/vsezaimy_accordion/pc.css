@@ -1,0 +1,46 @@
+.accordion-container {
+    border: 1px solid #EBEBEB;
+}
+.accordion{
+    background-color: #fff;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion.active .arrow {
+    transform: rotate(-90deg);
+}
+
+.active, .accordion:hover {
+    background-color: #fff;
+}
+
+.panel {
+    padding: 0 18px;
+    color: #212121;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #EBEBEB;
+    transition: max-height 0.3s ease-out;
+}
+.panel li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

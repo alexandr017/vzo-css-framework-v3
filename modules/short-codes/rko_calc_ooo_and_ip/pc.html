@@ -3,9 +3,10 @@
     <div class="row">
         <div class="col-9">
             <div class="rko-calc light-border d-padding">
-                <b class="rko-calc-pay-count">Количество платежей: <span>50</span></b><br>
+                <b class="rko-calc-pay-count">Количество платежей: <span id="count_range_input_value">50</span></b><br>
                 <div class="cont">
                     <input type="range" min="0" max="101" value="50" step="1" list="count_range" id="count_range_input">
+                    <span id="count_range_input_color"></span>
                     <datalist id="count_range">
                         <option value="0 to 101">50</option>
                         <option>0</option>
@@ -137,3 +138,10 @@
         </div>
     </div>
 </div>
+<script>
+    document.getElementById('count_range_input').addEventListener('change', function (event) {
+        let elem = event.target;
+        document.getElementById('count_range_input_color').style.width = elem.value+'%';
+        document.getElementById('count_range_input_value').innerHTML = elem.value;
+    })
+</script>

@@ -56,10 +56,16 @@
 .prev-pay-count {
     margin-right: 1em;
     color: #F1F1F1;
+    cursor: pointer;
+    background: none;
+    border:none;
 }
 .next-pay-count {
     margin-left : 1em;
     color: #A5CA38;
+    cursor: pointer;
+    background: none;
+    border:none;
 }
 .rko-pay-count-block {
     margin-top: 1em;

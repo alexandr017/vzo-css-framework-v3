@@ -1,7 +1,7 @@
 <div class="rko-calc light-border">
     <b class="rko-calc-pay-count">Количество платежей:
     <div class="rko-pay-count-block">
-        <span class="prev-pay-count">&#9668;</span><input type="text" value="50" class="light-border rko-pay-count"><span class="next-pay-count">&#9658;</span>
+        <button class="prev-pay-count">&#9668;</button><input type="text" value="50" class="light-border rko-pay-count"><button class="next-pay-count">&#9658;</button>
     </div>
     </b>
     <div>
@@ -23,6 +23,18 @@
         <button class="btn border-radius more-select-rko">Расширенный подбор <span class="rko-btn-arrow">&#8595;</span></button>
     </div>
 </div>
-<!--$('.rko-pay-count').on('input change paste', function() {-->
-<!--    $(this).val(this.value.replace(/[^0-9]/, '')); // запрещаем ввод любых символов, кроме цифр и знака минуса-->
-<!--});-->
+<script>
+    var rkoPayCount = document.getElementsByClassName('rko-pay-count')[0];
+    rkoPayCount.onchange = rkoPayCount.oninput = rkoPayCount.onpaste = function(event) {
+        let elem = event.target;
+        elem.value = elem.value.replace(/[^0-9]/g, '');
+    }
+    document.getElementsByClassName('prev-pay-count')[0].addEventListener('click',function (event) {
+        let elem = event.target;
+        rkoPayCount.value = rkoPayCount.value-1;
+    })
+    document.getElementsByClassName('next-pay-count')[0].addEventListener('click',function (event) {
+        let elem = event.target;
+        rkoPayCount.value = Number(rkoPayCount.value)+1;
+    })
+</script>
