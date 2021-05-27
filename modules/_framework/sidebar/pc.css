@@ -4,7 +4,7 @@
 .vzo-ux-framework-menu .vzo-ux-framework-link.done:before{content: "\2714";margin-right: 5px}
 .vzo-ux-framework-switch{margin: 9px 20px; cursor: pointer;}
 .vzo-ux-framework-head-line-right{float: right;margin-right: 20px; margin-top: 3px;}
-.vzo-ux-framework-menu a{color: #fff;text-decoration: none; display: block; padding: 5px 5px 5px 20px;}
+.vzo-ux-framework-menu a{color: #fff !important;text-decoration: none; display: block; padding: 5px 5px 5px 20px;}
 .vzo-ux-framework-menu a:visited{color: #fff;}
 .vzo-ux-framework-menu a:hover {text-decoration: underline;}
 .vzo-ux-framework-header {border-bottom: 1px solid #6B7073;padding: 6px 0 6px 20px;background-size: 32px;}

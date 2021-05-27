@@ -1,0 +1,72 @@
+.rko-calc {
+    padding: 1em;
+}
+.rko-pay-count {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+}
+.rko-checkbox {
+    display: none;
+}
+.rko-calc-label {
+    position: relative;
+    display: block;
+    margin-top: 0.7em;
+}
+.rko-calc-label:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    width: 18px;
+    height: 18px;
+    left: 0;
+    top: 0.2em;
+}
+.rko-calc-label-text {
+    margin-left: 1.5em;
+    display: inline-block;
+}
+.rko-checkbox:checked + .rko-calc-label:after{
+    background: #A5CA38;
+    color: #FAFAFA;
+    content: '\2713';
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-weight: bold;
+}
+.rko-more-condition {
+    display: block;
+    margin-top: 1em;
+}
+.rko-required{
+    display: block;
+    margin-top: 0.8em;
+}
+.more-select-rko{
+    width: 100%;
+    margin-top: 0.5em;
+}
+.select-rko {
+    margin-top: 1em;
+    width: 100%;
+}
+.prev-pay-count {
+    margin-right: 1em;
+    color: #F1F1F1;
+    cursor: pointer;
+    background: none;
+    border:none;
+}
+.next-pay-count {
+    margin-left : 1em;
+    color: #A5CA38;
+    cursor: pointer;
+    background: none;
+    border:none;
+}
+.rko-pay-count-block {
+    margin-top: 1em;
+}

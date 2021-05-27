@@ -1,0 +1,187 @@
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0;
+    background-color: #A5CA38;
+    border-radius: 1em;
+    border: 2px solid #A5CA38;
+    cursor: pointer;
+    vertical-align: 4px;
+    position: relative;
+    z-index: 1111;
+}
+input[type="range"]::-moz-range-thumb {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0;
+    background-color: #A5CA38;
+    border-radius: 1em;
+    border: 2px solid #A5CA38;
+    cursor: pointer;
+    vertical-align: 4px;
+    position: relative;
+    z-index: 1111;
+}
+input[type="range"]::-ms-thumb {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0;
+    background-color: #A5CA38;
+    border-radius: 1em;
+    border: 2px solid #A5CA38;
+    cursor: pointer;
+    vertical-align: 4px;
+    position: relative;
+    z-index: 1111;
+}
+input[type="range"]:hover::-webkit-slider-thumb {
+    border-color: #A5CA38;
+}
+input[type="range"]:hover::-moz-range-thumb {
+    border-color: #A5CA38;
+}
+input[type="range"]:hover::-ms-thumb {
+    border-color: #A5CA38;
+}
+input[type="range"]:active::-webkit-slider-thumb {
+    border-color: #A5CA38;
+}
+input[type="range"]:active::-moz-range-thumb {
+    border-color: #A5CA38;
+}
+input[type="range"]:active::-ms-thumb {
+    border-color: #A5CA38;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    cursor: pointer;
+    height: 1em;
+    border-bottom: 4px solid #EAEAEA;
+    background-color: transparent;
+}
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    cursor: pointer;
+    height: 1em;
+    border-bottom: 4px solid #EAEAEA;
+    background-color: transparent;
+}
+input[type="range"]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 4px solid #EAEAEA;
+    color: transparent;
+}
+.cont,.cont2{
+    position: relative;
+    margin-bottom: 25px;
+
+}
+/*
+.cont:after,.cont2:after {
+     position: absolute;
+     color: #292929;
+     content: '20 40 60 80';
+     width: 100%;
+     word-spacing: 1.5em;
+     left: 0px;
+     top: 40px;
+     z-index: -1;
+     text-align: left;
+     display: inherit;
+     word-spacing: 13px;
+     font-size: 14px;
+ }
+.cont:after {
+    content: '0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 100+';
+}
+.cont:after{
+    word-spacing: 1.2em;
+}*/
+.cont:after,.cont2:after {
+     position: absolute;
+     color: #292929;
+     content: '20 40 60 80';
+     width: 100%;
+     word-spacing: 1.5em;
+     left: 0px;
+     top: 40px;
+     z-index: -1;
+     text-align: left;
+     display: inherit;
+     word-spacing: 13px;
+     font-size: 14px;
+ }
+.cont:after {
+    content: '0 10 20 30 40 50 60 70 80 90 ';
+}
+.cont:after{
+    word-spacing: 4.2em;
+}
+
+input[type='range'] {
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: -webkit-repeating-linear-gradient(90deg, #EAEAEA, #EAEAEA 1px, transparent 3px, transparent 24.9%) no-repeat 100% 50%;
+    background: -moz-repeating-linear-gradient(90deg, #EAEAEA, #EAEAEA 1px, transparent 3px, transparent 24.9%) no-repeat 100% 50%;
+    background: repeating-linear-gradient(90deg, #EAEAEA, #EAEAEA 1px, transparent 3px, transparent 4.95%) no-repeat 100% 50%;
+    background-size: 100% 15px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    width: 100%;
+    border: 0;
+    position: relative;
+    outline: none;
+}
+#count_range_input_color {
+    content: '';
+    border-bottom: 4px solid #A5CA38;
+    width: 48%;
+    position: absolute;
+    left: 0;
+    top: 1.8em;
+}
+.rko-checkbox {
+    display: none;
+}
+.rko-calc-label {
+    position: relative;
+    display: block;
+}
+.rko-calc-label:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    width: 18px;
+    height: 18px;
+    left: 0;
+    top: 0.2em;
+}
+.rko-calc-label-text {
+    margin-left: 1.5em;
+    display: inline-block;
+}
+.rko-checkbox:checked + .rko-calc-label:after{
+    background: #A5CA38;
+    color: #FAFAFA;
+    content: '\2713';
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-weight: bold;
+}
+.rko-col-title {
+    display: block;
+    margin-bottom: 1em;
+}
+.select-rko{
+    width: 100%;
+    margin-top: 2em;
+}
