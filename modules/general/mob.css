@@ -16,8 +16,12 @@ body{
     background-color: #fff;
     font-family: 'Proxima Nova Rg', sans-serif;
 }
-a, a:visited {
+a, a:visited:not(a.btn) {
     color: #017AD3;
+}
+
+img {
+    max-width: 100%;
 }
 
 

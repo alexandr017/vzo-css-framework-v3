@@ -25,7 +25,9 @@ import('fonts/proxima-nova');
 import('_framework/titles');
 import('_framework/grid');
 import('_framework/prism');
+import('_framework/buttons');
 import('general');
+
 
 if (isset($_GET['module'])) {
     import($_GET['module']);

@@ -1,0 +1,69 @@
+.btn{
+    min-width: 225px;
+    padding: .6em 2em;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    max-height: 50px;
+    vertical-align: top;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Default */
+.btn-1{
+    background: #A5CA38;
+    color: #fff;
+    border:2px solid #A5CA38;
+}
+.btn-2{
+    background: #5A8D26;
+    color: #fff;
+    border:2px solid #5A8D26;
+}
+.btn-3{
+    background: #EA674A;
+    color: #fff;
+    border:2px solid #EA674A;
+}
+
+/* Outline */
+.btn-1-outline{
+    background: #fff;
+    color: #A5CA38;
+    border:1px solid #A5CA38;
+}
+.btn-2-outline{
+    background: #fff;
+    color: #5A8D26;
+    border:1px solid #5A8D26;
+}
+.btn-3-outline{
+    background: #fff;
+    color: #EA674A;
+    border:1px solid #EA674A;
+}
+
+/* Actions */
+.btn-action {
+    border-radius: 3px;
+    min-width: 32px;
+    max-height: 32px;
+    padding: .2em .2em;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1em;
+    cursor: pointer;
+}
+.btn-edit {
+    border: 1px solid #A5CA38;
+}
+.btn-delete {
+    border: 1px solid #EA674A;
+}
+
