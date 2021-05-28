@@ -1,0 +1,23 @@
+.video-block {
+    max-width: 476px;
+    width: 100%;
+}
+.video-img {
+    width: 100%;
+    height: auto;
+}
+.video-block {
+    position: relative;
+}
+.play-video-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 10;
+    width: 63px;
+    height: 63px;
+}
