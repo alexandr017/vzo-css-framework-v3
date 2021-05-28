@@ -1,11 +1,11 @@
 .container {
     padding: 0;
+    margin: 0;
     width: 100%;
 }
 
 .card-loans {
     border: 4px solid #FCE6A4;
-    font-family: 'Proxima Nova Rg';
     width: 100%;
 }
 
@@ -34,19 +34,52 @@
 
 .card-loans .top .logo {
     border: 1px solid #EBEBEB;
-    width: 314px;
+    width:100%;
     height: 134px;
     margin-top: 15px;
 }
 
-.card-loans .top .logo img{
-    margin: 38px 97px;
+.card-loans .top .logo div img {
+    margin: 38px 87px;
+}
+
+@media (min-width:319px){
+    .card-loans .top .logo div img {
+        margin: 38px 67px;
+    }
+}
+
+@media (min-width:375px){
+    .card-loans .top .logo div img {
+        margin: 38px 87px;
+    }
+}
+
+.card-loans .top .scale {
+    width: 100%;
+    height: 10px;
+    background:#EAEAEA;
+    border-radius: 28px;
+    margin-top: 10px;
+}
+.card-loans .top .scale .percent {
+    height: 10px;
+    background: #A5CA38;
+    border-radius: 28px;
+    margin: 0;
+}
+
+.card-loans .top .scale p {
+    font-size: 0.87em;
+    color:#87919f;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .card-loans .top .reviews {
     display:flex;
     justify-content: space-between;
-    margin-top:20px;
+    margin-top:30px;
 }
 
 .card-loans .top .reviews div {
@@ -103,7 +136,6 @@
     margin-top:53px;
 }
 
-
 .card-loans .content {
     padding: 0 40px;
     margin-top: -20px;
@@ -111,7 +143,6 @@
 
 .card-loans .content .head {
     font-size: 16px;
-    font-family: 'Futura PT';
     font-weight: 400;
 }
 
@@ -132,27 +163,20 @@
 .card-loans .content .head .hidden-card-loan .text {
     color: #292929;
     font-size: 16px;
-    line-height: 27.65px;
-    font-family: 'Proxima Nova Rg';
+    line-height: 28px;
 }
 
 .card-loans .content .hidden-card-loan .info {
     color: #292929;
     font-weight: 600;
     font-size: 14px;
-    font-family: 'Proxima Nova Rg';
 }
 
 .hidden-card-loan .tab-wrap {
     padding: 40px 0;
 }
 
-.hidden-card-loan .tab {
-    overflow: hidden;
-
-}
-
-.hidden-card-loan .tab button {
+.hidden-card-loan .tab .tablinks {
     background-color: inherit;
     float: left;
     border: none;
@@ -162,21 +186,24 @@
     transition: 0.3s;
     border-bottom: 2px solid #EBEBEB ;
     width: 100%;
-    text-align: left;
+    color:#292929;
+    font-family: 'Futura PT';
 }
 
-.hidden-card-loan .tab button:hover {
+.hidden-card-loan .tab .tablinks.on {
     color: #017AD3;
     border-bottom: 2px solid #017AD3;
 }
 
-.hidden-card-loan .tab button.active {
-    color: #017AD3;
-    border-bottom: 2px solid #017AD3;
-}
+.hidden-card-loan .tabs-items .tabcontent{display:none}
 
-.hidden-card-loan .tabcontent.active {
-    display: block;
+.hidden-card-loan .tabs-items .tabcontent.on{display:block}
+
+.hidden-card-loan .tabs-items .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    margin-top: 200px;
+    color: #292929;
 }
 
 .hidden-card-loan .tablinks svg.arrow {
@@ -184,23 +211,15 @@
     color: #87919F;
 }
 
-.hidden-card-loan .tablinks.active svg.arrow {
+.hidden-card-loan .tablinks.on svg.arrow {
     transform: rotate(180deg);
     stroke: #017AD3 !important;
     stroke-width: 1px;
 }
 
-
-.hidden-card-loan .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    margin-top: 32px;
-}
-
 .card-loans .hidden-card-loan .slider .slider-block {
     display: flex;
     justify-content: space-between;
-
 }
 
 .card-loans .hidden-card-loan .slider .slider-block .slider-button {
@@ -210,9 +229,10 @@
     border-radius: 50%;
     border: 1px solid #EBEBEB ;
     margin-top: 10px;
+    cursor: pointer;
 }
 
-.card-loans .hidden-card-loan  .slider .slider-block  div.slider-button:last-of-type{
+.card-loans .hidden-card-loan  .slider .slider-block  div.slider-button:last-of-type {
    background-color: #81DAC8;
 }
 
@@ -239,18 +259,17 @@
     margin-left: 70px;
 }
 
-.card-loans .hidden-card-loan .btn:last-of-type{
+.card-loans .hidden-card-loan .btn:last-of-type {
     margin-bottom: 55px ;
 }
 
-.card-loans .hidden-card-loan .btn .btn-auth{
+.card-loans .hidden-card-loan .btn .btn-auth {
     margin-top: 20px;
 }
 
 
 .card-insurance {
     border: 4px solid #FCE6A4;
-    font-family: 'Proxima Nova Rg';
     margin-top: 50px;
 }
 
@@ -280,20 +299,67 @@
 
 .card-insurance .top  .logo {
     border: 1px solid #EBEBEB;
-    width: 314px;
+    width:100%;
     height: 134px;
-    padding: 42px  33px 42px 34px;
+    padding: 42px  33px 42px 33px;
     margin-top: 15px;
 }
 
-.card-insurance .top .logo div img{
-    margin-top: -15px;
+.card-insurance .top .logo {
+   align-items: center;
 }
 
+@media (min-width:374px){
+    .card-insurance .top .logo {
+        padding: 25px 20px !important;
+    }
+
+    .card-insurance .top .logo div img {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:360px){
+    .card-insurance .top .logo {
+        padding: 25px  10px 25px 10px !important;
+    }
+}
+
+@media (min-width:319px){
+
+    .card-insurance .top .logo {
+        padding: 25px  0 25px 0 !important;
+    }
+
+    .card-insurance .top .logo div {
+        padding: 0;
+    }
+}
+
+.card-insurance .top .scale {
+    width: 100%;
+    height: 10px;
+    background:#EAEAEA;
+    border-radius: 28px;
+    margin-top: 10px;
+}
+.card-insurance .top .scale .percent {
+    height: 10px;
+    background: #A5CA38;
+    border-radius: 28px;
+    margin: 0;
+}
+
+.card-insurance .top .scale p {
+    font-size: 0.87em;
+    color:#87919f;
+    text-align: center;
+    margin-top: 5px;
+}
 .card-insurance .top .reviews {
     display:flex;
     justify-content: space-between;
-    margin-top:20px;
+    margin-top:30px;
 }
 
 .card-insurance .top .reviews div {
@@ -358,7 +424,6 @@
 
 .card-insurance .content .head {
     font-size: 16px;
-    font-family: 'Futura PT';
     font-weight: 400;
 }
 
@@ -379,27 +444,20 @@
 .card-insurance .content .head .hidden-card-insurance .text {
     color: #292929;
     font-size: 16px;
-    line-height: 27.65px;
-    font-family: 'Proxima Nova Rg';
+    line-height: 28px;
 }
 
 .card-insurance .content .hidden-card-insurance .info {
     color: #292929;
     font-weight: 600;
     font-size: 14px;
-    font-family: 'Proxima Nova Rg';
 }
 
 .hidden-card-insurance .tab-wrap {
     padding: 40px 0;
 }
 
-.hidden-card-insurance .tab {
-    overflow: hidden;
-
-}
-
-.hidden-card-insurance .tab button {
+.hidden-card-insurance .tab .tablinks {
     background-color: inherit;
     float: left;
     border: none;
@@ -409,21 +467,24 @@
     transition: 0.3s;
     border-bottom: 2px solid #EBEBEB ;
     width: 100%;
-    text-align: left;
+    color:#292929;
+    font-family: 'Futura PT';
 }
 
-.hidden-card-insurance .tab button:hover {
+.hidden-card-insurance .tab .tablinks.on {
     color: #017AD3;
     border-bottom: 2px solid #017AD3;
 }
 
-.hidden-card-insurance .tab button.active {
-    color: #017AD3;
-    border-bottom: 2px solid #017AD3;
-}
+.hidden-card-insurance .tabs-items .tabcontent {display:none}
 
-.hidden-card-insurance .tabcontent.active {
-    display: block;
+.hidden-card-insurance .tabs-items .tabcontent.on {display:block}
+
+.hidden-card-insurance .tabs-items .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    margin-top: 200px;
+    color: #292929;
 }
 
 .hidden-card-insurance .tablinks svg.arrow {
@@ -431,23 +492,14 @@
     color: #87919F;
 }
 
-.hidden-card-insurance .tablinks.active svg.arrow {
+.hidden-card-insurance .tablinks.on svg.arrow {
     transform: rotate(180deg);
     stroke: #017AD3 !important;
     stroke-width: 1px;
 }
-
-
-.hidden-card-insurance .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    margin-top: 32px;
-}
-
 .card-insurance .hidden-card-insurance .slider .slider-block {
     display: flex;
     justify-content: space-between;
-
 }
 
 .card-insurance .hidden-card-insurance .slider .slider-block .slider-button {
@@ -457,12 +509,12 @@
     border-radius: 50%;
     border: 1px solid #EBEBEB ;
     margin-top: 10px;
+    cursor: pointer;
 }
 
-.card-insurance .hidden-card-insurance  .slider .slider-block  div.slider-button:last-of-type{
+.card-insurance .hidden-card-insurance  .slider .slider-block  div.slider-button:last-of-type {
     background-color: #81DAC8;
 }
-
 
 .card-insurance .hidden-card-insurance .btn {
     display: block;
@@ -470,11 +522,11 @@
     margin-left: 70px;
 }
 
-.card-insurance .hidden-card-insurance .btn:last-of-type{
+.card-insurance .hidden-card-insurance .btn:last-of-type {
     margin-bottom: 55px ;
 }
 
-.card-insurance .hidden-card-insurance .btn .btn-auth{
+.card-insurance .hidden-card-insurance .btn .btn-auth {
     margin-top: 20px;
 }
 

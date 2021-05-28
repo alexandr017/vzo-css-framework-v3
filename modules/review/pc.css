@@ -1,59 +1,233 @@
-.review {
-    padding: 1em 3em 1.7em 3em;
+.reviews h3 {
+    text-align: center;
+    width: 70%;
 }
 
-.header-review {
-    margin-top:30px;
+.reviews .rating {
+    text-align: center;
+    width: 70%;
 }
 
-.review p {
-    font-family: 'Proxima Nova Rg';
-    margin-top: 0;
+.reviews .sort .sorting {
+    margin-top: 53px;
+    padding: 0;
 }
 
-.review p.text-review {
-    line-height: 27.65px;
+.reviews .sort .sorting  li {
+    display: inline-block;
+    padding: 2px 6px 5px;
+    line-height: 24px;
 }
 
-.review a {
-    width:100%;
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Proxima Nova Rg';
+.reviews .sort .sorting  li:not(:first-child){
+    margin-left: 30px;
+}
+
+.reviews .sort .sorting .sort-item {
+    cursor: pointer;
     color: #017AD3;
+    border-bottom: 1px solid #017AD3;
+}
+
+.reviews .block-reviews {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.reviews .block-reviews .text-review {
+    width: 60%;
+}
+
+.reviews .block-reviews .aside-rating {
+    margin-top: 17px;
+    width: 40%;
+}
+
+.reviews .block-reviews .text-review .user-logo {
+    margin-top: 50px;
+}
+
+.reviews .block-reviews .text-review .user-logo svg {
+    position: absolute;
+}
+
+.reviews .block-reviews .text-review .user-logo span,
+.reviews .block-reviews .text-review .user-rating,
+.reviews .block-reviews .text-review .plus,
+.reviews .block-reviews .text-review .minus,
+.reviews .block-reviews .text-review .comment {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.reviews .block-reviews .text-review .user-logo span,
+.reviews .block-reviews .text-review .comment p:first-of-type,
+.reviews .block-reviews .text-review .replace div span {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.reviews .block-reviews .text-review .plus p:first-of-type {
+    color: #5A8D26;
+    margin-bottom: 0;
+}
+
+.reviews .block-reviews .text-review .minus p:first-of-type {
+    color: #EA674A;
+    margin-bottom: 0;
+}
+
+.reviews .block-reviews .text-review .minus p:last-of-type,
+.reviews .block-reviews .text-review .plus p:last-of-type,
+.reviews .block-reviews .text-review .comment p:last-of-type {
+    margin-top: 5px;
+}
+
+
+.reviews .block-reviews .text-review .comment {
+    margin-bottom: 80px;
+}
+
+.reviews .block-reviews .text-review .comment a {
+    float: right;
+    border: none;
+    cursor: pointer;
+    color: #017AD3;
+    margin-top: 21px;
     text-decoration: none;
 }
 
-.review span.plus, .review span.minus {
-    margin-bottom: 10px;
-    display: inline-block;
+.reviews .block-reviews .text-review hr {
+    margin-top:30px;
+    margin-bottom: 22px;
 }
 
-.review span.plus {
-    color: #A5CA38;
+.reviews .block-reviews .text-review .replace {
+    margin-left: 130px;
 }
 
-.review span.minus {
-    color: #FF7A5C;
+.reviews .block-reviews .text-review .replace div svg {
+    position: absolute;
+    margin-left: -30px!important;
+    margin-top: 3px;
 }
 
-.grid-1-2-between {
+.reviews .block-reviews .text-review .replace div p {
+    margin-top: 0;
+}
+
+.reviews .aside-rating {
+    margin-left: 30px;
+}
+
+.reviews .aside-rating h6 {
+    margin-left: 100px;
+}
+
+.reviews .aside-rating .scale {
+    width: 187px;
+    height: 6px;
+    background:#EBEBEB;
+    border-radius: 28px;
+    display:flex;
+    justify-content: space-between;
+}
+.reviews .aside-rating .scale .percent {
+    height: 6px;
+    border-radius: 28px;
+    margin: 0;
+}
+
+.reviews .aside-rating .reviews-rating {
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 60px;
+}
+
+.reviews .aside-rating .info p {
+    font-size: 0.75em;
+    color:#87919f;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.reviews .aside-rating .info span {
+    font-size: 0.75em;
+    color:#87919f;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-left: 200px;
+    position: absolute;
+    margin-top: -12px;
+}
+
+.reviews .review-f {
     display: flex;
-    justify-content: space-between
+    flex-wrap: wrap;
+    margin-top: 115px;
 }
 
-.slide-short-review {
-    width: 1165px;
-    padding-left: 79px;
-    padding-right: 78px;
-    font-family: 'Proxima Nova Rg';
-    color: #292929;
+.reviews .review-f .review-form {
+    width:39%;
+}
+
+.reviews .review-f .review-form input,
+.reviews .review-f .review-form textarea {
+    width: 453px;
+    border: 1px solid #D8DADE;
+    height: 50px;
+    margin-top: 10px;
+    padding: 14px;
+    font-size: 0.87em;
+    font-weight: 600;
+    outline: none;
+    font-family: 'Proxima Nova Rg', sans-serif;
+}
+
+.reviews .review-f .review-form textarea {
+    height: 144px;
+    resize: none;
+}
+
+.reviews .review-f .review-form .btn {
+    margin-top: 20px;
+    float: right;
+}
+
+.reviews .review-f .review-form .rating {
+    text-align:left;
+    margin:  23px 0;
+}
+
+.reviews .review-f .info {
+    width: 30%;
+    height: 324px;
+    margin-top: 110px;
+    margin-left: 45px;
+    background: #f5f5f5;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding:0 43px 0 53px;
+}
+
+.reviews .review-f .info p:first-of-type {
+    margin-top: 30px;
+}
+
+/*Reviews Sliders*/
+.container {
+
+
 }
 
 .slide-short-review h4 {
     font-size: 24px;
     font-weight: 500;
-    line-height: 30.77px;
+    line-height: 31px;
     font-family: 'Futura PT';
     text-align: center;
     margin-top: 79px;
@@ -69,10 +243,10 @@
 .slide-short-review .slide-review-part .new-review {
     width: 266px;
     background: #FFFFFF;
-    padding-bottom: 32px ;
+    padding-bottom: 32px;
 }
 
-.slide-short-review .slide-review-part a.btn {
+.slide-short-review .slide-review-part .btn {
     margin-top: 150px;
     width: 45px;
     height: 45px;
@@ -84,7 +258,7 @@
 }
 
 .slide-short-review .slide-review-part .review-name {
-    margin-top: 14.83px;
+    margin-top: 1px;
     margin-left: 23px;
     font-size: 16px;
     line-height: 22px;
@@ -96,7 +270,7 @@
     margin-left: 20px;
     margin-right: 23px;
     font-size: 16px;
-    line-height: 27.65px;
+    line-height: 28px;
     width: 223px;
 }
 
@@ -109,18 +283,10 @@
     cursor: pointer;
 }
 
-.slide-bank-review{
-    width: 1165px;
-    padding-left: 79px;
-    padding-right: 78px;
-    font-family: 'Proxima Nova Rg';
-    color: #292929;
-}
-
 .slide-bank-review h4 {
     font-size: 24px;
     font-weight: 500;
-    line-height: 30.77px;
+    line-height: 31px;
     font-family: 'Futura PT';
     text-align: center;
     margin-top: 79px;
@@ -143,7 +309,9 @@
     text-decoration: none;
     width: 266px;
     background: #FFFFFF;
-    padding-bottom: 32px ;
+    padding-bottom: 32px;
+    margin-left: 20px;
+    margin-right: 23px;
 }
 
 .slide-bank-review .bank-review-part .bank-review .bank-name {
@@ -159,20 +327,20 @@
     margin: 0;
 }
 
-.slide-bank-review .bank-review-part .client {
-    margin-top: 14.83px;
+.slide-bank-review .bank-review-part .bank-review .client {
+    margin-top: 15px;
     margin-left: 23px;
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
 }
 
-.slide-bank-review .bank-review-part .bank-review-text {
+.slide-bank-review .bank-review-part .bank-review .bank-review-text {
     margin-top: 15px;
     margin-left: 20px;
     margin-right: 23px;
     font-size: 16px;
-    line-height: 27.65px;
+    line-height: 28px;
     width: 223px;
 }
 
