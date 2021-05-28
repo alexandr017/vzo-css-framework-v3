@@ -40,21 +40,52 @@
     margin-left: 10px;
 }
 
-.card-loans .top .block,
-.card-loans .top .two-columns {
+.card-loans .top .block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-loans .top .block .prise{
+    margin-right: 60px;
+}
+
+.card-loans .top .block .percent{
+    margin-right: 80px;
+}
+
+.card-loans .top .two-columns{
     display: flex;
     justify-content: space-between;
 }
 
 .card-loans .top .block .logo {
     border: 1px solid #EBEBEB;
-    width: 164.44px;
+    width: 165px;
     height: 95px;
     padding: 26px 24px 27px 24px;
 }
-
 .card-loans .top .block .logo div img {
     margin-right: 20px;
+}
+
+.card-loans .top .two-columns .scale {
+    width: 165px;
+    height: 10px;
+    background:#EAEAEA;
+    border-radius: 28px;
+}
+.card-loans .top .two-columns .scale .percent{
+    height: 10px;
+    background: #A5CA38;
+    border-radius: 28px;
+    margin: 0;
+}
+
+.card-loans .top .two-columns .scale p{
+    font-size: 0.87em;
+    color:#87919f;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .card-loans .top .block .logo div {
@@ -75,19 +106,23 @@
     color: #87919F;
     font-size: 0.87em;
     line-height: 1.3em;
-
 }
 
 .card-loans .top .two-columns {
-    padding: 15px;
+    padding: 15px 0 0 0;
 }
 
-.card-loans .top .two-columns .reviews a {
+.card-loans .top .reviews{
+    margin: 0px 10px 15px 15px;
+    font-size: 0.87em;
+}
+
+.card-loans .top .reviews a {
     text-decoration: none;
     color: #017AD3;
 }
 
-.card-loans .top .two-columns .reviews span {
+.card-loans .top .reviews span {
     color: #87919F;
 }
 
@@ -185,12 +220,9 @@
     color: #292929;
 }
 
-
 .hidden-card-loan .tabcontent .table {
     width: 100%;
     border: 1px solid #ebebeb;
-    margin-bottom: 50px;
-    font-family: 'Proxima Nova Rg';
 }
 
 .hidden-card-loan .tabcontent .table .tr {
@@ -199,7 +231,7 @@
 }
 
 .hidden-card-loan .tabcontent .table .tr .td {
-    padding: 1.5em;
+    padding: 1.3em;
     font-size: 0.87em;
 }
 
@@ -218,7 +250,6 @@
     width: 70%;
     border-bottom: 1px solid #ebebeb;
 }
-
 
     /*table*/
 table {
@@ -256,7 +287,8 @@ table.table-info td.main {
 }
 
 .card-loans .hidden-card-loan .slider {
-    padding-bottom:  40px;
+    padding-bottom:  60px;
+    margin-top: 40px;
 }
 
 .card-loans .hidden-card-loan .slider .slider-block {
@@ -351,6 +383,35 @@ table.table-info td.main {
     justify-content: space-between;
 }
 
+.card-insurance .top .two-columns .scale {
+    width: 165px;
+    height: 10px;
+    background:#EAEAEA;
+    border-radius: 28px;
+}
+.card-insurance .top .two-columns .scale .percent{
+    height: 10px;
+    background: #A5CA38;
+    border-radius: 28px;
+    margin: 0;
+}
+
+.card-insurance .top .two-columns .scale p{
+    font-size: 0.87em;
+    color:#87919f;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-insurance .top .two-columns {
+    padding: 15px 0 0 0;
+}
+
+.card-insurance .top .reviews{
+    margin: 0px 10px 15px 15px;
+    font-size: 0.87em;
+}
+
 .card-insurance .top .block .logo {
     border: 1px solid #EBEBEB;
     width: 164.44px;
@@ -367,6 +428,14 @@ table.table-info td.main {
     color: #87919F;
 }
 
+.card-insurance .top .block .fst{
+    margin-right: 30px;
+}
+
+.card-insurance .top .block .sec{
+    margin-right: 50px;
+}
+
 .card-insurance .top .block .block-row .insurance-head-intro{
     height: 1em;
     font-weight: 700;
@@ -378,16 +447,13 @@ table.table-info td.main {
     line-height: 1.3em;
 }
 
-.card-insurance .top .two-columns {
-    padding: 15px;
-}
 
-.card-insurance .top .two-columns .reviews a {
+.card-insurance .top .reviews a {
     text-decoration: none;
     color: #017AD3;
 }
 
-.card-insurance .top .two-columns .reviews span {
+.card-insurance .top .reviews span {
     color: #87919F;
 }
 
@@ -461,7 +527,7 @@ table.table-info td.main {
     padding: 14px 16px;
     transition: 0.3s;
     border-bottom: 2px solid #EBEBEB ;
-    width: 20%;
+    width: 33%;
 }
 
 .hidden-card-insurance .tab button:hover {
@@ -474,12 +540,12 @@ table.table-info td.main {
     border-bottom: 2px solid #017AD3;
 }
 
-.hidden-card-insurance .tabcontent.active {
+.hidden-card-insurance .tabcontents.active {
     display: block;
 
 }
 
-.hidden-card-insurance .tabcontent {
+.hidden-card-insurance .tabcontents {
     display: none;
     padding: 6px 12px;
     margin-top: 32px;

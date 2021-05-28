@@ -71,7 +71,7 @@ f-1 f-support .f-support-text {
 }
 
 .f-line-1 ul a {
-    color: #292929;
+    color: #292929 !important;
     text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ footer ul.f-2-menu {
 }
 
 .f-2-menu a {
-    color: #87919F;
+    color: #87919F !important;
     text-decoration: none;
 }
 

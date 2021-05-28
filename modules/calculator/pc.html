@@ -1,0 +1,92 @@
+<div class="calculator">
+<h1>Калькулятор РКО</h1>
+<p>
+    Если вы все еще сомневаетесь в том, какой расчетный счет стоит оформить для вашего ИП, я сделал специальный калькулятор.
+    Укажите в нем желаемые характеристики счета и нажмите кнопку «Подобрать»,
+    после чего вы увидите подходящие предложения. Также вы сможете более подробно узнать об условиях счетов.
+</p>
+    <div class="calculator-block border-radius">
+        <h4>Количество платежей: 50</h4>
+
+        <div class="range">
+            <div class="parts">
+
+            </div>
+            <input type="range" value="50">
+            <div id="container" style="margin-top:-20px; "><ul id="ul"></ul></div>
+        </div>
+
+        <div class="check-box">
+            <div class="fst-col">
+
+                <h4>Дополнительные условия:</h4>
+
+                <input type="checkbox" id="1" class="custom-checkbox">
+                <label for="1">С бесплатным открытием</label><br>
+
+                <input type="checkbox" id="2" class="custom-checkbox">
+                <label for="2">С бесплатным обслуживанием</label><br>
+
+                <input type="checkbox" id="3" class="custom-checkbox">
+                <label for="3">Нужен интернет-банк</label><br>
+
+                <input type="checkbox" id="4" class="custom-checkbox">
+                <label for="4">Нужен мобильный банк</label><br>
+
+                <input type="checkbox" id="5" class="custom-checkbox">
+                <label for="5">Открытие в течение дня</label><br>
+
+                <input type="checkbox" id="6" class="custom-checkbox">
+                <label for="6">Бонусы при открытии счета</label><br>
+
+            </div>
+
+            <div class="sec-col">
+
+                <h4>Требуется:</h4>
+                <input type="checkbox" id="7" class="custom-checkbox">
+                <label for="7">Внесение больших сумм наличных</label><br>
+
+                <input type="checkbox" id="8" class="custom-checkbox">
+                <label for="8">Выдача больших сумм наличных</label><br>
+
+                <input type="checkbox" id="9" class="custom-checkbox">
+                <label for="9">Зарплатный проект</label><br>
+
+                <input type="checkbox" id="10" class="custom-checkbox">
+                <label for="10">Эквайринг</label><br>
+
+            </div>
+
+        </div>
+
+        <div class="btn">
+            [button]
+            [button]
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+
+    function getListContent() {
+        let result = [];
+
+        for(let i = 5; i<=100; i+=5) {
+            let li = document.createElement('li');
+            li.append(i);
+            result.push(li);
+        }
+
+        return result;
+    }
+
+    ul.append(...getListContent());
+
+</script>

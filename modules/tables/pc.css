@@ -53,6 +53,10 @@ table.table-limit td:first-child {
     text-align: left;
 }
 
+table.table-limit td th svg{
+    margin-left: 10px;
+}
+
 table.table-info {
     border-radius: 5px;
     text-align: left;
@@ -107,7 +111,6 @@ table.table-info td.main {
     width: 100%;
     border: 1px solid #ebebeb;
     margin-bottom: 50px;
-    font-family: 'Proxima Nova Rg';
 }
 
 .table-limit-block .tr {
@@ -120,6 +123,17 @@ table.table-info td.main {
     border-bottom: none;
     font-size: 1em;
     font-weight: 700;
+}
+
+.table-limit-block .tr .th svg{
+    margin-left: 5px;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.table-limit-block .tr .th svg:active{
+    transform: rotate(180deg);
 }
 
 .table-limit-block .tr .td {
@@ -138,7 +152,6 @@ table.table-info td.main {
     width: 100%;
     border: 1px solid #ebebeb;
     margin-bottom: 50px;
-    font-family: 'Proxima Nova Rg';
 }
 
 .table-vertical-block .tr {
@@ -169,20 +182,20 @@ table.table-info td.main {
 
 /*table 4*/
 
-.table-horizontal-block{
+.light-border{
     border: 1px solid #ebebeb;
 }
 
-.table-horizontal-block .tr {
+.light-border .tr {
     display: flex;
     justify-content: space-between;
 }
 
-.table-horizontal-block .tr .td:nth-child(2){
+.light-border .tr .td:nth-child(2){
     border-left: 1px solid #ebebeb;
 }
 
-.table-horizontal-block .tr .td {
+.light-border .tr .td {
     padding: 1.5em;
     font-size:1em;
     width: 50%;
@@ -192,7 +205,7 @@ table.table-info td.main {
     border-left: none;
 }
 
-.table-horizontal-block .tr .th{
+.light-border .tr .th{
     background: #fafafa;
     font-size: 1em;
     font-weight: 700;

@@ -2,7 +2,6 @@
     padding-left: 79px;
     padding-right: 78px;
     font-family: 'Proxima Nova Rg';
-    width: 100%;
 }
 
 .main-news h4 {
@@ -18,7 +17,6 @@
 .main-news .slider-post-block {
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
 }
 
 .main-news .slider-post-block a.slider-part {
