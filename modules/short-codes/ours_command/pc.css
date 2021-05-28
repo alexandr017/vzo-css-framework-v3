@@ -1,0 +1,11 @@
+.command-memeber-img {
+    height: 150px;
+    width: 150px;
+    background: #F1F1F1;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+.command-memeber-name {
+    font-weight: bold;
+}

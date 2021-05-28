@@ -1,0 +1,26 @@
+.timeline-item {
+    font-size: 14px;
+    margin-left: 2em;
+    position: relative;
+    padding-bottom: 1em;
+}
+.timeline-item-title:before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fcfcfc;
+    border: 2px solid #a4ca38;
+    left: -2.5em;
+    z-index: 11;
+}
+.timeline-item-title:not(.timeline-last-item):after {
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -1.7em;
+    background: #A5CA38;
+}
