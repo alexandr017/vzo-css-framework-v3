@@ -23,7 +23,7 @@ a, a:visited:not(a.btn) {
 img {
     max-width: 100%;
 }
-
+p {margin-top: 0;}
 
 
 /* border general class */

@@ -1,5 +1,4 @@
 table {
-    font-family: 'Proxima Nova Rg';
     width: 100%;
     table-layout:fixed;
 }
@@ -76,7 +75,6 @@ table.table-info td.main {
     width: 100%;
     border: 1px solid #ebebeb;
     margin-bottom: 50px;
-    font-family: 'Proxima Nova Rg';
 }
 
 .table .tr {
