@@ -27,7 +27,6 @@
     margin-top: 0;
 }
 
-
 .header-block {
     font-family: 'Proxima Nova Rg';
     position: absolute;
@@ -128,7 +127,6 @@
     color:#292929;
     display: block;
     margin-top: 10px;
-    color: #87919F;
     padding-left: 30px;
 }
 
@@ -159,7 +157,7 @@
     background: url("/v3/images/place.svg");
     background-size: contain;
     width:17px;
-    height: 23.6px;
+    height: 24px;
     position: absolute;
 }
 
@@ -228,7 +226,7 @@
     appearance: none;
     color: red;
     background: none;
-    border: 0px;
+    border: 0;
     font-weight: bold;
     cursor: pointer;
 }

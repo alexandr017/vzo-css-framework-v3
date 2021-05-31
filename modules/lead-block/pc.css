@@ -4,8 +4,12 @@
 }
 
 .lead-head-container {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     color:#212529;
+}
+.lpt .lwb {
+    width: 400px !important;
 }
 
 .lwb .lead-label-dark {
@@ -13,16 +17,18 @@
     background-color: #3c97d3;
     font-size: 0.75em;
     color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 10px 3px 10px;
+    padding: 0 7px 3px 7px;
     margin-left: 3px;
     margin-top: 10px;
 }
 
+.lwb .lead-label-dark .btn-txt{
+    margin-top: -27px;
+    margin-left: 23px;
+}
+
 .lwb .lead-label-dark svg {
     margin-top: 3px;
-    margin-right: 5px;
 }
 
 .lwb .lead-label-green {

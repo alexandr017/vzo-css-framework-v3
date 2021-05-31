@@ -1,18 +1,17 @@
 .how_get_rating_inner{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 15%;
+  align-items: center;
 
 }
 
 .how_get_rating_inner .inner_part{
-    width: 120px;
     text-align: center;
     font-size: 0.87em;
+
 }
 
 .how_get_rating_inner .inner_part .cent_arr{
-    margin-top:100px;
+    transform: rotate(90deg);
+
 }
 
 .how_get_rating_inner .inner_part .cont{
