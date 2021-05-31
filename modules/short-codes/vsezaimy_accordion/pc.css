@@ -21,7 +21,7 @@
     background-color: #fff;
 }
 
-.panel {
+.accordion-panel {
     padding: 0 18px;
     color: #212121;
     background-color: #fff;
@@ -30,7 +30,7 @@
     border-bottom: 1px solid #EBEBEB;
     transition: max-height 0.3s ease-out;
 }
-.panel li {
+.accordion-panel li {
     margin-bottom: 10px;
 }
 

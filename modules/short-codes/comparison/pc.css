@@ -1,16 +1,16 @@
 .comparison-block {
     margin-top: 40px;
+    padding: 1em;
 }
 .border-r {
     border-right: 1px solid #EBEBEB;
 }
-.padding-block-20 {
-    padding: 20px;
+.border-bottom {
+    border-bottom: 1px solid #EBEBEB;
 }
-.light-border-without-radius {
-    border:1px solid #EBEBEB;
-    padding: 0 20px;
+.comparison-padding {
+    padding: 2em;
 }
-.comparison-block .col-lg-6 {
+.comparison-block .col-md-6 {
     padding: 0;
 }
