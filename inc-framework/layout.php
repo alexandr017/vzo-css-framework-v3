@@ -26,6 +26,7 @@ import('_framework/titles');
 import('_framework/grid');
 import('_framework/prism');
 import('_framework/buttons');
+import('_framework/tables');
 import('general');
 
 

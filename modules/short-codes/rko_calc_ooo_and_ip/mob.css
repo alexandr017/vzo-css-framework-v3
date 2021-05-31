@@ -19,8 +19,8 @@
     position: absolute;
     border: 1px solid #EBEBEB;
     border-radius: 3px;
-    width: 18px;
-    height: 18px;
+    width: 1em;
+    height: 1em;
     left: 0;
     top: 0.2em;
 }
@@ -32,9 +32,9 @@
     background: #A5CA38;
     color: #FAFAFA;
     content: '\2713';
-    font-size: 18px;
+    font-size: 1em;
     text-align: center;
-    line-height: 18px;
+    line-height: 1.2em;
     font-weight: bold;
 }
 .rko-more-condition {

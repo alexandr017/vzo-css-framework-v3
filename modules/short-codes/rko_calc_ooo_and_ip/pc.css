@@ -73,51 +73,26 @@ input[type="range"]::-ms-track {
     border-bottom: 4px solid #EAEAEA;
     color: transparent;
 }
-.cont,.cont2{
+.rko-calc-cont{
     position: relative;
     margin-bottom: 25px;
 
 }
-/*
-.cont:after,.cont2:after {
+.rko-calc-cont:after {
      position: absolute;
      color: #292929;
      content: '20 40 60 80';
      width: 100%;
-     word-spacing: 1.5em;
      left: 0px;
      top: 40px;
      z-index: -1;
      text-align: left;
      display: inherit;
-     word-spacing: 13px;
-     font-size: 14px;
+     word-spacing: 4.2em;
+     font-size: 0.9em;
  }
-.cont:after {
-    content: '0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 100+';
-}
-.cont:after{
-    word-spacing: 1.2em;
-}*/
-.cont:after,.cont2:after {
-     position: absolute;
-     color: #292929;
-     content: '20 40 60 80';
-     width: 100%;
-     word-spacing: 1.5em;
-     left: 0px;
-     top: 40px;
-     z-index: -1;
-     text-align: left;
-     display: inherit;
-     word-spacing: 13px;
-     font-size: 14px;
- }
-.cont:after {
+.rko-calc-cont:after {
     content: '0 10 20 30 40 50 60 70 80 90 ';
-}
-.cont:after{
-    word-spacing: 4.2em;
 }
 
 input[type='range'] {
@@ -132,7 +107,6 @@ input[type='range'] {
     background: -moz-repeating-linear-gradient(90deg, #EAEAEA, #EAEAEA 1px, transparent 3px, transparent 24.9%) no-repeat 100% 50%;
     background: repeating-linear-gradient(90deg, #EAEAEA, #EAEAEA 1px, transparent 3px, transparent 4.95%) no-repeat 100% 50%;
     background-size: 100% 15px;
-    font-size: 16px;
     -webkit-appearance: none;
     width: 100%;
     border: 0;
@@ -172,9 +146,9 @@ input[type='range'] {
     background: #A5CA38;
     color: #FAFAFA;
     content: '\2713';
-    font-size: 18px;
+    font-size: 1em;
     text-align: center;
-    line-height: 18px;
+    line-height: 1.2em;
     font-weight: bold;
 }
 .rko-col-title {
@@ -184,4 +158,7 @@ input[type='range'] {
 .select-rko{
     width: 100%;
     margin-top: 2em;
+}
+.btn-gray {
+    padding: 12px;
 }

@@ -1,7 +1,7 @@
 .tarif-title{
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 .tarif-img {
     margin-top: 10px;
@@ -13,7 +13,7 @@
 }
 .tarif-label {
     padding-top: 5px;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
@@ -23,28 +23,9 @@
 }
 .tarif-btn-block {
     flex-direction: row-reverse;
-    margin-top: 20px;
 }
 .tarif-block-btn {
     width: 85%;
-}
-.btn{
-    min-width: 225px;
-    padding: .6em 2em;
-    outline: 0;
-    border: 0;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    max-height: 50px;
-    vertical-align: top;
-    font-size: 1em;
-    cursor: pointer;
-}
-.btn-2{
-    background: #5A8D26;
-    color: #fff;
-    border:2px solid #5A8D26;
 }
 .border-radius {
     border-radius: 5px;

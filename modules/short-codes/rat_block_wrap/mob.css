@@ -1,14 +1,6 @@
-.rat-block-items {
-    justify-content: space-around;
-    align-items: stretch;
-    margin: 2em 0;
-}
-.rat-block-items .rat_block_item {
-    flex-grow: 5;
+.rat_block_item {
     padding: 1em;
-}
-.rat_block_item .rat_block_item {
-    flex-grow: 2;
+    margin: 10px 0;
 }
 .rat-block-items .title {
     font-size: 1.2em;
@@ -26,6 +18,10 @@
 .rat-block-btn {
     text-align: right;
 }
-.rat-block-padding {
-    padding: 1em;
+.table-info .mob-td {
+    display: block;
+    border-right: none!important;
+}
+.table-info .main {
+    border-bottom: 1px solid #e2e2e2;
 }
