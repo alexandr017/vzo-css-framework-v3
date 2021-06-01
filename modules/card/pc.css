@@ -34,10 +34,6 @@
     font-family: 'Futura PT';
 }
 
-.card-loans .top-card-loan .header-card-loan svg {
-    position: absolute;
-
-}
 
 .card-loans .top-card-loan .block-card-loan {
     display: flex;
@@ -126,6 +122,10 @@
 
 .card-loans .top-card-loan .reviews span {
     color: #87919F;
+}
+
+.card-loans .top-card-loan .two-columns .comprasion{
+    margin-right: 50px;
 }
 
 .card-loans .top-card-loan .two-columns .comprasion span {
@@ -372,10 +372,6 @@ table.table-info td.main {
     font-family: 'Futura PT';
 }
 
-.card-insurance .top-card-insurance .header-card-insurance svg {
-    position: absolute;
-}
-
 .card-insurance .top-card-insurance .block-card-insurance,
 .card-insurance .top-card-insurance .two-columns {
     display: flex;
@@ -450,6 +446,10 @@ table.table-info td.main {
 
 .card-insurance .top-card-insurance .reviews span {
     color: #87919F;
+}
+
+.card-insurance .top-card-insurance .two-columns .comprasion{
+    margin-right: 50px;
 }
 
 .card-insurance .top-card-insurance .two-columns .comprasion span {

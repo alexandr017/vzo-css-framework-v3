@@ -14,6 +14,9 @@ body{
     color: #292929;
     text-align: left;
     background-color: #fff;
+}
+
+body, input{
     font-family: 'Proxima Nova Rg', sans-serif;
 }
 a, a:visited:not(a.btn) {
@@ -101,5 +104,6 @@ hr{
 .border-radius{
     border-radius: 5px;
 }
+
 
 

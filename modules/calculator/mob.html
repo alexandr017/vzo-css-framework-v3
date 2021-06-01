@@ -1,5 +1,5 @@
 <div class="calculator">
-    <h1>Калькулятор РКО</h1>
+    <h2>Калькулятор РКО</h2>
     <p>
         Если вы все еще сомневаетесь в том, какой расчетный счет стоит оформить для вашего ИП, я сделал специальный калькулятор.
         Укажите в нем желаемые характеристики счета и нажмите кнопку «Подобрать»,
@@ -8,32 +8,12 @@
     <div class="calculator-block border-radius">
         <h4>Количество платежей: 50</h4>
 
-        <div class="range">
-            <input type="range" class="tick" min="0" max="100" value="50" />
-            <ul class="range-slider-points">
-                <li class="range-slider-point range-slider-point-active">5</li>
-                <li class="range-slider-point">10</li>
-                <li class="range-slider-point">15</li>
-                <li class="range-slider-point">20</li>
-                <li class="range-slider-point">25</li>
-                <li class="range-slider-point">30</li>
-                <li class="range-slider-point">35</li>
-                <li class="range-slider-point">40</li>
-                <li class="range-slider-point">45</li>
-                <li class="range-slider-point">50</li>
-                <li class="range-slider-point">55</li>
-                <li class="range-slider-point">60</li>
-                <li class="range-slider-point">65</li>
-                <li class="range-slider-point">70</li>
-                <li class="range-slider-point">75</li>
-                <li class="range-slider-point">80</li>
-                <li class="range-slider-point">85</li>
-                <li class="range-slider-point">90</li>
-                <li class="range-slider-point">95</li>
-                <li class="range-slider-point">100+</li>
-            </ul>
+
+        <div>
+            <input class="block_min-max" type="number" value="50" >
 
         </div>
+
 
         <div class="check-box">
             <div class="fst-col">
@@ -91,21 +71,17 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    document.addEventListener('input', event => {
-        const {value, min, max, parentNode} = event.srcElement;
-        parentNode
-            .querySelector('.l-slider-track > div')
-            .style
-            .width = 100 * (value - min) / (max - min) + '%';
-    });
-    $('input[type=range]').on('input', function(e){
-        var min = e.target.min,
-            max = e.target.max,
-            val = e.target.value;
-        $(e.target).css({
-            'backgroundSize': (val - min) * 100 / (max - min) + '% 100%'
-        });
-    }).trigger('input');
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
