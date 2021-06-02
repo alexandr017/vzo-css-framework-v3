@@ -35,27 +35,31 @@
 }
 
 .reviews .center-rating .reviews-rating {
-    font-size: 0.75em;
+    font-size: 1em;
     font-weight: 600;
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     text-align: center;
 }
 
+.reviews .center-rating .info{
+    margin-top: 10px;
+}
+
 .reviews .center-rating .info p {
-    font-size: 0.75em;
+    font-size: 0.87em;
     color:#87919f;
-    margin-bottom: 0;
+    margin: 5px 0;
     font-weight: 700;
 }
 
 .reviews .center-rating .info span {
-    font-size: 0.75em;
+    font-size: 0.87em;
     color:#87919f;
     font-weight: 700;
     margin-left: 234px;
     position: absolute;
-    margin-top: -12px;
+    margin-top: -13px;
 }
 
 .reviews .accordion-container {

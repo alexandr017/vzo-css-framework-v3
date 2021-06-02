@@ -30,12 +30,12 @@
 
 .sorting .sort-child {
     color: #87919F;
-    border-bottom: 1px solid #87919F;
+    border-bottom: 1px dotted #87919F;
 }
 
 .sorting  .sort-active .sort-child {
     color: #017AD3;
-    border-bottom: 1px solid #017AD3;
+    border-bottom: 1px dotted #017AD3;
 }
 
 .sorting .sort-active.sort-up:before, .sorting .sort-active.sort-down:before{
@@ -137,15 +137,15 @@
     margin-top: 0;
 }
 
-
 .reviews .aside-rating .scale {
-    width: 187px;
+    width: 85%;
     height: 6px;
     background:#EBEBEB;
     border-radius: 28px;
     display:flex;
     justify-content: space-between;
 }
+
 .reviews .aside-rating .scale .percent {
     height: 6px;
     border-radius: 28px;
@@ -155,15 +155,19 @@
 .reviews .aside-rating .reviews-rating {
     font-size: 1em;
     font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 0;
-    margin-left: 60px;
+    margin: 25px 10px 15px 0;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.reviews .aside-rating .info{
+    margin-top: 5px;
 }
 
 .reviews .aside-rating .info p {
     font-size: 0.87em;
     color:#87919f;
-    margin-bottom: 0;
+    margin: 5px 0;
     font-weight: 700;
 }
 
@@ -172,9 +176,13 @@
     color:#87919f;
     margin-bottom: 0;
     font-weight: 700;
-    margin-left: 200px;
     position: absolute;
-    margin-top: -12px;
+    margin-top: -13px;
+    margin-left: 80%;
+}
+
+.reviews .aside-rating .btn{
+    margin-top: 20px;
 }
 
 .reviews .review-f {
