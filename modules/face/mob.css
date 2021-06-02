@@ -1,0 +1,176 @@
+.card {
+    padding: 2em;
+    width: 100%;
+}
+
+.card .top-card .logo {
+    border: 1px solid #EBEBEB;
+    width:100%;
+    height: 134px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .top-card .logo img {
+    margin: 0 auto;
+}
+.card .top-card .scale-card {
+    width: 100%;
+    height: 10px;
+    background:#EAEAEA;
+    border-radius: 28px;
+    margin-top: 10px;
+}
+.card .top-card .scale-card .percent {
+    height: 10px;
+    background: #A5CA38;
+    border-radius: 28px;
+    margin: 0;
+}
+
+.card .top-card .scale-card .scale-text{
+    font-size: 0.87em;
+    color:#87919f;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card .top-card .reviews {
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+
+.card .top-card .reviews {
+    font-size: 14px;
+}
+
+.card .top-card .reviews a {
+    text-decoration: none;
+    color: #017AD3;
+    font-weight: 600;
+}
+
+.card .top-card .reviews span {
+    color: #87919F;
+}
+
+
+.card .conditions .first {
+    margin-top: 20px;
+}
+
+.card .conditions .first svg {
+    margin-left: .7em;
+}
+
+.card .top-card .text-content {
+    margin-top: 20px;
+}
+
+.card .top-card .card-updated{
+    margin-top: 20px;
+}
+
+.card .conditions .second {
+    margin-top: 30px;
+}
+
+.card .conditions .second .items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .conditions .second .items .item {
+    width:40px;
+    height: 40px;
+    border: 1px solid #EBEBEB;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card .text-conditions .content {
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+.card .text-conditions .head {
+    font-size: .87em;
+    color: #87919F;
+}
+
+.card .features {
+    margin-top:40px;
+    background: #fafafa;
+    padding: 1em;
+}
+
+.card .features .third {
+    margin-left: 2%;
+}
+
+.card .features div:last-child {
+    margin-right: 0;
+}
+
+.card .features div svg {
+    margin-bottom:-4px;
+    margin-right:10px;
+}
+
+.card .features .first-block .content {
+    display: flex;
+    margin-top: 1em;
+}
+
+.card .features .first-block .content:first-child {
+    margin-top: 0;
+}
+
+.card .features .first-block .check {
+    width: 10%;
+}
+
+.card .features .first-block .text {
+    width: 90%;
+}
+
+.card .features .second-block .content {
+    display: flex;
+    margin-top: .7em;
+    padding: 0 20px;
+}
+
+.card .features .second-block .content:first-child {
+    margin-top: 0;
+}
+
+.card .features .second-block .head_el {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.card .features .second-block .content  .scale_el {
+    width: 80%;
+    height: 10px;
+    background:#EAEAEA;
+    border-radius: 28px;
+    margin-top: 6px;
+    display: flex;
+}
+
+.card .features .second-block .content  .scale_el .percent{
+    height: 10px;
+    background: #A5CA38;
+    border-radius: 28px;
+}
+
+.card .features .second-block .content .val_el {
+    margin-left: 11px;
+    font-weight: 600;
+}

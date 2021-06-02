@@ -16,9 +16,10 @@ body{
     background-color: #fff;
 }
 
-body, input{
+body, input, textarea{
     font-family: 'Proxima Nova Rg', sans-serif;
 }
+
 a, a:visited:not(a.btn) {
     color: #017AD3;
 }
@@ -95,7 +96,7 @@ hr{
 
 /*lead-wrap list*/
 
-.lead-wrap ul li::marker{
+.lead-wrap li::marker{
     color:#A5CA38;
 }
 
