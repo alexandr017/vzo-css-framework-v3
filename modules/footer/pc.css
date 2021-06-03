@@ -1,7 +1,6 @@
 footer {
     padding: 0;
     margin: 0;
-    font-family: 'Proxima Nova Rg';
 }
 
 .f-line-1 {
@@ -36,7 +35,7 @@ footer {
 
 .f-support-text {
     font-size: 12px;
-    line-height: 14.62px;
+    line-height: 15px;
 }
 
 .f-line-1 .f-support .call-back-info {
@@ -101,7 +100,7 @@ footer ul.f-2-menu {
     color: #A3A3A3;
     flex: 1;
     font-size: 13px;
-    line-height: 19.5px;
+    line-height: 20px;
 }
 
 .f-copyright p:first-of-type {
@@ -115,7 +114,7 @@ footer .social {
 }
 footer .social .soc-network a,
 footer .social .soc-reviews a {
-    margin-right: 10.93px;
+    margin-right: 11px;
     text-decoration: none;
 }
 footer .social .soc-reviews a:first-of-type {
@@ -141,7 +140,7 @@ footer .social .soc-reviews .more-reviews a {
     font-size: 16px;
     font-weight: 600;
     color:#87919F;
-    margin-left: 10.93px;
+    margin-left: 11px;
 }
 
 footer .social .soc-network-2 .bot {

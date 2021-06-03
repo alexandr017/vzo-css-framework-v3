@@ -1,7 +1,5 @@
 .card {
-    box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
     padding: 2em;
-    font-family: 'Proxima Nova Rg';
     width:825px;
 }
 
@@ -170,14 +168,11 @@
 }
 
 .card-types {
-    box-shadow: 0 6px 20px rgba(65, 81, 92, 0.1);
-    font-family: 'Proxima Nova Rg';
     width: 825px;
     margin-top: 40px;
 }
 
 .card-types h1 {
-    font-family: 'Futura PT';
     font-size: 25px;
     font-weight: 500;
     margin: 0;
@@ -200,8 +195,8 @@
 }
 
 .card-types .description .type-logo div {
-    width: 122.82px;
-    height: 45.13px;
+    width: 123px;
+    height: 45px;
 }
 
 .card-types .description .advantages {
@@ -220,7 +215,7 @@
 
 .card-types .description .advantages .info div:first-of-type {
     width: 145px;
-    line-height: 20.74px;
+    line-height: 21px;
     margin-left: -90px;
     margin-top: 7px;
 }
@@ -270,7 +265,7 @@
 
 .card-types .hidden .info div:first-of-type {
     width: 145px;
-    line-height: 20.74px;
+    line-height: 21px;
     margin-left: -80px;
     margin-top: 7px;
 }
@@ -301,7 +296,7 @@
 
 .card-types .hidden .second-part div span {
     font-size: 12px;
-    line-height: 16.9px;
+    line-height: 17px;
     width: 189px;
     height: 28px;
 }

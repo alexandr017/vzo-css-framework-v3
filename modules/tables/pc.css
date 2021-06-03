@@ -52,8 +52,16 @@ table.table-limit td:first-child {
     text-align: left;
 }
 
+table.table-limit tr td:first-of-type{
+    color: #017AD3;
+}
+
 table.table-limit td th svg{
     margin-left: 10px;
+}
+
+table.table-limit tr th svg:active{
+    transform: rotate(180deg);
 }
 
 table.table-info {
@@ -126,8 +134,8 @@ table.table-info td.main {
 .table-limit-block .tr .th svg{
     margin-left: 5px;
     cursor: pointer;
-    width: 14px;
-    height: 14px;
+    width: 8px;
+    height: 6px;
 }
 
 .table-limit-block .tr .th svg:active{
@@ -138,10 +146,11 @@ table.table-info td.main {
     padding: 32px;
     font-size: 1em;
     width: 25%;
+    border-bottom: 1px solid #ebebeb;
 }
 
-.table-limit-block .tr .td {
-    border-bottom: 1px solid #ebebeb;
+.table-limit-block .tr .td:first-of-type {
+   color: #017AD3;
 }
 
 /*table 3*/

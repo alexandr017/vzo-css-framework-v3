@@ -1,0 +1,22 @@
+.advantages {
+    background: #FCFCFC;
+    padding: 22px;
+}
+
+.advantages h4 {
+    margin-top: 20px;
+}
+
+.advantages .advantages-content {
+    font-size: 0.87em;
+}
+
+.advantages .advantages-part {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.advantages .advantages-part span {
+    margin-left: 15px;
+    font-size: 0.87em;
+}

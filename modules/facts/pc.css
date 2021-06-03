@@ -1,0 +1,53 @@
+.facts .facts-list{
+    margin-top: 52px;
+}
+
+.facts .facts-list ul{
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 27px;
+}
+
+.facts .facts-info {
+    margin-top: 32px;
+    padding: 32px;
+    background: #F4F4F4;
+    display: inline-flex;
+}
+
+.facts .facts-info span {
+    margin-left: 32px;
+}
+.facts .bl-success {
+    background: #A5CA38;
+}
+
+.facts .element {
+    padding: 32px 64px;
+}
+
+.facts .facts-content {
+    margin-top:42px;
+}
+
+.facts .facts-content a,
+.facts .f-facts-content a {
+    text-decoration: none;
+}
+
+.f-facts-content {
+    margin-top: 48px;
+    display: inline-flex;
+}
+
+.f-facts-content span {
+    margin-left: 40px;
+}
+
+.facts-info_el {
+    background: #5A8D26;
+    padding: 12px;
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+}
