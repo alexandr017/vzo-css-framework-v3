@@ -58,7 +58,7 @@
     margin-left: 16px;
 }
 
-a.zero-pos-more {
+.zero-pos-more {
     cursor: pointer;
     text-decoration: none;
     display: block;

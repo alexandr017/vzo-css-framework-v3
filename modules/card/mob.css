@@ -133,13 +133,14 @@
 }
 
 .card-loans .content-card-loan .head-card-loan .more-loan{
-    text-align: center;
     color: #017AD3;
     font-size: 16px;
     font-family: 'Futura PT';
     font-weight: 400;
     cursor: pointer;
-    margin-top: 5px;
+    display: block;
+    text-align: center;
+    margin: 10px 0 15px;
 }
 
 .card-loans .content-card-loan .head-card-loan .hidden-card-loan {
@@ -387,6 +388,9 @@
     font-family: 'Futura PT';
     font-weight: 400;
     cursor: pointer;
+    display: block;
+    text-align: center;
+    margin: 10px 0 15px;
 
 }
 

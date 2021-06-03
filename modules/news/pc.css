@@ -1,0 +1,180 @@
+.news h1 {
+    text-align: center;
+}
+
+.news .news-top-text {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+.news .news-slider .main-news{
+    margin-top: 38px;
+    background-image: url("/v3/images/news-bg.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    color:#fff;
+}
+
+
+.news .news-slider .main-news .news-category {
+    position:absolute;
+    top:200px;
+    left:50px;
+    font-size: 0.87em;
+}
+
+.news .news-slider .main-news .news-theme {
+    position:absolute;
+    top:230px;
+    left:50px;
+    font-size: 1.5em;
+    width:35%;
+    font-family: "Futura PT";
+}
+
+.news .news-slider .news-date{
+    position:absolute;
+    top:365px;
+    left:50px;
+}
+
+
+.news h4 {
+    margin-top: 37px;
+    margin-bottom: 25px;
+}
+
+.news .all-news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news .all-news a.slider-part {
+    text-decoration: none;
+    width: 28%;
+    background: #FFFFFF;
+    margin-right:2%;
+    margin-top: 20px;
+}
+
+.news .all-news a.slider-part img{
+    border: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.news .all-news a.slider-part p {
+    font-size: 14px;
+    color: #87919F;
+    line-height: 17px;
+    padding: 15px 22px 15px 20px;
+    margin: 0;
+}
+
+.news .all-news a.slider-part div {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #292929;
+    padding: 0 10px 31px 20px;
+}
+
+.news .aside-bl-news {
+    margin: 20px 0;
+}
+
+.news .aside-bl-news a {
+    text-decoration: none;
+    line-height: 22px;
+    font-weight: 700;
+    color: #292929;
+}
+
+
+.news .aside-bl-news span {
+    color: #898989;
+    font-size: 0.87em;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.news .aside-bl-news span:last-child{
+    float: right;
+}
+
+
+.displayNone {
+    display: none;
+}
+
+.jsSlideItem {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.arrows-block{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+
+.jsSlideMainBlock {
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.jsSlideContent {
+    display: flex;
+    width: 100%;
+    transition: all .3s linear;
+    justify-content: space-around;
+}
+.js-slide-btn-left {
+    background: #fff url(/v3/images/prev.png) no-repeat center center;
+    left: 580px;
+}
+
+.js-slide-btn-right {
+    background: #fff url(/v3/images/next.png) no-repeat center center;
+    right: 150px;
+}
+
+.js-slide-btn-left, .js-slide-btn-right {
+    width: 45px;
+    height: 45px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 80%;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 1;
+    background-size:contain;
+    border-radius: 50px;
+}
+/*.jsSlideReview {*/
+/*    overflow-y: auto;*/
+/*}*/
+.jsSlideReview .jsSlideItem, .jsSlideContent .jsSlideItem {
+    text-align: left;
+}
+.jsAnimateLeft {
+    animation: mymoveleft 0.5s;
+}
+
+.jsAnimate {
+    animation: animateBorder 2s;
+}
+
+.jsAnimateRight {
+    animation: mymoveright 0.5s;
+}
+
+
+

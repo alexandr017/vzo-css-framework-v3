@@ -28,6 +28,7 @@
     width: 100%;
     padding: 1em;
     font-size: 0.87em;
+    outline: none;
 }
 
 .calculator .calculator-block .check-box .custom-checkbox{

@@ -29,13 +29,12 @@
 
 .header-block {
     position: absolute;
-    top:113px;
     width: 100%;
-    margin-top: 125px;
+    margin-top: 85px;
     z-index: 0;
     background: #fff;
 }
-.header-block .search {
+.header-block .search-block {
     box-shadow: 0 4px 2px rgba(0, 0, 0, .04);
     height: 59px;
     display: flex;
@@ -46,20 +45,20 @@
     width: 100%;
 }
 
-.header-block .search .search-close {
+.header-block .search-block .search-close {
     position: absolute;
     top:17px;
     right: 65px;
     cursor: pointer;
 }
 
-.header-block .search input {
+.header-block .search-block input {
     width: 80%;
     border: none;
     outline: none;
     padding-top: 20px;
 }
-.header-block .search .search-icon {
+.header-block .search-block .search-icon {
     position: absolute;
     right: 0;
     height: 59px;
@@ -67,6 +66,7 @@
     border: none;
     background: #A5CA38;
     cursor: pointer;
+    margin-top: -11px;
 }
 
 .header-block .link {

@@ -151,7 +151,9 @@
 }
 
 .card-loans .content-card-loan .head-card-loan .more-loan {
+    display: block;
     text-align: center;
+    margin: 10px 0 15px;
     color: #017AD3;
     font-size: 16px;
     font-family: 'Futura PT';
@@ -475,7 +477,9 @@ table.table-info td.main {
 }
 
 .card-insurance .content .head-card-insurance .more-loan{
+    display: block;
     text-align: center;
+    margin: 10px 0 15px;
     color: #017AD3;
     font-size: 16px;
     font-family: 'Futura PT';

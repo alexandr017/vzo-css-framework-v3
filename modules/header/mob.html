@@ -22,7 +22,8 @@
 
 <div class="header-block" style="display: none">
 
-    <div class="search">
+    <div class="search-block">
+        <form>
 
         <input placeholder="Введите ваш запрос, например, Займер">
 
@@ -43,6 +44,7 @@
                 </g>
             </svg>
         </button>
+        </form>
     </div>
 
     <div class="margin-50"></div>
@@ -216,7 +218,7 @@
     }
 
     function searchClose(){
-        let searchBlock = document.getElementsByClassName('search')[0]
+        let searchBlock = document.getElementsByClassName('search-block')[0]
         let closeBtn = document.getElementsByClassName('search-close-btn')[0]
         if(searchBlock.style.display != 'none') {
             searchBlock.style.display = 'none'

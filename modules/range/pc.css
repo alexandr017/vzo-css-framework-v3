@@ -1,10 +1,216 @@
+/*.output {*/
+    /*min-width: 350px;*/
+    /*max-width: 350px;*/
+    /*height: 50px;*/
+    /*font-size: 14px;*/
+    /*padding: 17px 20px 16px 20px;*/
+    /*box-sizing: border-box;*/
+    /*border: 1px solid #EBEBEB;*/
+    /*box-sizing: border-box;*/
+    /*border-radius: 2px;*/
+/*}*/
 
-.output {
-    min-width: 100%;
-    max-width: 100%;
-    height: 50px;
-    font-size: 24px;
-    padding: 10px;
-    box-sizing: border-box;
+.main-range {
+    width: 857px;
 }
 
+.main-range .loan {
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 28px 0 22px 0;
+}
+
+.main-range .loan h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0 30px;
+    margin: 0;
+}
+
+.main-range .loan p {
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.main-range .loan .overpayment {
+    display: flex;
+    justify-content: space-between;
+    width: 274px;
+    margin-top: 20px;
+}
+
+.main-range .loan .overpayment p:not(:first-of-type) {
+    margin-left: 22px;
+}
+
+
+input[type=range] {
+    outline: none;
+    padding: 0;
+    width: 99.1%;
+    height: 4px;
+    background-color: #ebebeb;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%,  #A5CA38), color-stop(100%, #A5CA38));
+    background-image: -webkit-linear-gradient( #A5CA38, #A5CA38);
+    background-image: -moz-linear-gradient( #A5CA38,  #A5CA38);
+    background-image: -o-linear-gradient( #A5CA38,  #A5CA38);
+    background-image: linear-gradient( #A5CA38,  #A5CA38);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-appearance: none;
+    z-index: 1;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    z-index: 1;
+}
+input[type=range]::-moz-range-track {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    opacity: 1;
+    z-index: 1;
+}
+input[type=range]::-moz-focus-outer {
+    border: 0;
+    opacity: 1;
+    z-index: 1;
+}
+input[type=range]::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    border: 0;
+    background:#A5CA38;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    z-index: 1;
+}
+input[type=range]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background:  #A5CA38;
+    border-radius: 100%;
+}
+
+.main-range .loan .sum {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px ;
+    padding: 0 30px;
+}
+
+.main-range .loan .sum div span {
+    margin-right: 15px;
+
+}
+
+.main-range .loan .sum div span:first-of-type {
+    font-size: 14px;
+}
+
+.main-range .loan .sum div span:last-of-type {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main-range .loan .sum div span.last {
+    color: #A5CA38;
+}
+
+.main-range .loan .btn {
+    margin-top: 33px;
+    margin-left: 30px;
+}
+
+.main-range .loan .note p {
+    margin-top: 30px ;
+    font-size: 12px;
+    font-style: italic ;
+    line-height: 21px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main-range .credit-sum {
+    margin-top: 111px ;
+}
+
+.main-range .credit-sum p {
+    margin-bottom: 16px ;
+    font-size: 14px;
+}
+
+.main-range  .credit-sum .range-input {
+    width: 350px;
+}
+
+.main-range  .credit-sum .range-input .output {
+    font-size: 14px;
+}
+
+.main-range .select h4 {
+    font-size: 16px;
+    font-weight: 600 ;
+    margin-top: 94px;
+    margin-bottom: 20px;
+}
+
+.main-range .select span {
+    font-size: 14px;
+}
+
+.main-range .select span:last-of-type {
+    font-weight: 600;
+}
+
+.first-slider-container {
+    -webkit-appearance: none;
+    height: 4px;
+    outline: none;
+    transition: .1s;
+    margin-left: 30px;
+    width: 274px;
+}
+
+.main-range .select #container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: -35px;
+    margin-top: 30px;
+}
+
+.main-range .select #container ul li:last-of-type:after {
+    content:'+';
+}
+
+.calc {
+    width: 350px;
+    margin-top: 50px;
+}
+input[type=number] {
+    border: 1px solid #ebebeb;
+    height: 50px;
+    width: 350px;
+    padding: 1em;
+    font-size: 0.87em;
+    outline: none;
+}
+
+.input-range {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -1px;
+    width: 350px !important;
+}
