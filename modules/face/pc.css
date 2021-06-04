@@ -263,10 +263,13 @@
     margin-left: 14px;
 }
 
+.card-types .hidden .info {
+    margin-right: 155px;
+}
+
 .card-types .hidden .info div:first-of-type {
     width: 145px;
     line-height: 21px;
-    margin-left: -80px;
     margin-top: 7px;
 }
 

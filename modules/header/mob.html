@@ -21,34 +21,42 @@
 </div>
 
 <div class="header-block" style="display: none">
+    <div class="search-block-container">
+        <div class="search-block">
+            <form>
 
-    <div class="search-block">
-        <form>
+            <input placeholder="Введите ваш запрос, например, Займер">
 
-        <input placeholder="Введите ваш запрос, например, Займер">
+            <div class="search-close">
+                <svg class="search-close-btn" onclick="searchClose()" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.05033 7.05025L16.9498 16.9497M7.05033 16.9497L16.9498 7.05025" stroke="#C4C4C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
 
-        <div class="search-close">
-            <svg class="search-close-btn" onclick="searchClose()" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.05033 7.05025L16.9498 16.9497M7.05033 16.9497L16.9498 7.05025" stroke="#C4C4C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </div>
-
-        <button class="search-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512.005 512.005" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
-                <g>
-                    <g xmlns="http://www.w3.org/2000/svg">
-                        <g>
-                            <path d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667    S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6    c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587z     M202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z" fill="#ffffff" data-original="#000000" style=""/>
+            <button class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512.005 512.005" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                    <g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667    S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6    c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587z     M202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z" fill="#ffffff" data-original="#000000" style=""/>
+                            </g>
                         </g>
                     </g>
-                </g>
-            </svg>
-        </button>
+                </svg>
+            </button>
         </form>
+
+            <ul>
+                <li>Value 1</li>
+                <li>Value 2</li>
+                <li>Value 3</li>
+                <li>Value 4</li>
+            </ul>
+        </div>
     </div>
 
     <div class="margin-50"></div>
-
+<div class="links">
     <div class="link">
         <input type="checkbox" id="tab1" name="tab-group">
         <label for="tab1" class="tab-title main active">Займы</label>
@@ -122,7 +130,7 @@
     <div class="choose-city link">
         <a data-modal="modal-city" class="city">Санкт-Петербург</a>
     </div>
-
+</div>
 </div>
 
 
@@ -200,8 +208,9 @@
         let header = document.getElementsByClassName('header')[0]
         let menuBtn = document.getElementsByClassName('close')[0]
         let burgerBtn = document.getElementsByClassName('burger-menu')[0]
-        let searchMob = document.getElementsByClassName('search')[0]
+        let searchMob = document.getElementsByClassName('search-block')[0]
         let searchButton = document.getElementsByClassName('search-close-btn')[0]
+        let headerMenu = document.getElementsByClassName('links')[0]
         if(block.style.display != 'none') {
             block.style.display = 'none'
             header.style.position = ''
@@ -214,18 +223,24 @@
             menuBtn.style.display = 'block'
             searchMob.style.display = 'block'
             searchButton.style.display= 'block'
+            headerMenu.style.marginTop = '200px'
         }
     }
 
     function searchClose(){
         let searchBlock = document.getElementsByClassName('search-block')[0]
         let closeBtn = document.getElementsByClassName('search-close-btn')[0]
+        let headerMenu = document.getElementsByClassName('links')[0]
         if(searchBlock.style.display != 'none') {
             searchBlock.style.display = 'none'
             closeBtn.style.display = 'none'
+            headerMenu.style.marginTop = '0'
+
+
         } else {
             searchBlock.style.display = 'block'
             closeBtn.style.display = 'block'
+
         }
     }
 

@@ -25,6 +25,7 @@
 .header .menu-btn{
     cursor: pointer;
     margin-top: 0;
+    width: 2em;
 }
 
 .header-block {
@@ -66,11 +67,22 @@
     border: none;
     background: #A5CA38;
     cursor: pointer;
-    margin-top: -11px;
+}
+
+.search-block ul {
+    max-height: 180px;
+    overflow: auto;
+    padding: 0 30px;
+}
+.search-block ul li {
+    list-style-type: none;
+    padding: 10px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #f5f5f5;
 }
 
 .header-block .link {
-    padding: 1em;
+    padding: 0.87em;
 }
 
 
@@ -111,7 +123,7 @@
 .header-block .link input, .tab-content { display: none; }
 
 .header-block .link .tab-title {
-    padding: 10px;
+    padding-left: 10px;
     display: block;
     cursor: pointer;
 }

@@ -60,9 +60,43 @@ f-1 f-support .f-support-text {
     font-weight: 600;
 }
 
-.f-line-1 .f-support .btn-chat div {
-    display: block;
+.f-line-1 .f-support .btn-chat {
+    margin-top: 30px;
 }
+
+.f-line-1 .f-support .btn-chat .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    max-height: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0 2em;
+}
+
+.f-line-1 .f-support .btn-chat .btn-1-outline{
+    background: #fff;
+    color: #A5CA38;
+    border:1px solid #A5CA38;
+}
+
+.f-line-1 .f-support .btn-chat .btn-whats-app {
+    color: #57BD62;
+    border:1px solid #57BD62;
+    background: #fff;
+}
+
+.f-line-1 .f-support .btn-chat .btn-telegram {
+    color: #2FB3F4;
+    border:1px solid #2FB3F4;
+    background: #fff;
+}
+
+.f-line-1 .f-support .btn-chat .btn svg {
+    margin-right: 16px;
+}
+
 
 .f-line-1 ul li {
     line-height: 3;

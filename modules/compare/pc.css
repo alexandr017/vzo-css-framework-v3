@@ -1,0 +1,124 @@
+.compare-programme .compare-table{
+    border: 1px solid #ebebeb;
+    margin-top: 33px;
+}
+
+.compare-programme .compare-table .tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.compare-programme .compare-table .tr .td:nth-child(2){
+    border-left: 1px solid #ebebeb;
+}
+
+.compare-programme .compare-table .tr .td {
+    padding: 1.5em;
+    font-size:1em;
+    width: 50%;
+    border-left: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    border-left: none;
+}
+
+.compare-programme .compare-table .tr .th {
+    padding: 5px 0 5px 33px;
+    display: flex;
+}
+
+.compare-programme .compare-table .tr .td ul  {
+    padding: 0;
+    margin-left: 1.1em;
+
+}
+
+.compare-loan {
+    margin-top: 50px;
+}
+
+.compare-loan .compare-loan-table{
+
+    margin-top:75px;
+}
+
+.compare-loan .compare-loan-table .tr {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.compare-loan .compare-loan-table .tr .td:nth-child(1),
+.compare-loan .compare-loan-table .tr .td:nth-child(2){
+    border-right: 1px solid #ebebeb;
+}
+
+.compare-loan .compare-loan-table .tr .td {
+    padding: 1.2em;
+    font-size: 0.87em;
+    width: 33%;
+    border-left: 1px solid #ebebeb;
+    border-left: none;
+    text-align: center;
+}
+
+.compare-loan .compare-loan-table .bg {
+    background: #FAFAFA;
+}
+
+.compare-loan .compare-loan-table .lt {
+    font-weight: 600;
+}
+
+.compare-loan .compare-loan-table .tr .th {
+    display:block;
+
+}
+
+.compare-loan .compare-loan-table .tr .th svg {
+    float: right;
+}
+
+.compare-loan .compare-loan-table .tr .th img,
+.compare-loan .compare-loan-table .tr .th span,
+.compare-loan .compare-loan-table .tr .th .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.compare-loan .compare-loan-table .tr .th img {
+    margin-top: 15px;
+}
+
+.compare-loan .compare-loan-table .tr .th span{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.compare-loan .compare-loan-table .tr .td a {
+    text-decoration: none;
+}
+
+.compare-loan .f-bl-loan{
+    margin-top: 120px;
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 30px;
+}
+
+.compare-loan .f-bl-loan .left-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compare-loan .f-bl-loan span {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+
+
+
