@@ -1,24 +1,25 @@
-.card-loans {
+.block-card-loan {
     border: 4px solid #FCE6A4;
     width: 100%;
 }
 
-.card-loans .top-card-loan {
+.block-card-loan .top-card-loan {
     padding: 20px 30px;
 }
 
-.card-loans hr {
+.block-card-loan hr {
     height: 1px;
     border: none;
     background-color:#EBEBEB;
+    margin-top:53px;
 }
 
-.card-loans .top-card-loan .header-card-loan {
+.top-card-loan .header-card-loan {
     display: flex;
     justify-content: space-between;
 }
 
-.card-loans .top-card-loan .header-card-loan a {
+.top-card-loan .header-card-loan a {
     text-decoration: none;
     color: #017AD3;
     font-family: 'Futura PT';
@@ -26,7 +27,7 @@
     font-weight: 600;
 }
 
-.card-loans .top-card-loan .logo {
+.top-card-loan .logo {
     border: 1px solid #EBEBEB;
     width:100%;
     height: 134px;
@@ -36,76 +37,77 @@
     justify-content: center;
 }
 
-.card-loans .top-card-loan .logo img {
+.top-card-loan .logo img {
     margin: 0 auto;
 }
 
-.card-loans .top-card-loan .scale-card-loan {
+.top-card-loan .scale-card-loan {
     width: 100%;
     height: 10px;
     background:#EAEAEA;
     border-radius: 28px;
     margin-top: 10px;
 }
-.card-loans .top-card-loan .scale-card-loan .percent {
+
+.top-card-loan .scale-card-loan .percent {
     height: 10px;
     background: #A5CA38;
     border-radius: 28px;
     margin: 0;
 }
 
-.card-loans .top-card-loan .scale-card-loan .scale-text{
+.top-card-loan .scale-card-loan .scale-text{
     font-size: 0.87em;
     color:#87919f;
     text-align: center;
     margin-top: 5px;
 }
 
-.card-loans .top-card-loan .reviews {
+.top-card-loan .reviews {
     display:flex;
     justify-content: space-between;
     margin-top:30px;
 }
 
-.card-loans .top-card-loan .reviews {
+.top-card-loan .reviews {
     font-size: 14px;
 }
 
-.card-loans .top-card-loan  .reviews a {
+.top-card-loan  .reviews a {
     text-decoration: none;
     color: #017AD3;
     font-weight: 600;
 }
 
-.card-loans .top-card-loan .reviews span {
+.top-card-loan .reviews span {
     color: #87919F;
 }
 
-.card-loans .top-card-loan .block-card-loan {
+.top-card-loan .block-loan {
     margin-top: 37px;
 }
 
-.card-loans .top-card-loan .block-card-loan .block-row {
+.top-card-loan .block-loan .block-row {
     margin-top: 33px;
     text-align: center;
 }
 
-.card-loans .top-card-loan .block-card-loan .block-row .loan-cont{
+.top-card-loan .block-loan .block-row .loan-cont{
     margin-top: 5px;
     font-size: 0.87em;
     color:#87919f;
 }
 
-.card-loans .top-card-loan .comprasion {
+.top-card-loan .comprasion {
     text-align: center;
     margin-top: 35px;
 }
 
-.card-loans .top-card-loan .comprasion .btn {
+.top-card-loan .comprasion .btn {
     margin-top: 35px;
 }
 
-.card-loans .top-card-loan .comprasion .comp {
+.top-card-loan .comprasion .comp {
     margin-top: 22px;
     color: #87919F;
     font-size: 14px;
@@ -113,26 +115,22 @@
     text-align: center;
 }
 
-.card-loans .top-card-loan .block-card-loan .block-row .loan-head-intro {
+.top-card-loan .block-loan .block-row .loan-head-intro {
     height: 1em;
     font-weight: 700;
 }
 
-.card-loans hr {
-    margin-top:53px;
-}
-
-.card-loans .content-card-loan {
+.content-card-loan {
     padding: 0 40px;
     margin-top: -20px;
 }
 
-.card-loans .content-card-loan .head-card-loan {
+.content-card-loan .head-card-loan {
     font-size: 16px;
     font-weight: 400;
 }
 
-.card-loans .content-card-loan .head-card-loan .more-loan{
+.content-card-loan .head-card-loan .more-loan{
     color: #017AD3;
     font-size: 16px;
     font-family: 'Futura PT';
@@ -143,18 +141,18 @@
     margin: 10px 0 15px;
 }
 
-.card-loans .content-card-loan .head-card-loan .hidden-card-loan {
+.content-card-loan .head-card-loan .hidden-card-loan {
     overflow: hidden;
     max-height: 0;
 }
 
-.card-loans .content-card-loan .head-card-loan .hidden-card-loan .text-card-loan {
+.content-card-loan .head-card-loan .hidden-card-loan .text-card-loan {
     color: #292929;
     font-size: 16px;
     line-height: 28px;
 }
 
-.card-loans .content-card-loan .hidden-card-loan .info-card-loan {
+.content-card-loan .hidden-card-loan .info-card-loan {
     color: #292929;
     font-weight: 600;
     font-size: 14px;
@@ -205,12 +203,12 @@
     stroke-width: 1px;
 }
 
-.card-loans .hidden-card-loan .slider .slider-block {
+.hidden-card-loan .slider .slider-block {
     display: flex;
     justify-content: space-between;
 }
 
-.card-loans .hidden-card-loan .slider .slider-block .slider-button {
+.hidden-card-loan .slider .slider-block .slider-button {
     width: 50px;
     height: 50px;
     padding: 15px 20px;
@@ -220,11 +218,11 @@
     cursor: pointer;
 }
 
-.card-loans .hidden-card-loan  .slider .slider-block  div.slider-button:last-of-type {
+.hidden-card-loan  .slider .slider-block  div.slider-button:last-of-type {
    background-color: #81DAC8;
 }
 
-.card-loans .hidden-card-loan  .slider .slider-block .slider-info .border-radius {
+.hidden-card-loan  .slider .slider-block .slider-info .border-radius {
     border: 1px solid #EBEBEB ;
     width:48px;
     height: 48px;
@@ -232,53 +230,54 @@
     margin: auto;
 }
 
-.card-loans .hidden-card-loan .slider .slider-block .slider-info div svg {
+.hidden-card-loan .slider .slider-block .slider-info div svg {
     width: 23px;
 }
 
-.card-loans .hidden-card-loan .slider .slider-block .slider-info .slide-cont {
+.hidden-card-loan .slider .slider-block .slider-info .slide-cont {
     color: #292929;
     font-size: 14px;
     margin-top: 5px;
 }
 
-.card-loans .hidden-card-loan .btn {
+.hidden-card-loan .btn {
     display: block;
     margin-top: 28px;
 
 }
 
-.card-loans .hidden-card-loan .btn:last-of-type {
+.hidden-card-loan .btn:last-of-type {
     margin-bottom: 55px ;
 }
 
-.card-loans .hidden-card-loan .btn .btn-auth {
+.hidden-card-loan .btn .btn-auth {
     margin-top: 20px;
 }
 
 
-.card-insurance {
+.block-card{
     border: 4px solid #FCE6A4;
     margin-top: 50px;
 }
 
-.card-insurance .top-card-insurance {
+.top-card-insurance {
     padding: 20px 30px;
 }
 
-.card-insurance hr {
+.block-card hr {
     height: 1px;
     border: none;
     background-color:#EBEBEB;
+    margin-top:53px;
 }
 
-.card-insurance .top-card-insurance .header-card-insurance {
+.top-card-insurance .header-card-insurance {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.card-insurance .top-card-insurance .header-card-insurance a {
+.top-card-insurance .header-card-insurance a {
     text-decoration: none;
     color: #017AD3;
     font-family: 'Futura PT';
@@ -286,7 +285,7 @@
     font-weight: 600;
 }
 
-.card-insurance .top-card-insurance .logo {
+.top-card-insurance .logo {
     border: 1px solid #EBEBEB;
     width:100%;
     height: 134px;
@@ -296,60 +295,60 @@
     justify-content: center;
 }
 
-.card-insurance .top-card-insurance .scale-card-insurance {
+.top-card-insurance .scale-card-insurance {
     width: 100%;
     height: 10px;
     background:#EAEAEA;
     border-radius: 28px;
     margin-top: 10px;
 }
-.card-insurance .top-card-insurance .scale-card-insurance .percent {
+.top-card-insurance .scale-card-insurance .percent {
     height: 10px;
     background: #A5CA38;
     border-radius: 28px;
     margin: 0;
 }
 
-.card-insurance .top-card-insurance .scale-card-insurance .scale-text{
+.top-card-insurance .scale-card-insurance .scale-text{
     font-size: 0.87em;
     color:#87919f;
     text-align: center;
     margin-top: 5px;
 }
-.card-insurance .top-card-insurance .reviews {
+.top-card-insurance .reviews {
     display:flex;
     justify-content: space-between;
     margin-top:30px;
     font-size: 14px;
 }
 
-.card-insurance .top-card-insurance .reviews a {
+.top-card-insurance .reviews a {
     text-decoration: none;
     color: #017AD3;
     font-weight: 600;
     font-size: 14px;
 }
 
-.card-insurance .top-card-insurance .reviews span {
+.top-card-insurance .reviews span {
     color:#87919f;
     font-size: 14px;
 }
 
-.card-insurance .top-card-insurance .block-card-insurance {
+.top-card-insurance .block-card-insurance {
     margin-top: 37px;
 }
 
-.card-insurance .top-card-insurance .block-card-insurance .block-row {
+.top-card-insurance .block-card-insurance .block-row {
     margin-top: 33px;
     text-align: center;
 }
 
-.card-insurance .top-card-insurance .comprasion {
+.top-card-insurance .comprasion {
     text-align: center;
     margin-top: 35px;
 }
 
-.card-insurance .top-card-insurance .comprasion .comp {
+.top-card-insurance .comprasion .comp {
     margin-top: 22px;
     color: #87919F;
     font-size: 14px;
@@ -357,31 +356,28 @@
     text-align: center;
 }
 
-.card-insurance .top-card-insurance .block-card-insurance .insura-cont {
+.top-card-insurance .block-card-insurance .insura-cont {
     color: #87919F;
     font-size: 14px;
     margin-top: 5px;
 }
 
-.card-insurance .top-card-insurance .block-card-insurance .block-row .insurance-head-intro {
+.top-card-insurance .block-card-insurance .block-row .insurance-head-intro {
     height: 1em;
     font-weight: 700;
 }
 
-.card-insurance hr {
-    margin-top:53px;
-}
-
-.card-insurance .content{
+.content{
     padding: 0 40px;
     margin-top: -20px;
 }
-.card-insurance .content .head-card-insurance {
+
+.content .head-card-insurance {
     font-size: 16px;
     font-weight: 400;
 }
 
-.card-insurance .content .head-card-insurance .more-loan{
+.content .head-card-insurance .more-loan{
     text-align: center;
     color: #017AD3;
     font-size: 16px;
@@ -394,18 +390,18 @@
 
 }
 
-.card-insurance .content .head-card-insurance .hidden-card-insurance {
+.content .head-card-insurance .hidden-card-insurance {
     overflow: hidden;
     max-height: 0;
 }
 
-.card-insurance .content .head-card-insurance .hidden-card-insurance .text-card-insurance {
+.content .head-card-insurance .hidden-card-insurance .text-card-insurance {
     color: #292929;
     font-size: 16px;
     line-height: 28px;
 }
 
-.card-insurance .content .hidden-card-insurance .info-card-insurance {
+.content .hidden-card-insurance .info-card-insurance {
     color: #292929;
     font-weight: 600;
     font-size: 14px;
@@ -455,12 +451,13 @@
     stroke: #017AD3 !important;
     stroke-width: 1px;
 }
-.card-insurance .hidden-card-insurance .slider .slider-block {
+
+.hidden-card-insurance .slider .slider-block {
     display: flex;
     justify-content: space-between;
 }
 
-.card-insurance .hidden-card-insurance .slider .slider-block .slider-button {
+.hidden-card-insurance .slider .slider-block .slider-button {
     width: 50px;
     height: 50px;
     padding: 15px 20px;
@@ -470,20 +467,20 @@
     cursor: pointer;
 }
 
-.card-insurance .hidden-card-insurance  .slider .slider-block  div.slider-button:last-of-type {
+.hidden-card-insurance  .slider .slider-block  div.slider-button:last-of-type {
     background-color: #81DAC8;
 }
 
-.card-insurance .hidden-card-insurance .btn {
+.hidden-card-insurance .btn {
     display: block;
     margin-top: 28px;
 }
 
-.card-insurance .hidden-card-insurance .btn:last-of-type {
+.hidden-card-insurance .btn:last-of-type {
     margin-bottom: 55px ;
 }
 
-.card-insurance .hidden-card-insurance .btn .btn-auth {
+.hidden-card-insurance .btn .btn-auth {
     margin-top: 20px;
 }
 
