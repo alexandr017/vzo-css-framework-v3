@@ -9,6 +9,7 @@ function import($path)
 
     $html = '';
     $css = '';
+    $js = '';
 
     if ($mode == 'amp') {
         if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/modules/'  . $path . '/amp.html')) {
@@ -17,25 +18,31 @@ function import($path)
         } elseif (file_exists($_SERVER['DOCUMENT_ROOT'] . '/modules/'  . $path . '/mob.html')) {
             $html = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/mob.html');
             $css = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/mob.css');
+            $js = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/mob.js');
         } elseif (file_exists($_SERVER['DOCUMENT_ROOT'] . '/modules/'  . $path . '/pc.html')) {
             $html = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.html');
             $css = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.css');
+            $js = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.js');
         }
     } elseif ($mode == 'mob') {
         if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/mob.html')) {
             $html = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/mob.html');
             $css = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/mob.css');
+            $js = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/mob.js');
         } elseif (file_exists($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.html')) {
             $html = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.html');
             $css = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.css');
+            $js = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.js');
         }
     } elseif(file_exists($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.html')) {
         $html = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.html');
         $css = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.css');
+        $js = loader($_SERVER['DOCUMENT_ROOT'] . '/modules/' . $path . '/pc.js');
     }
 
     echo $html;
     echo "<style>$css</style>";
+    echo "<script>$js</script>";
 }
 
 /**

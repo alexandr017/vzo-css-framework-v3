@@ -20,7 +20,7 @@
 }
 
 .accordion-panel {
-    padding: 0 18px;
+    padding: 0 30px;
     color: #212121;
     background-color: #fff;
     max-height: 0;
@@ -32,6 +32,9 @@
     margin-bottom: 10px;
 }
 
+.accordion .h5{
+    margin: 0;
+}
 
 
 
