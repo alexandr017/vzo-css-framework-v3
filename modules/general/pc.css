@@ -16,7 +16,7 @@ body{
     background-color: #fff;
 }
 
-body, input, textarea{
+body, input, textarea, select{
     font-family: 'Proxima Nova Rg', sans-serif;
 }
 

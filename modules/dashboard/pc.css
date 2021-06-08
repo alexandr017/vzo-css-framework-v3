@@ -68,9 +68,9 @@
     margin-top: 10px;
 }
 
-.dashboard .tabs-items .credit-score-next-order .btn {
+.but {
     margin-top: 32px;
-    align-items: center;
+    text-align: center;
     width: 100%;
 }
 
@@ -96,12 +96,6 @@
     margin-top: 40px;
 }
 
-.dashboard .tabs-items .credit-score-result .btn {
-    text-align: center;
-    margin-top: 40px;
-    width: 100%;
-}
-
 .dashboard .tabs-items .selected .selected-info {
     margin-top: 22px;
 }
@@ -109,12 +103,6 @@
 .dashboard .tabs-items .selected .no-selected-items {
     text-align: center;
     margin-top: 48px;
-}
-
-.dashboard .tabs-items .selected .btn {
-    text-align: center;
-    margin-top: 40px;
-    width: 100%;
 }
 
 .dashboard .tabs-items .selected .filters .custom-checkbox {
@@ -258,11 +246,6 @@
     margin-top: -18px;
 }
 
-.dashboard .tabs-items .comments .btn {
-    display: flex;
-    justify-content: space-around;
-}
-
 .dashboard .tabs-items .comments .actual-theme {
     margin-top: 30px;
     border: 1px solid #ebebeb;
@@ -305,11 +288,6 @@
     font-weight: 600;
 }
 
-.dashboard .tabs-items .reviews .btn {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
 
 .dashboard .tabs-items .expert-questions {
     margin-top: 20px;
@@ -319,12 +297,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 46px;
-}
-
-.dashboard .tabs-items .expert-questions .no-questions .btn {
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-around;
 }
 
 .dashboard .tabs-items .expert-questions .support-inner-block .request-bl .request,
@@ -356,11 +328,6 @@
 
 .dashboard .tabs-items .expert-questions .support-inner-block .response-bl .response .response-text {
     margin-left: 27px;
-}
-
-.dashboard .tabs-items .expert-questions .btn {
-    display: flex;
-    justify-content: space-around;
 }
 
 .dashboard .tabs-items .expert-questions hr {
@@ -408,12 +375,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-size: contain;
 }
 
-.dashboard .tabs-items .settings .btn {
-    margin-top: 58px;
-    display: flex;
-    justify-content: space-around;
-}
-
 .dashboard .tabs-items .settings .pass input{
     min-width: 449px;
 }
@@ -446,12 +407,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: flex;
     align-items: center;
     margin-top: 45px;
+}
+
+.dashboard .tabs-items .settings .del_acc svg{
     cursor: pointer;
 }
 
 .dashboard .tabs-items .settings .del_acc span {
     margin-left: 11px;
     color: #87919F;
+    cursor: pointer;
 }
 
 

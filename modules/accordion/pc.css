@@ -62,15 +62,6 @@
     display: inline-block;
 }
 
-.panel li {
-    color: #A4C634;
-    margin-bottom: 10px;
-}
-
-.panel li span {
-    color: #292929;
-}
-
 h2 {
     font-size: 48px;
     font-weight:500;

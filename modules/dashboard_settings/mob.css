@@ -1,0 +1,115 @@
+
+.settings {
+    margin-top: 20px;
+}
+
+.settings .settings-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.settings .settings-header .h2 {
+    margin-left: 16px;
+}
+
+.settings .settings-header a {
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.settings form input {
+    width:100%;
+    height: 54px;
+    padding: 1em;
+    border:1px solid #cac4c4;
+    border-radius: 10px;
+    outline:none;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+}
+
+
+.settings form div{
+    margin-top: 10px;
+}
+
+.settings form input:focus {
+    border:1px solid #38B6F7;
+}
+
+.settings form .input_bl{
+    display: flex;
+}
+
+.settings form .input_bl .first-el{
+    width:40%
+}
+
+.settings form .input_bl .last-el {
+    width:55%;
+    margin-left:5%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+display: none;
+
+}
+
+.settings .btn {
+    margin-top: 58px;
+
+}
+
+.settings .pass input{
+    width:100%;
+    padding-left: 10px;
+}
+
+.pass {
+    position: relative;
+}
+
+.password-control {
+    position: absolute;
+    top: 45px;
+    left: 80%;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    background: url('/v3/images/view.svg') 0 0 no-repeat;
+}
+
+
+.check {
+    position: absolute;
+    top: 42px;
+    left: 90%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url('/v3/images/check.svg') 0 0 no-repeat;
+}
+
+.settings .del_acc {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.settings .del_acc svg {
+    cursor: pointer;
+}
+
+.settings .del_acc span {
+    margin-left: 11px;
+    color: #87919F;
+    cursor: pointer;
+}
+
+
+

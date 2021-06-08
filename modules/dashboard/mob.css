@@ -1,0 +1,246 @@
+.dashboard .dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard .dashboard-header .icons {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.dashboard .dashboard-header .icons .icon:first-child{
+    margin-right: 10px;
+}
+
+.dashboard .dashboard-menu:after {
+    content: url("/v3/images/arrow.svg");
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.tab {
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    text-align-last: center;
+    width:100%;
+    height: 36px;
+    border: 1px solid #c4c4c4;
+    background: #fff;
+    outline: none;
+    font-family: "Futura PT";
+}
+
+.dashboard  .icon .ellipse {
+    position: absolute;
+    margin-left: -12px;
+}
+
+.dashboard .credit-score-result-info {
+    margin-top: 28px;
+}
+
+.dashboard .get-credit-score {
+    margin-top: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.dashboard .credit-score-result {
+    margin-top: 32px;
+}
+
+.dashboard .credit-score-result .download {
+    margin-top: 18px;
+}
+
+.dashboard .credit-score-result .download a {
+    text-decoration: none;
+}
+
+.dashboard .credit-score-result .download a svg {
+    margin-left: 5px;
+}
+
+.dashboard .credit-score-result .result-content {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.dashboard .credit-score-result .btn {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.dashboard .selected .no-selected-items {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.dashboard .selected .btn {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.dashboard .selected .filters{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard .selected .filters .custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin-left: 5px!important;
+}
+
+.dashboard .selected .filters .custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    font-family: "Futura PT";
+}
+
+.dashboard .selected .filters .custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #ebebeb;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    cursor: pointer;
+}
+
+.dashboard .selected .filters .custom-checkbox+label
+{
+    margin-left: 5px;
+}
+
+
+.dashboard .selected .filters .custom-checkbox+label:nth-last-child{
+    margin-left: 5px;
+}
+
+.dashboard .selected .filters .custom-checkbox:checked+label::before {
+    border-color: #A5CA38;
+    background-color: #A5CA38;
+    background-image: url('/v3/images/checked.svg');
+}
+
+.dashboard .selected .filters .custom-checkbox:disabled+label::before {
+    background-color: rgba(165, 202, 56, 0.5);
+    border: rgba(165, 202, 56, 0.5);
+    background-image: url('/v3/images/checked.svg');
+}
+
+.btn-action {
+    border-radius: 3px;
+    width: 32px;
+    height: 32px;
+    padding: .37em .2em;
+    outline: 0;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    vertical-align: top;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn-delete {
+    border: 1px solid #EA674A;
+}
+
+.btn-edit {
+    margin-right: 10px;
+    border: 1px solid #A5CA38;
+}
+
+.dashboard .comments {
+    margin-top: 19px;
+}
+
+.dashboard .comments .comments-post {
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+.dashboard  .comments .comments-post a {
+    text-decoration: none;
+}
+
+.dashboard .comments .answer {
+    margin-top:21px;
+}
+
+.dashboard .comments .comment-text {
+    margin: 40px 0 20px 0;
+}
+
+
+.dashboard .comments .answer {margin: 10px 0 40px 0;}
+
+.dashboard .comments .answer .caption {
+    font-weight: 600;
+}
+
+.dashboard .comments .answer .name {
+    color: #87919F;
+    font-weight: 600;
+}
+
+.dashboard .comments .answer .answer-text a {
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.dashboard .comments .btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dashboard .comments .actual-theme {
+    margin-top: 30px;
+    border: 1px solid #ebebeb;
+}
+
+.dashboard .comments .actual-theme .tr:first-child{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.dashboard .comments .actual-theme .tr .th {
+    font-size: 1.1em;
+    padding: 12px;
+
+}
+
+.dashboard .comments .actual-theme .tr .td {
+    padding: 12px;
+    line-height: 1.5em;
+    display: block;
+}
+
+.dashboard .comments .actual-theme .tr .td .topic-theme{
+    margin-top: 10px;
+}
+
+.dashboard .comments .actual-theme .tr .td a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+

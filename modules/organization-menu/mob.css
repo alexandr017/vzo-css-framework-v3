@@ -1,0 +1,61 @@
+
+.select {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.select__head {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #c4c4c4;
+    padding: 14px 32px;
+    font-size: 1.5em;
+    line-height: 1.51em;
+    font-weight: 600;
+    cursor: pointer;
+    height: 59px;
+}
+
+.select__head::after {
+    width: 26px;
+    height: 23px;
+    background: #FFF url("/v3/images/arrow-mob-menu.svg") no-repeat center ;
+    position: absolute;
+    right: 20px;
+    bottom: 25%;
+    content: '';
+    display: block;
+    transition: .2s ease-in;
+}
+
+.select__list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.select__list .select__item {
+    position: relative;
+    padding: 10px 32px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.select__list .select__item:hover {
+    background: #A5CA38 ;
+    color: #fff;
+}

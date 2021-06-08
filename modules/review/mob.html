@@ -65,23 +65,14 @@
                 <div class="btn">[button]</div>
 
             </div>
-
-        <div class="accordion-container border-radius">
-
-            <button class="accordion">
-                <span>Сначала положительные</span>
-                <svg class="arrow" width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13 1L7 6L1 0.999999" stroke="#87919F"/>
-                </svg>
-
-            </button>
-
-            <div class="panel">
-                <span class="sort-child">Сначала отрицательные</span><br>
-                <span class="sort-child">С ответом компании</span>
-            </div>
-
+        <div class="sort-menu">
+            <select class="tab border-radius">
+                <option class=" tab-text" value="credit-score">Сначала положительные</option>
+                <option class="tab-text" value="fav">Сначала отрицательные</option>
+                <option class="tab-text" value="comments">С ответом компании</option>
+            </select>
         </div>
+
 
         <div class="block-reviews">
 
@@ -184,24 +175,13 @@
 </div>
 
 </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight){
-                panel.style.maxHeight = null;
-                panel.style.borderBottom = null;
-                this.style.borderBottom = "1px solid #ebebeb";
 
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-                panel.style.borderBottom = "1px solid #ebebeb";
-                this.style.borderBottom = "0";
-            }
-        });
-    }
+    $('.tab').change(function(){
+        $('div.tabcontent').slideUp();
+        $('#sort_'+$(this).val()).slideDown();
+    });
+
+
 </script>
