@@ -113,9 +113,7 @@
     float: right;
     border: none;
     cursor: pointer;
-    color: #017AD3;
     margin-top: 21px;
-    text-decoration: none;
 }
 
 .reviews .block-reviews .text-review hr {
@@ -244,7 +242,6 @@ h4:not(.review-f h4){
 
 .review__button_show,
 .review__button_hide {
-    text-decoration: none;
     color: #017AD3;
     font-weight: 600;
     margin-left: 0;

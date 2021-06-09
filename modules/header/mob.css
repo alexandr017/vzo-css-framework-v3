@@ -88,7 +88,6 @@
 
 .header-block .link .tab-title{
     font-size: 20px;
-    text-decoration: none;
     font-weight: 600;
 }
 
@@ -133,7 +132,6 @@
 }
 
 .header-block .link :checked ~ .tab-content .columns a{
-    text-decoration: none;
     color:#292929;
     display: block;
     margin-top: 10px;
@@ -154,11 +152,9 @@
 }
 .header-block .link .secondary, .header-block .link .city {
     color: #87919F;
-    text-decoration: none;
     cursor: pointer;
     margin-left: 10px;
     font-size: 20px;
-    text-decoration: none;
     font-weight: 600;
 }
 
@@ -285,7 +281,6 @@
 
 .modal-list__el a {
     color: #87919F;
-    text-decoration: none;
 }
 .modal-list__el a:hover {
     color: #017AD3;

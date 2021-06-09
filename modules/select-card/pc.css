@@ -19,12 +19,6 @@
     margin-top: -15px;
 }
 
-.select-card .container-text a,
-.select-card .container-cards .container-type-cards .container-intro div a {
-    text-decoration: none;
-    color:#017AD3;
-}
-
 .select-card .container-cards .container-type-cards .container-intro {
     width: 597px;
     height: 151px;

@@ -30,11 +30,6 @@
     margin-top:42px;
 }
 
-.facts .facts-content a,
-.facts .f-facts-content a {
-    text-decoration: none;
-}
-
 .f-facts-content {
     margin-top: 48px;
     display: inline-flex;

@@ -23,7 +23,6 @@
 
 .header a.city {
     color: #87919F;
-    text-decoration: none;
     cursor: pointer;
     margin-left: 10px;
 }
@@ -67,7 +66,6 @@
 }
 
 .header .icons a {
-    text-decoration: none;
     margin-right: 26px;
     cursor: pointer;
 }
@@ -154,7 +152,6 @@
 }
 .links li a {
     display: block;
-    text-decoration: none;
     padding: 12px;
 }
 .sub-menu-container {
@@ -375,7 +372,6 @@
 
 .modal-list__el a {
     color: #87919F;
-    text-decoration: none;
 }
 .modal-list__el a:hover {
     color: #017AD3;

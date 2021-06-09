@@ -29,8 +29,6 @@
 }
 
 .block-card-loan .top-card-loan .header-card-loan a {
-    text-decoration: none;
-    color: #017AD3;
     font-family: 'Futura PT';
 }
 
@@ -89,7 +87,6 @@
     margin-top: 5px;
 }
 
-
 .block-card-loan .top-card-loan .block-loan p {
     color: #87919F;
 }
@@ -113,11 +110,6 @@
 .block-card-loan .top-card-loan .reviews{
     margin: 0 10px 15px 15px;
     font-size: 0.87em;
-}
-
-.block-card-loan .top-card-loan .reviews a {
-    text-decoration: none;
-    color: #017AD3;
 }
 
 .block-card-loan .top-card-loan .reviews span {
@@ -368,8 +360,6 @@ table.table-info td.main {
 }
 
 .top-card-insurance .header-card-insurance a {
-    text-decoration: none;
-    color: #017AD3;
     font-family: 'Futura PT';
 }
 
@@ -438,11 +428,6 @@ table.table-info td.main {
     font-size: 0.87em;
     line-height: 1.3em;
     margin-top: 10px;
-}
-
-.top-card-insurance .reviews a {
-    text-decoration: none;
-    color: #017AD3;
 }
 
 .top-card-insurance .reviews span {
@@ -526,6 +511,7 @@ table.table-info td.main {
     color:#292929;
     font-family: 'Futura PT';
 }
+
 
 .content .hidden-card-insurance .tab .tablinks.on {
     color: #017AD3;

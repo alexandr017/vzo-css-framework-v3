@@ -140,9 +140,7 @@
 .reviews .block-reviews .text-review .comment a {
     border: none;
     cursor: pointer;
-    color: #017AD3;
     margin-top: 21px;
-    text-decoration: none;
 }
 
 .reviews hr {

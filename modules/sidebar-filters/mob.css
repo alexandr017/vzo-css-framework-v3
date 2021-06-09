@@ -45,7 +45,6 @@
 }
 
 .sidebar-inner .sidebar-inner-part :checked ~ .tab-content .columns a{
-    text-decoration: none;
     display: block;
     margin-top: 10px;
     padding-left: 10px;

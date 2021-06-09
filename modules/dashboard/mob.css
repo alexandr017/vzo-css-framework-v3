@@ -59,9 +59,6 @@
     margin-top: 18px;
 }
 
-.dashboard .credit-score-result .download a {
-    text-decoration: none;
-}
 
 .dashboard .credit-score-result .download a svg {
     margin-left: 5px;
@@ -124,11 +121,9 @@
     cursor: pointer;
 }
 
-.dashboard .selected .filters .custom-checkbox+label
-{
+.dashboard .selected .filters .custom-checkbox+label {
     margin-left: 5px;
 }
-
 
 .dashboard .selected .filters .custom-checkbox+label:nth-last-child{
     margin-left: 5px;
@@ -152,7 +147,6 @@
     height: 32px;
     padding: .37em .2em;
     outline: 0;
-    text-decoration: none;
     float: right;
     text-align: center;
     vertical-align: top;
@@ -179,10 +173,6 @@
 
 }
 
-.dashboard  .comments .comments-post a {
-    text-decoration: none;
-}
-
 .dashboard .comments .answer {
     margin-top:21px;
 }
@@ -205,7 +195,6 @@
 
 .dashboard .comments .answer .answer-text a {
     float: right;
-    text-decoration: none;
     margin-top: 10px;
 }
 
@@ -240,7 +229,6 @@
 }
 
 .dashboard .comments .actual-theme .tr .td a {
-    text-decoration: none;
     margin-top: 20px;
 }
 

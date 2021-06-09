@@ -20,10 +20,7 @@
 }
 
 .top-card-loan .header-card-loan a {
-    text-decoration: none;
-    color: #017AD3;
     font-family: 'Futura PT';
-    font-size: 16px;
     font-weight: 600;
 }
 
@@ -74,8 +71,6 @@
 }
 
 .top-card-loan  .reviews a {
-    text-decoration: none;
-    color: #017AD3;
     font-weight: 600;
 }
 
@@ -278,10 +273,7 @@
 }
 
 .top-card-insurance .header-card-insurance a {
-    text-decoration: none;
-    color: #017AD3;
     font-family: 'Futura PT';
-    font-size: 16px;
     font-weight: 600;
 }
 
@@ -323,8 +315,6 @@
 }
 
 .top-card-insurance .reviews a {
-    text-decoration: none;
-    color: #017AD3;
     font-weight: 600;
     font-size: 14px;
 }

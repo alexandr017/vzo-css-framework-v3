@@ -19,8 +19,12 @@ body, input, textarea, select{
     font-family: 'Proxima Nova Rg', sans-serif;
 }
 
-a, a:visited:not(a.btn) {
+a, a:visited:not(a.btn, .breadcrumbs a) {
     color: #017AD3;
+}
+
+a {
+    text-decoration:none;
 }
 
 img {

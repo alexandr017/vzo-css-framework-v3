@@ -151,7 +151,6 @@
     height: 32px;
     padding: .37em .2em;
     outline: 0;
-    text-decoration: none;
     float: right;
     text-align: center;
     vertical-align: top;
@@ -182,7 +181,9 @@
     width: 70%;
     margin-top: 40px;
     padding: 1em 1.1em;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .dashboard .tabs-items .comments .comments-warning span {
@@ -242,7 +243,6 @@
 
 .dashboard .tabs-items .comments .answer .answer-text a {
     float: right;
-    text-decoration: none;
     margin-top: -18px;
 }
 
@@ -267,7 +267,6 @@
 }
 
 .dashboard .tabs-items .comments .actual-theme .tr .td a {
-    text-decoration: none;
     margin-top: 5px;
 }
 
@@ -284,7 +283,6 @@
 }
 
 .dashboard .tabs-items .reviews .review-programme .name a{
-    text-decoration: none;
     font-weight: 600;
 }
 

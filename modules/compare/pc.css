@@ -96,10 +96,6 @@
     font-weight: 600;
 }
 
-.compare-loan .compare-loan-table .tr .td a {
-    text-decoration: none;
-}
-
 .compare-loan .f-bl-loan{
     margin-top: 120px;
     display: flex;

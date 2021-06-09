@@ -47,15 +47,15 @@ footer {
     font-weight: 600;
     color: #017AD3;
     font-size: 16px;
+    text-decoration: underline;
 }
 
-f-1 f-support .f-support-text {
+.f-1 f-support .f-support-text {
     margin-bottom:20px;
 }
 
 .f-line-1 .f-support .email {
     color: #A5CA38;
-    text-decoration: none;
     font-size: 16px;
     font-weight: 600;
 }
@@ -105,7 +105,6 @@ f-1 f-support .f-support-text {
 
 .f-line-1 ul a {
     color: #292929 !important;
-    text-decoration: none;
 }
 
 footer ul.f-2-menu {
@@ -123,7 +122,6 @@ footer ul.f-2-menu {
 
 .f-2-menu a {
     color: #87919F !important;
-    text-decoration: none;
 }
 
 .f-copyright {
@@ -149,8 +147,8 @@ footer .social {
 footer .social .soc-network a,
 footer .social .soc-reviews a {
     margin-right: 11px;
-    text-decoration: none;
 }
+
 footer .social .soc-reviews a:first-of-type {
    margin-left: 10px;
 }
@@ -170,7 +168,6 @@ footer .social .soc-network-2 a.yandex img {
 }
 
 footer .social .soc-reviews .more-reviews a {
-    text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     color:#87919F;
@@ -183,7 +180,7 @@ footer .social .soc-network-2 .bot {
 }
 
 footer .social .soc-network-2 .telegram-name {
-   color: #87919F;
+    color: #87919F;
     font-weight: 600;
     font-size: 16px;
 }
@@ -202,7 +199,6 @@ footer .f-3 .policy a {
     justify-content: space-between;
     font-size: 13px;
     font-weight: 600;
-    text-decoration: none;
     color: #87919F;
 }
 

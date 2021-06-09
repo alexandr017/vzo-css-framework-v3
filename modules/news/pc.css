@@ -8,7 +8,6 @@
     margin-left: 25%;
 }
 
-
 .news .news-slider .main-news{
     margin-top: 38px;
     background-image: url("/v3/images/news-bg.png");
@@ -52,7 +51,6 @@
 }
 
 .news .all-news a.slider-part {
-    text-decoration: none;
     width: 28%;
     background: #FFFFFF;
     margin-right:2%;
@@ -86,7 +84,6 @@
 }
 
 .news .aside-bl-news a {
-    text-decoration: none;
     line-height: 22px;
     font-weight: 700;
     color: #292929;

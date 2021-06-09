@@ -8,7 +8,6 @@
 
 .rating-container a {
     color: #38B6F7;
-    text-decoration: none;
 }
 .rating-container span {
     color: #000;
@@ -69,6 +68,5 @@
 .rating-container-face a {
     margin-left:12px ;
     color: #38B6F7;
-    text-decoration: none;
 }
 
