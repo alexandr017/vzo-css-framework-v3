@@ -1,0 +1,29 @@
+.gradient-block {
+    padding: 0 145px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(269.98deg, rgba(21, 199, 255, 0.85) 0.02%, rgba(249, 208, 87, 0.85) 105.69%);
+    height: 71px;
+}
+
+.gradient-block .left-block,
+.gradient-block .right-block {
+    display: flex;
+    align-items: center;
+}
+
+.gradient-block .left-block img{
+    background: #fff;
+    padding: 6px 0 9px 0;
+}
+
+.gradient-block .left-block span {
+    margin-left: 57px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.gradient-block .right-block {
+    width: 140px;
+}
+

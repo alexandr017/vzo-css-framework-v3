@@ -62,39 +62,31 @@
     margin-top: -13px;
 }
 
-.reviews .accordion-container {
-    border: 1px solid #EBEBEB;
+.reviews .sort-menu {
     margin-top: 61px;
 }
 
-.reviews .accordion{
-    background-color: #fff;
+.reviews .sort-menu:after {
+    content: url("/v3/images/arrow-list.svg");
+    position: absolute;
+    right: 50px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.tab {
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     cursor: pointer;
-    padding: 8px 20px;
-    width: 100%;
-    height: 40px;
-    border: none;
-    text-align: left;
+    width:100%;
+    height: 36px;
+    border: 1px solid #c4c4c4;
+    background: #fff;
     outline: none;
+    padding-left: 20px;
     font-size: 0.87em;
-    transition: 0.5s;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.reviews .accordion.active .arrow {
-    transform: rotate(-90deg);
-}
-
-.reviews .panel {
-    padding: 0 18px;
-    color: #212121;
-    background-color: #fff;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
 }
 
 .reviews .block-reviews .text-review .user-logo {
@@ -184,7 +176,6 @@
 .reviews .review-f .review-form .rating {
     display: inline-block;
     align-content: center;
-
 }
 
 .reviews .review-f .review-form input,

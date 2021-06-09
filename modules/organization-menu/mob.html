@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="select">
+        <input class="select__input" type="hidden" name="">
+        <div class="select__head">О банке</div>
+        <ul class="select__list" style="display: none;">
+            <li class="select__item">О банке</li>
+            <li class="select__item">Кредиты</li>
+            <li class="select__item">Автокредиты</li>
+            <li class="select__item">Дебетовые карты</li>
+            <li class="select__item">Кредитные карты</li>
+            <li class="select__item">Ипотеки</li>
+            <li class="select__item">РКО</li>
+            <li class="select__item">Служба поддержки</li>
+            <li class="select__item">Личный кабинет</li>
+            <li class="select__item">Отзывы</li>
+            <li class="select__item">Реквизиты</li>
+            <li class="select__item">Новости</li>
+        </ul>
+    </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    jQuery(($) => {
+        $('.select').on('click', '.select__head', function () {
+            if ($(this).hasClass('open')) {
+                $(this).removeClass('open');
+                $(this).next().fadeOut();
+            } else {
+                $('.select__head').removeClass('open');
+                $('.select__list').fadeOut();
+                $(this).addClass('open');
+                $(this).next().fadeIn();
+            }
+        });
+
+        $('.select').on('click', '.select__item', function () {
+            $('.select__head').removeClass('open');
+            $(this).parent().fadeOut();
+            $(this).parent().prev().text($(this).text());
+            $(this).parent().prev().prev().val($(this).text());
+        });
+
+        $(document).click(function (e) {
+            if (!$(e.target).closest('.select').length) {
+                $('.select__head').removeClass('open');
+                $('.select__list').fadeOut();
+            }
+        });
+    });
+
+</script>
+

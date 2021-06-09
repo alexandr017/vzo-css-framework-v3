@@ -15,7 +15,7 @@ body{
     text-align: left;
     background-color: #fff;
 }
-body, input, textarea{
+body, input, textarea, select{
     font-family: 'Proxima Nova Rg', sans-serif;
 }
 
@@ -103,5 +103,6 @@ hr{
 .border-radius{
     border-radius: 5px;
 }
+
 
 
