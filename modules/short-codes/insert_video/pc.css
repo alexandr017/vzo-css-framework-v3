@@ -9,6 +9,9 @@
 .video-block {
     position: relative;
 }
+.video-img-block{
+    line-height: 0;
+}
 .play-video-icon {
     position: absolute;
     top: 0;
