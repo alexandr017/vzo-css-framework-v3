@@ -1,30 +1,30 @@
-.tarif-title{
+.tariff-title{
     text-decoration: none;
     font-weight: bold;
     font-size: 1.25em;
 }
-.tarif-img {
+.tariff-img {
     margin-top: 10px;
     text-align: center;
 }
-.tarif-img img {
+.tariff-img img {
     width: 100%;
     max-width: fit-content;
 }
-.tarif-label {
+.tariff-label {
     padding-top: 5px;
     font-size: 1.1em;
     font-weight: bold;
 }
 
-.tarif-label-title {
+.tariff-label-title {
     font-weight: 500;
     color: #848484;
 }
-.tarif-btn-block {
+.tariff-btn-block {
     flex-direction: row-reverse;
 }
-.tarif-block-btn {
+.tariff-block-btn {
     width: 85%;
 }
 .border-radius {
