@@ -18,7 +18,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 15px;
     font-size: 18px;
-    line-height: 23.08px;
+    line-height: 23px;
     font-family: 'Futura PT';
 }
 
@@ -70,7 +70,6 @@ footer {
     justify-content: center;
     margin-bottom: 10px;
     max-height: 50px;
-    font-size: 1em;
     cursor: pointer;
     padding: 0 2em;
 }
@@ -168,21 +167,15 @@ footer .social .soc-network-2 a.yandex img {
 }
 
 footer .social .soc-reviews .more-reviews a {
-    font-size: 16px;
     font-weight: 600;
     color:#87919F;
     margin-left: 11px;
 }
 
-footer .social .soc-network-2 .bot {
-    font-size: 16px;
-    color:#292929;
-}
 
 footer .social .soc-network-2 .telegram-name {
     color: #87919F;
     font-weight: 600;
-    font-size: 16px;
 }
 
 footer .f-3 {

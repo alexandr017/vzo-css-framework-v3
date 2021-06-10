@@ -58,12 +58,10 @@
 
 input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
-
 }
 
 .settings .btn {
     margin-top: 58px;
-
 }
 
 .settings .pass input{

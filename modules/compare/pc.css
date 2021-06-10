@@ -14,7 +14,6 @@
 
 .compare-programme .compare-table .tr .td {
     padding: 1.5em;
-    font-size:1em;
     width: 50%;
     border-left: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
@@ -37,7 +36,6 @@
 }
 
 .compare-loan .compare-loan-table{
-
     margin-top:75px;
 }
 
@@ -54,7 +52,7 @@
 
 .compare-loan .compare-loan-table .tr .td {
     padding: 1.2em;
-    font-size: 0.87em;
+    font-size: 14px;
     width: 33%;
     border-left: 1px solid #ebebeb;
     border-left: none;
@@ -111,7 +109,7 @@
 
 .compare-loan .f-bl-loan span {
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 18px;
     margin-left: 10px;
 }
 

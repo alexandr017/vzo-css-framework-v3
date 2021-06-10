@@ -1,5 +1,6 @@
 .calculator h1{
-    font-size: 3em;
+    font-size: 34px;
+    line-height: 34px;
 }
 
 .calculator .calculator-block {
@@ -7,9 +8,10 @@
     padding: 21px 19px 20px 18px;
 }
 
-.calculator .calculator-block h4 {
-    font-size: 1em;
+.calculator .calculator-block .input-title,
+.calculator .calculator-block .check-box-title{
     font-weight: 600;
+    line-height: 20px;
 }
 
 .calculator .calculator-block .range {
@@ -82,8 +84,8 @@ input[type=range]::-moz-range-thumb {
     padding-top: 4px;
 }
 .range-slider-point {
-    font-size: 0.87em;
-    color: #292929;
+    font-size: 14px;
+    line-height: 17px;
     cursor: pointer;
     list-style-type: none;
     padding: 0;
@@ -119,12 +121,14 @@ input[type=range]::-moz-range-thumb {
     display: inline-flex;
     align-items: center;
     user-select: none;
+    font-size: 14px;
+    line-height: 24px;
 }
 .calculator .calculator-block .check-box .custom-checkbox+label::before {
     content: '';
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 14px;
+    height: 14px;
     flex-shrink: 0;
     flex-grow: 0;
     border: 1px solid #ebebeb;

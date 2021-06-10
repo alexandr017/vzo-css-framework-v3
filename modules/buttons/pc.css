@@ -7,7 +7,6 @@
     display: inline-block;
     max-height: 50px;
     vertical-align: top;
-    font-size: 1em;
     cursor: pointer;
 }
 
@@ -55,7 +54,6 @@
     display: inline-block;
     text-align: center;
     vertical-align: top;
-    font-size: 1em;
     cursor: pointer;
 }
 

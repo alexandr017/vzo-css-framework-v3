@@ -9,6 +9,7 @@
 .rating-container a {
     color: #38B6F7;
 }
+
 .rating-container span {
     color: #000;
     display: block;
@@ -30,6 +31,7 @@
 .rating-container-width .rating span {
     margin-left: 7px;
 }
+
 .rating-container-width .rating {
     display: flex;
     flex-direction: row-reverse;
@@ -37,7 +39,6 @@
 }
 
 .rating-container-width .rating > input{ display:none;}
-
 
 .rating-container-width .rating > label {
     position: relative;
@@ -66,7 +67,7 @@
 }
 
 .rating-container-face a {
-    margin-left:12px ;
+    margin-left:12px;
     color: #38B6F7;
 }
 

@@ -11,18 +11,39 @@
     flex-grow: 2;
 }
 .rat-block-items .title {
-    font-size: 1.2em;
+    font-size: 16px;
     color: #292929;
-    font-weight: bold;
+    font-weight: 600;
     font-family: 'Futura PT';
     margin: 10px 0 5px 0;
 }
+
+.rat-block-items .text{
+    font-size: 14px;
+}
+
 .short-details-block {
     padding: 2em;
 }
 .rat-block-header,.rat-block-pros-minus {
     margin: 1em 0;
 }
+
+.rat-block-pros-minus .title{
+    font-weight: 600;
+}
+
+.rat-block-pros-minus ul.danger li:before{
+    content: "";
+    background: #EA674A;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
 .rat-block-btn {
     text-align: right;
 }

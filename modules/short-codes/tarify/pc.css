@@ -1,7 +1,7 @@
 .tariff-title{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.25em;
+    font-weight: 500;
+    font-family: "Futura PT";
 }
 .tariff-img {
     margin-top: 10px;
@@ -13,19 +13,24 @@
 }
 .tariff-label {
     padding-top: 5px;
-    font-size: 1.1em;
-    font-weight: bold;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 .tariff-label-title {
     font-weight: 500;
     color: #848484;
+    font-size: 14px;
 }
 .tariff-btn-block {
     flex-direction: row-reverse;
 }
+
 .tariff-block-btn {
-    width: 85%;
+    width: 65%;
+    margin-left: 70px;
+    position:absolute;
+    margin-top: -50px;
 }
 .border-radius {
     border-radius: 5px;

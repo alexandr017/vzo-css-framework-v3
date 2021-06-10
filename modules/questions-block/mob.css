@@ -6,7 +6,6 @@
 
 .breadcrumbs a,
 .breadcrumbs a:visited {
-    text-decoration: none;
     color:#38B6F7;
     border-bottom: 1px dotted #38B6F7;
 }
@@ -15,11 +14,8 @@
     margin: 0 5px;
 }
 
-.breadcrumbs span.kb_title {
-    color: #292929;
-}
 .question-block {
-padding: 0;
+    padding: 0;
 }
 
 .question-block .h1 {
@@ -28,7 +24,7 @@ padding: 0;
 
 .question-block .user-name {
     color: #a3a3a3;
-    font-size: 0.87em;
+    font-size: 14px;
 }
 
 .question-block .experts-reply {
@@ -56,7 +52,7 @@ padding: 0;
 
 .question-block .experts-reply .expert-logo .expert .expert-post {
     color: #848484;
-    font-size: 0.87em;
+    font-size: 14px;
 }
 
 .question-block .experts-reply .reply-info .reply-text {
@@ -102,7 +98,7 @@ padding: 0;
     height: 50px;
     margin-top: 10px;
     padding: 14px;
-    font-size: 0.87em;
+    font-size: 14px;
     font-weight: 600;
     outline: none;
     color: #C0C3C8;

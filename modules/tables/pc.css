@@ -25,16 +25,17 @@ table.table-vertical th {
     border-bottom: 1px solid red;
 }
 
-
 table.table-horizontal {
     border-radius: 5px;
     text-align: center;
     border: 1px solid #e2e2e2;
     border-collapse: collapse;
 }
+
 table.table-horizontal tr {
     border-bottom: 1px solid #e2e2e2;
 }
+
 table.table-horizontal td:first-child, table.table-horizontal th:first-child {
     border-right: 1px solid #e2e2e2;
 }
@@ -44,10 +45,12 @@ table.table-limit {
     border: 1px solid #e2e2e2;
     border-collapse: collapse;
 }
+
 table.table-limit td {
     text-align: center;
     border-bottom: 1px solid  #e2e2e2;
 }
+
 table.table-limit td:first-child {
     text-align: left;
 }
@@ -70,6 +73,7 @@ table.table-info {
     border: 1px solid #e2e2e2;
     border-collapse: collapse;
 }
+
 table.table-info tr {
     border-bottom: 1px solid #e2e2e2;
 }
@@ -92,7 +96,6 @@ table.table-info td.main {
 
 .table .tr .td {
     padding: 1.5em;
-    font-size: 1em;
 }
 
 .table .tr .td svg {
@@ -127,7 +130,6 @@ table.table-info td.main {
 .table-limit-block .tr .th{
     background: #fafafa;
     border-bottom: none;
-    font-size: 1em;
     font-weight: 700;
 }
 
@@ -144,7 +146,6 @@ table.table-info td.main {
 
 .table-limit-block .tr .td {
     padding: 32px;
-    font-size: 1em;
     width: 25%;
     border-bottom: 1px solid #ebebeb;
 }
@@ -173,13 +174,11 @@ table.table-info td.main {
 .table-vertical-block .tr .th {
     background: #fafafa;
     border-bottom: none;
-    font-size: 1em;
     font-weight: 700;
 }
 
 .table-vertical-block .tr .td {
     padding: 32px;
-    font-size: 1em;
     width: 25%;
 }
 
@@ -204,7 +203,6 @@ table.table-info td.main {
 
 .light-border .tr .td {
     padding: 1.5em;
-    font-size:1em;
     width: 50%;
     text-align: center;
     border-left: 1px solid #ebebeb;
@@ -214,6 +212,5 @@ table.table-info td.main {
 
 .light-border .tr .th{
     background: #fafafa;
-    font-size: 1em;
     font-weight: 700;
 }

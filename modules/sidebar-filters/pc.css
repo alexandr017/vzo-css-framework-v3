@@ -7,7 +7,7 @@
 }
 
 .sidebar-inner .sidebar-inner-part .h4 {
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight: 500;
     font-family: 'Futura PT';
 }
@@ -15,8 +15,6 @@
 .sidebar-inner .sidebar-inner-part a{
     display: block;
     margin-top: 10px;
-    font-size: 1em;
-    line-height: 1.5em;
 }
 
 .sidebar-inner .sidebar-inner-part a:hover,

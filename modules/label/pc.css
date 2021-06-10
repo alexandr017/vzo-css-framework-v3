@@ -1,5 +1,4 @@
 .btn{
-    border-radius: 5px;
     min-width: 225px;
     padding: .6em 2em;
     outline: 0;
@@ -8,7 +7,6 @@
     display: inline-block;
     max-height: 50px;
     vertical-align: top;
-    font-size: 1.063em;
     cursor: pointer;
 }
 
@@ -48,7 +46,7 @@
 
 /* Actions */
 .btn-edit {
-    border-radius: 3.21px;
+    border-radius: 3px;
     min-width: 32px;
     max-height: 32px;
     padding: .2em .2em;
@@ -57,12 +55,11 @@
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    font-size: 1.063em;
     cursor: pointer;
 }
 
 .btn-delete {
-    border-radius: 3.21px;
+    border-radius: 3px;
     min-width: 32px;
     max-height: 32px;
     padding: .2em .2em;
@@ -71,7 +68,6 @@
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    font-size: 1.063em;
     cursor: pointer;
 }
 
@@ -79,26 +75,22 @@
 .post-label-dark {
     min-height: 35px;
     background-color: #017AD3;
-    border-radius: 5px;
-    font-size: 1.063em;
     color: #fff;
     display: inline-block;
-    padding: 4px 16px;                  /* PX to EM */
+    padding: 4px 16px;
     text-align: center;
     margin: 10px;
 }
 .post-label-light {
     min-height: 35px;
     background-color: #f4f4f4;
-    border-radius: 5px;
-    font-size: 1.063em;
     color: #262626;
     display: inline-block;
-    padding: 4px 16px;                  /* PX to EM */
+    padding: 4px 16px;
     text-align: center;
     margin: 10px;
 }
 .post-label-dark svg, .post-label-light svg {
-    margin-bottom:-4px;                 /* PX to EM */
+    margin-bottom:-4px;
     margin-right:6px;
 }

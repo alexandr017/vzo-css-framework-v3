@@ -18,7 +18,7 @@
 .sorting li {
     display: inline-block;
     padding: 0 6px 5px;
-    line-height: 1.5em;
+    line-height: 24px;
 }
 
 .sorting li:not(:first-child){
@@ -78,28 +78,33 @@
 }
 
 .reviews .block-reviews .text-review .user-logo span,
-.reviews .block-reviews .text-review .comment p:first-of-type,
-.reviews .block-reviews .text-review .replace div span {
-    font-size: 1em;
+.reviews .block-reviews .text-review .comment span:first-of-type,
+.reviews .block-reviews .text-review .replace div span:first-of-type {
     font-weight: 600;
     margin-bottom: 0;
 }
 
-.reviews .block-reviews .text-review .plus p:first-of-type {
+.reviews .block-reviews .text-review .plus span,
+.reviews .block-reviews .text-review .minus span,
+.reviews .block-reviews .text-review .comment span{
+    display: block;
+}
+
+.reviews .block-reviews .text-review .plus span:first-of-type {
     color: #5A8D26;
     margin-bottom: 0;
     font-weight: 600;
 }
 
-.reviews .block-reviews .text-review .minus p:first-of-type {
+.reviews .block-reviews .text-review .minus span:first-of-type {
     color: #EA674A;
     margin-bottom: 0;
     font-weight: 600;
 }
 
-.reviews .block-reviews .text-review .minus p:last-of-type,
-.reviews .block-reviews .text-review .plus p:last-of-type,
-.reviews .block-reviews .text-review .comment p:last-of-type {
+.reviews .block-reviews .text-review .minus span:last-of-type,
+.reviews .block-reviews .text-review .plus span:last-of-type,
+.reviews .block-reviews .text-review .comment span:last-of-type {
     margin-top: 5px;
 
 }
@@ -131,8 +136,8 @@
     margin-top: 3px;
 }
 
-.reviews .block-reviews .text-review .replace div p {
-    margin-top: 0;
+.reviews .block-reviews .text-review .replace div span:last-child {
+    margin-top:5px;
 }
 
 .reviews .aside-rating .scale {
@@ -151,7 +156,6 @@
 }
 
 .reviews .aside-rating .reviews-rating {
-    font-size: 1em;
     font-weight: 600;
     margin: 25px 10px 15px 0;
     text-align: center;
@@ -162,15 +166,15 @@
     margin-top: 5px;
 }
 
-.reviews .aside-rating .info p {
-    font-size: 0.87em;
+.reviews .aside-rating .info .info-title {
+    font-size: 14px;
     color:#87919f;
     margin: 5px 0;
     font-weight: 700;
 }
 
-.reviews .aside-rating .info span {
-    font-size: 0.87em;
+.reviews .aside-rating .info .reviews-count {
+    font-size: 14px;
     color:#87919f;
     margin-bottom: 0;
     font-weight: 700;
@@ -200,7 +204,7 @@
     height: 50px;
     margin-top: 10px;
     padding: 14px;
-    font-size: 0.87em;
+    font-size: 14px;
     font-weight: 600;
     outline: none;
 }
@@ -216,8 +220,8 @@
 }
 
 .reviews .review-f .review-form .rating {
-    text-align:left;
-    margin:  23px 0;
+    text-align: left;
+    margin: 23px 0;
 }
 
 .reviews .review-f .info {
@@ -226,12 +230,10 @@
     margin-top: 110px;
     margin-left: 45px;
     background: #f5f5f5;
-    font-size: 1em;
-    line-height: 1.5em;
     padding:0 43px 0 53px;
 }
 
-.reviews .review-f .info p:first-of-type {
+.reviews .review-f .info svg {
     margin-top: 30px;
 }
 
@@ -247,7 +249,7 @@ h4:not(.review-f h4){
     margin-left: 0;
     cursor: pointer;
     margin-top:10px;
-    font-size: 0.87em;
+    font-size: 14px;
 }
 
 .displayNone {
@@ -331,7 +333,6 @@ h4:not(.review-f h4){
     animation: mymoveright 0.5s;
 }
 
-
 .bank-review-title {
     font-size: 14px;
     line-height: 17px;
@@ -340,8 +341,6 @@ h4:not(.review-f h4){
     margin: 20px 0;
 }
 .bank-review-name {
-    color: #292929;
-    font-size: 16px;
     line-height: 22px;
     display: block;
     font-weight: bold;
@@ -361,11 +360,6 @@ h4:not(.review-f h4){
     margin: 10px;
     padding: 20px;
 }
-
-
-
-
-
 
 
 @keyframes mymoveleft {

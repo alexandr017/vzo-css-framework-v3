@@ -35,7 +35,6 @@
 }
 
 .reviews .center-rating .reviews-rating {
-    font-size: 1em;
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -46,15 +45,15 @@
     margin-top: 10px;
 }
 
-.reviews .center-rating .info p {
-    font-size: 0.87em;
+.reviews .center-rating .info .info-title {
+    font-size: 14px;
     color:#87919f;
     margin: 5px 0;
     font-weight: 700;
 }
 
-.reviews .center-rating .info span {
-    font-size: 0.87em;
+.reviews .center-rating .info .reviews-count {
+    font-size: 14px;
     color:#87919f;
     font-weight: 700;
     margin-left: 234px;
@@ -86,7 +85,7 @@
     background: #fff;
     outline: none;
     padding-left: 20px;
-    font-size: 0.87em;
+    font-size: 14px;
 }
 
 .reviews .block-reviews .text-review .user-logo {
@@ -107,28 +106,27 @@
 }
 
 .reviews .block-reviews .text-review .user-logo span,
-.reviews .block-reviews .text-review .comment p:first-of-type,
+.reviews .block-reviews .text-review .comment span,
 .reviews .block-reviews .text-review .replace div span {
-    font-size: 1em;
     font-weight: 600;
     margin-bottom: 0;
 }
 
-.reviews .block-reviews .text-review .plus p:first-of-type {
+.reviews .block-reviews .text-review .plus span {
     color: #5A8D26;
     margin-bottom: 0;
     font-weight: 600;
 }
 
-.reviews .block-reviews .text-review .minus p:first-of-type {
+.reviews .block-reviews .text-review .minus span {
     color: #EA674A;
     margin-bottom: 0;
     font-weight: 600;
 }
 
-.reviews .block-reviews .text-review .minus p:last-of-type,
-.reviews .block-reviews .text-review .plus p:last-of-type,
-.reviews .block-reviews .text-review .comment p:last-of-type {
+.reviews .block-reviews .text-review .minus p,
+.reviews .block-reviews .text-review .plus p,
+.reviews .block-reviews .text-review .comment p {
     margin-top: 5px;
 }
 
@@ -148,10 +146,9 @@
     margin-bottom: 22px;
 }
 
-.reviews .replace div span{
+.reviews .replace div span:not(:last-of-type){
     margin-left: 30px;
-    line-height: 1.1em;
-    font-size: 1em;
+    line-height: 18px;
     font-weight: 600;
 }
 
@@ -160,10 +157,9 @@
     margin-top: 3px;
 }
 
-.reviews .replace div p {
+.reviews .replace div span:last-of-type {
     margin-top: 0;
     margin-left: 30px;
-    font-size: 1em;
 }
 
 .reviews .review-f {
@@ -183,7 +179,7 @@
     height: 50px;
     margin-top: 10px;
     padding: 14px;
-    font-size: 0.87em;
+    font-size: 14px;
     font-weight: 600;
     outline: none;
 }
@@ -207,8 +203,6 @@
     height: 324px;
     margin-top: 87px;
     background: #f5f5f5;
-    font-size: 1em;
-    line-height: 1.5em;
     padding: 25px 43px 25px 53px;
     text-align: left;
 }

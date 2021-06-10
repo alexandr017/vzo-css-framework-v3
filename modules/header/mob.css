@@ -82,7 +82,7 @@
 }
 
 .header-block .link {
-    padding: 0.87em;
+    padding: 14px;
 }
 
 
@@ -176,7 +176,7 @@
     background: url("/v3/images/place.svg");
     background-size: contain;
     width:20px;
-    height: 27.6px;
+    height: 27px;
     position: absolute;
     left:1em;
 }
@@ -223,6 +223,7 @@
 .modal-content {
     padding: 30px;
 }
+
 .modal-close {
     position: absolute;
     right: 15px;
@@ -274,7 +275,6 @@
 }
 
 .modal-list__el {
-    font-size: 16px;
     margin: 5px 0;
     width: 90%;
 }

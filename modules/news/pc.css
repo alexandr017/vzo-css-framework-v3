@@ -21,14 +21,14 @@
     position:absolute;
     top:200px;
     left:50px;
-    font-size: 0.87em;
+    font-size: 14px;
 }
 
 .news .news-slider .main-news .news-theme {
     position:absolute;
     top:230px;
     left:50px;
-    font-size: 1.5em;
+    font-size: 24px;
     width:35%;
     font-family: "Futura PT";
 }
@@ -38,7 +38,6 @@
     top:365px;
     left:50px;
 }
-
 
 .news h4 {
     margin-top: 37px;
@@ -63,7 +62,7 @@
     width: 100%;
 }
 
-.news .all-news a.slider-part p {
+.news .all-news a.slider-part time {
     font-size: 14px;
     color: #87919F;
     line-height: 17px;
@@ -71,12 +70,13 @@
     margin: 0;
 }
 
-.news .all-news a.slider-part div {
-    font-size: 16px;
+.news .all-news a.slider-part .main-post-title {
     line-height: 22px;
     font-weight: 700;
     color: #292929;
     padding: 0 10px 31px 20px;
+    display: block;
+    margin-top: 12px;
 }
 
 .news .aside-bl-news {
@@ -92,7 +92,7 @@
 
 .news .aside-bl-news span {
     color: #898989;
-    font-size: 0.87em;
+    font-size:14px;
     display: inline-block;
     margin-top: 10px;
 }
@@ -130,6 +130,7 @@
     transition: all .3s linear;
     justify-content: space-around;
 }
+
 .js-slide-btn-left {
     background: #fff url(/v3/images/prev.png) no-repeat center center;
     left: 580px;

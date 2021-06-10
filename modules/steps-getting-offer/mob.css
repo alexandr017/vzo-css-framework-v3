@@ -5,8 +5,7 @@
 
 .how_get_rating_inner .inner_part{
     text-align: center;
-    font-size: 0.87em;
-
+    font-size: 14px;
 }
 
 .how_get_rating_inner .inner_part .cent_arr{
@@ -20,7 +19,7 @@
 
 .how_get_rating_wrap h2{
     text-align: center;
-    font-size: 1.4em;
+    font-size: 22px;
     font-weight: 700;
     font-family: 'Proxima Nova Rg', sans-serif;
 }

@@ -10,7 +10,6 @@
 /*}*/
 
 .main-posts .main-post-item a.main-post-link {
-    text-decoration: none;
     background: #FFFFFF;
     margin-top: 15px;
     display: flex;
@@ -18,7 +17,7 @@
 
 .main-posts .main-post-item a.main-post-link img{
     border: 1px solid #ebebeb;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 0 0 5px;
     width: 33.3%;
 }
 
@@ -27,7 +26,7 @@
 }
 
 .main-posts .main-post-item a.main-post-link time {
-    font-size: 0.9em;
+    font-size: 14px;
     color: #87919F;
     padding: 15px 22px 15px 20px;
     margin: 0;
@@ -35,7 +34,7 @@
 }
 
 .main-posts .main-post-item a.main-post-link .main-post-title {
-    line-height: 1.4;
+    line-height: 22px;
     font-weight: bold;
     color: #292929;
     padding: 0 10px 31px 20px;

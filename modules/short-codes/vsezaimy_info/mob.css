@@ -1,4 +1,8 @@
 .info-message {
     background-color: #FAFAFA;
-    padding: 30px;
+    padding: 20px 30px;
+}
+
+.info-message p {
+    margin-bottom: 0;
 }

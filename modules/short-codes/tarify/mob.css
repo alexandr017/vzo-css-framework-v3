@@ -1,0 +1,48 @@
+.tariff-block{
+    padding: 20px 40px;
+}
+
+.tariff-block .header-tariff a {
+    font-family: 'Futura PT';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.tariff-block .logo {
+    border: 1px solid #EBEBEB;
+    width:100%;
+    height: 134px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tariff-block .logo img {
+    margin: 0 auto;
+}
+
+.tariff-block .block-loan {
+    margin-top: 15px;
+}
+
+.tariff-block .block-loan .block-row {
+    margin-top: 15px;
+}
+
+.tariff-block .block-loan .block-row .traffic-head-intro {
+    font-weight: 600;
+}
+
+.tariff-block .block-loan .block-row .traffic-cont {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #87919F;
+    font-weight: 500;
+
+}
+
+.tariff-block-btn {
+    width: 100%;
+    margin-top: 20px;
+}

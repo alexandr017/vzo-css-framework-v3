@@ -1,13 +1,8 @@
-.wrap-popular-banks {
-    width: 1165px;
-    padding-left: 79px;
-    padding-right: 78px;
-}
 
 .wrap-popular-banks h4 {
     font-size: 24px;
     font-weight: 500;
-    line-height: 30.77px;
+    line-height: 30px;
     font-family: 'Futura PT';
     text-align: center;
     margin-top: 79px;
@@ -31,6 +26,7 @@
     height: 160px;
     background: #FFFFFF;
     padding: 36px 42px;
+    margin: 0 10px;
 }
 
 

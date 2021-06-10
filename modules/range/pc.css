@@ -21,19 +21,11 @@
     padding: 28px 0 22px 0;
 }
 
-.main-range .loan h3 {
-    font-size: 16px;
+.main-range .loan .range-title {
     font-weight: 600;
     line-height: 20px;
     padding: 0 30px;
     margin: 0;
-}
-
-.main-range .loan p {
-    font-size: 14px;
-    line-height: 17px;
-    margin-left: 30px;
-    margin-top: 10px;
 }
 
 .main-range .loan .overpayment {
@@ -43,10 +35,17 @@
     margin-top: 20px;
 }
 
-.main-range .loan .overpayment p:not(:first-of-type) {
-    margin-left: 22px;
+.main-range .loan .loan-title,
+.main-range .loan .overpayment span{
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
+.main-range .loan .overpayment span:not(:first-of-type) {
+    margin-left: 22px;
+}
 
 input[type=range] {
     outline: none;
@@ -72,6 +71,7 @@ input[type=range]::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     z-index: 1;
 }
+
 input[type=range]::-moz-range-track {
     box-shadow: none;
     border: none;
@@ -79,11 +79,13 @@ input[type=range]::-moz-range-track {
     opacity: 1;
     z-index: 1;
 }
+
 input[type=range]::-moz-focus-outer {
     border: 0;
     opacity: 1;
     z-index: 1;
 }
+
 input[type=range]::-webkit-slider-thumb {
     width: 20px;
     height: 20px;
@@ -94,6 +96,7 @@ input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     z-index: 1;
 }
+
 input[type=range]::-moz-range-thumb {
     width: 20px;
     height: 20px;
@@ -133,9 +136,9 @@ input[type=range]::-moz-range-thumb {
 }
 
 .main-range .loan .note p {
-    margin-top: 30px ;
+    margin-top: 30px;
     font-size: 12px;
-    font-style: italic ;
+    font-style: italic;
     line-height: 21px;
     margin-left: 30px;
     margin-right: 30px;
@@ -145,7 +148,7 @@ input[type=range]::-moz-range-thumb {
     margin-top: 111px ;
 }
 
-.main-range .credit-sum p {
+.main-range .credit-sum span {
     margin-bottom: 16px ;
     font-size: 14px;
 }
@@ -199,12 +202,13 @@ input[type=range]::-moz-range-thumb {
     width: 350px;
     margin-top: 50px;
 }
+
 input[type=number] {
     border: 1px solid #ebebeb;
     height: 50px;
     width: 350px;
     padding: 1em;
-    font-size: 0.87em;
+    font-size: 14px;
     outline: none;
 }
 
