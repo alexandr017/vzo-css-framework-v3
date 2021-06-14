@@ -11,7 +11,7 @@
     flex-grow: 2;
 }
 .rat-block-items .title {
-    font-size: 16px;
+    font-size: 1em;
     color: #292929;
     font-weight: 600;
     font-family: 'Futura PT';
@@ -19,7 +19,7 @@
 }
 
 .rat-block-items .text{
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .short-details-block {

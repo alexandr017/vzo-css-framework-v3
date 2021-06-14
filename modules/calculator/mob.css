@@ -33,7 +33,7 @@
     height: 50px;
     width: 100%;
     padding: 1em;
-    font-size: 14px;
+    font-size: 0.87em;
     outline: none;
 }
 
@@ -47,8 +47,8 @@
     display: inline-flex;
     align-items: center;
     user-select: none;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.87em;
+    line-height: 1.5em;
 }
 .calculator .calculator-block .check-box .custom-checkbox+label::before {
     content: '';

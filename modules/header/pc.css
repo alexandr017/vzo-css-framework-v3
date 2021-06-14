@@ -238,7 +238,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     outline:none;
-    font-size:14px;
+    font-size:0.87em;
     padding: 0 25px;
 }
 .search-block__input::placeholder {
@@ -326,7 +326,7 @@
 }
 
 .modal__title {
-    font-size: 19px;
+    font-size: 1.18em;
     margin-bottom: 15px;
 }
 
@@ -341,7 +341,7 @@
     width: 100%;
     border: none;
     outline:none;
-    font-size: 14px;
+    font-size: 0.87em;
     box-shadow: 0 4px 2px rgba(0, 0, 0, .04);
     margin-bottom: -5px;
 }

@@ -21,14 +21,14 @@
     position:absolute;
     top:200px;
     left:50px;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .news .news-slider .main-news .news-theme {
     position:absolute;
     top:230px;
     left:50px;
-    font-size: 24px;
+    font-size: 1.5em;
     width:35%;
     font-family: "Futura PT";
 }
@@ -63,15 +63,15 @@
 }
 
 .news .all-news a.slider-part time {
-    font-size: 14px;
+    font-size: 0.87em;
     color: #87919F;
-    line-height: 17px;
+    line-height: 1.06em;
     padding: 15px 22px 15px 20px;
     margin: 0;
 }
 
 .news .all-news a.slider-part .main-post-title {
-    line-height: 22px;
+    line-height: 1.37em;
     font-weight: 700;
     color: #292929;
     padding: 0 10px 31px 20px;
@@ -84,7 +84,7 @@
 }
 
 .news .aside-bl-news a {
-    line-height: 22px;
+    line-height: 1.37em;
     font-weight: 700;
     color: #292929;
 }
@@ -92,7 +92,7 @@
 
 .news .aside-bl-news span {
     color: #898989;
-    font-size:14px;
+    font-size: 0.87em;
     display: inline-block;
     margin-top: 10px;
 }

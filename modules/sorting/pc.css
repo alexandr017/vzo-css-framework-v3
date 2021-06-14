@@ -1,7 +1,7 @@
 
 
 .sort-menu {margin: 0;padding: 0;}
-.sort-menu li{display: inline-block;padding: 2px 6px 5px; line-height: 24px;}
+.sort-menu li{display: inline-block;padding: 2px 6px 5px; line-height: 1.5em;}
 .sort-menu .sort-item{cursor: pointer;}
 .sort-menu .sort-child{padding: 3px 0}
 .sort-menu .sort-child{color: #848484;border-bottom: 1px dotted #848484;}

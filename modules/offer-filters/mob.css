@@ -1,0 +1,56 @@
+.sidebar-inner {
+    padding:38px 30px 63px 30px;
+}
+
+.sidebar-inner .sidebar-inner-part a:hover,
+.sidebar-inner .sidebar-inner-part a:focus {
+    font-weight: 700;
+}
+
+.more-btn {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.more-btn.active {
+    display: none;
+}
+
+.more-links {
+    overflow: hidden;
+    max-height: 0;
+}
+
+.sidebar-inner .sidebar-inner-part input, .tab-content { display: none; }
+
+.sidebar-inner .sidebar-inner-part .tab-title {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-inner .sidebar-inner-part .tab-title svg{
+   margin-top: 7px;
+}
+
+.sidebar-inner .sidebar-inner-part :checked ~.tab-title .arrow {
+    transform: rotate(-180deg);
+}
+
+.sidebar-inner .sidebar-inner-part :checked ~ .tab-content {
+    display: block;
+}
+
+.sidebar-inner .sidebar-inner-part :checked ~ .tab-content .columns a{
+    display: block;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sidebar-inner hr {
+    height: 1px;
+    border: none;
+    background-color:#EBEBEB;
+}

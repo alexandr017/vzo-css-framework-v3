@@ -10,7 +10,7 @@
 .lwb .lead-label-dark {
     height: 22px;
     background-color: #3c97d3;
-    font-size: 12px;
+    font-size: 0.87em;
     color: #fff;
     padding: 0 7px 3px 7px;
     margin-left: 3px;
@@ -27,7 +27,7 @@
 }
 
 .lwb .lead-label-green {
-    font-size: 12px;
+    font-size: 0.87em;
     font-weight: 600;
     text-align: center;
     background-color: #A5CA38;
@@ -37,7 +37,7 @@
 
 .lpt {
     margin-top: 20px;
-    line-height: 24px;
+    line-height: 1.5em;
     color: #212529;
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@
 }
 
 .lpt .listing_lead_wrap p {
-    line-height: 24px;
+    line-height: 1.5em;
     margin: 0;
 }
 

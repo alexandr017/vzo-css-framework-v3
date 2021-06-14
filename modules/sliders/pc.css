@@ -94,20 +94,20 @@
 }
 .new-item-text .post-date {
     color: #87919F;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.87em;
+    line-height: 1.06em;
 }
 .bank-review-title {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.87em;
+    line-height: 1.06em;
 }
 .bank-review-title svg {
     margin: 20px 0;
 }
 .new-item-text .dgeff,.bank-review-name {
     color: #292929;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1em;
+    line-height: 1.37em;
     display: block;
     font-weight: bold;
     margin: 5px 0 20px 0;

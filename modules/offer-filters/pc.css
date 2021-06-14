@@ -32,7 +32,7 @@
 }
 
 .sidebar-inner .sidebar-inner-part .tab-title svg{
-   margin-top: 7px;
+    margin-top: 7px;
 }
 
 .sidebar-inner .sidebar-inner-part :checked ~.tab-title .arrow {
@@ -47,4 +47,10 @@
     display: block;
     margin-top: 10px;
     padding-left: 10px;
+}
+
+.sidebar-inner hr {
+    height: 1px;
+    border: none;
+    background-color:#EBEBEB;
 }

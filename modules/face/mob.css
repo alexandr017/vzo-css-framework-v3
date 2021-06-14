@@ -31,7 +31,7 @@
 }
 
 .card .top-card .scale-card .scale-text{
-    font-size: 14px;
+    font-size: 0.87em;
     color:#87919f;
     text-align: center;
     margin-top: 5px;
@@ -44,7 +44,7 @@
 }
 
 .card .top-card .reviews {
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .card .top-card .reviews a {

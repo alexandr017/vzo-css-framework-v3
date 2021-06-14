@@ -321,7 +321,7 @@ table.table-info td.main {
 }
 
 .block-card-loan .hidden-card-loan  .slider .slider-block .slider-info .text-cont {
-    font-size: 14px;
+    font-size: 0.87em;
     margin-top: 10px;
 }
 
@@ -390,7 +390,7 @@ table.table-info td.main {
 }
 
 .top-card-insurance .two-columns .scale-card-insurance .scale-text {
-    font-size: 14px;
+    font-size: 0.87em;
     color:#87919f;
     text-align: center;
     margin-top: 5px;
@@ -402,7 +402,7 @@ table.table-info td.main {
 
 .top-card-insurance .reviews {
     margin: 0 10px 15px 15px;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .top-card-insurance .block-card-insurance .logo {
@@ -431,8 +431,8 @@ table.table-info td.main {
 
 .top-card-insurance .block-card-insurance .block-row .insura-cont {
     color: #87919F;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.87em;
+    line-height:1.25em;
     margin-top: 10px;
 }
 
@@ -446,7 +446,7 @@ table.table-info td.main {
 
 .top-card-insurance .two-columns .comprasion span {
     color: #87919F;
-    font-size: 14px;
+    font-size: 0.87em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -475,13 +475,13 @@ table.table-info td.main {
 }
 
 .content-bl .head-card-insurance .hidden-card-insurance .text {
-    line-height: 28px;
+    line-height: 1.75em;
 }
 
 .content-bl .hidden-card-insurance .info-card-insurance {
     font-weight: 600;
     float: right;
-    font-size: 14px;
+    font-size: 0.87em;
     margin-bottom: 40px;
 }
 
@@ -533,7 +533,7 @@ table.table-info td.main {
 
 .content-bl .hidden-card-insurance .tabs-items .tabcontent .table .tr .td {
     padding: 1.3em;
-    font-size: 14px;
+    font-size: 0.87e;
 }
 
 .content-bl .hidden-card-insurance .tabs-items .tabcontent .table .tr .td svg {
@@ -561,7 +561,7 @@ table.table-info td.main {
 table {
     width: 100%;
     table-layout:fixed;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 table td {

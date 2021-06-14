@@ -65,7 +65,7 @@
 }
 
 .dashboard .credit-score-result .result-content {
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 600;
     margin-top: 40px;
 }
@@ -211,14 +211,14 @@
 }
 
 .dashboard .comments .actual-theme .tr .th {
-    font-size: 18px;
+    font-size: 1.1em;
     padding: 12px;
 
 }
 
 .dashboard .comments .actual-theme .tr .td {
     padding: 12px;
-    line-height: 24px;
+    line-height: 1.5em;
     display: block;
 }
 

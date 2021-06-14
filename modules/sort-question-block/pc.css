@@ -15,7 +15,7 @@
 }
 
 .sort-question .description {
-    font-size:14px;
+    font-size: 0.87em;
     color: #848484;
 }
 
@@ -81,7 +81,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     outline:none;
-    font-size:14px;
+    font-size: 0.87em;
     height: 60px;
     padding: 0 25px;
     z-index: 0;
@@ -111,7 +111,7 @@
     border-radius: 15px;
     background: #D0D0D0;
     color:#fff;
-    font-size: 14px;
+    font-size: 0.87em;
     display: inline-block;
     margin: 5px 5px 5px 0px;
 }
@@ -139,7 +139,7 @@
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .tabs-items .tabcontent .qa-items .qa-items-bottom-block .tags-bl {
