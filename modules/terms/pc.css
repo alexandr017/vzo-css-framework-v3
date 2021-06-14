@@ -1,0 +1,70 @@
+#search_input_word {
+    color: #C0C3C8;
+    width: 100%;
+    padding: 0.8em;
+    cursor: pointer;
+}
+#search_input_word:focus {
+    outline: none;
+}
+#search_input_word::placeholder {
+    color: #C0C3C8;
+}
+#search_input_by_word_form {
+    position: relative;
+}
+.term-search {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.termsMainBlock .lettersBlock .dictionaryLink {
+    border: 1px solid #A5CA38;
+    color: #292929;
+    display: inline-block;
+    width: 1.5em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+.lettersBlock {
+    margin-top: 0.5em;
+    text-align: center;
+}
+.languageSeparatore {
+    display: inline-block;
+    margin: 0 0.2em;
+    top: 0.7em;
+    position: relative;
+}
+.termsBlock .dictionaryList .termTitle {
+    color: #292929;
+    display: block;
+    padding: 0.3em 0;
+}
+.termsBlock .dictionaryList .activeTerm {
+    font-weight: bold;
+    background: #F1F1F1;
+    position: relative;
+    width: calc(100% + 1em);;
+    right: 1em;
+    padding: 0.3em 1em;
+}
+.termDescription {
+    background: #F1F1F1;
+    padding: 2em 1em;
+}
+.dictionaryList {
+    padding-right: 0;
+    background: #FAFAFA;
+    position: relative;
+}
+.termsBlock {
+    margin: 1em 0;
+}
+.termShowMoreBtnBLock {
+    background: #F1F1F1;
+    width: 100%;
+}
+.termsBlock .dictionaryList .displayNone {
+    display: none;
+}
