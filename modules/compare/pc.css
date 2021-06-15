@@ -39,6 +39,7 @@
     margin-top:75px;
 }
 
+
 .compare-bl .compare-table .compare_el .td {
     padding: 1.2em;
     font-size: 0.87em;
@@ -68,6 +69,7 @@
 
 .compare-bl .compare-table .compare_el .th svg {
     float: right;
+    cursor: pointer;
 }
 
 .compare-bl .compare-table .compare_el .th img,
@@ -80,7 +82,6 @@
 
 .compare-bl .compare-table .compare_el .th img {
     margin-top: 15px;
-
 }
 
 .compare-bl .compare-table .compare_el .th span{
@@ -115,12 +116,13 @@
     text-align: center;
     position: relative;
     border-bottom: 1px solid #ebebeb;
+    width: 100%;
+
 }
 
 .arrows-block{
     position: absolute;
     z-index: 1;
-
 }
 
 .jsSlideMainBlock {
@@ -128,16 +130,16 @@
     justify-content: center;
     min-height: 100px;
     overflow: hidden;
+    padding: 0;
 }
 
 .jsSlideContent {
     display: flex;
-    width:99%;
+    width:100%;
     transition: all .3s linear;
     justify-content: space-around;
-    background: #fff;
-
 }
+
 .js-slide-btn-left {
     background: url('/v3/images/compare-prev.svg') no-repeat center center;
     right: 5px;
@@ -183,6 +185,3 @@
 .jsAnimateRight {
     animation: mymoveright 0.5s;
 }
-
-
-

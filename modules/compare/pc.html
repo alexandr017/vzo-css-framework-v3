@@ -186,6 +186,8 @@
        </div>
 
 </div>
+
+
 <script>
     var slideShow = (function () {
         return function (data) {
@@ -277,6 +279,7 @@
                         }
                     }
                 }
+
                 if(element != null) {
                     var blockCustomWidth = (customWidth != '') ? 'style = "width: '+customWidth+'%;"' : '';
                     element.innerHTML = '<div class="jsSlideContent" '+blockCustomWidth+'>'+slideContent+'</div>';
@@ -467,6 +470,7 @@
                     }
                 }, 400);
             }
+
             var getElement = function(elementName) {
                 selector = elementName.charAt(0);
                 elementName = elementName.slice(1,elementName.length);
@@ -497,6 +501,7 @@
                     }
                 } else {
                     slidesCount = 3;
+
                 }
                 if(dataSettings && dataSettings.height){
                     elHeight = window.sliders[dataSettings.element].height;
@@ -529,6 +534,7 @@
                         }
                     }
                 }
+
                 arr = window.sliders[dataSettings.element].arr;
                 slideItemWidth = (100 / slidesCount);
             }
@@ -541,6 +547,14 @@
                 if(element.getElementsByClassName('js-slide-btn-right')[0] != null) {
                     element.getElementsByClassName('js-slide-btn-right')[0].onclick = slideRight;
                     element.getElementsByClassName('js-slide-btn-right')[0].dataset['parent'] = dataset;
+                }
+                var border = document.getElementsByClassName('jsSlideItem');
+
+                if(border.length < 10){
+                    for (let i=0; i<=border.length;i++){
+                        border[1].style.borderLeft = '1px solid #ebebeb';
+                        border[2].style.borderLeft = '1px solid #ebebeb';
+                    }
                 }
             }
             var loadDefBgImg = function(element){
