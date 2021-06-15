@@ -1,145 +1,150 @@
-.block-card-loan {
-    border: 4px solid #FCE6A4;
+
+.card-wrap {
     width: 100%;
+    margin-bottom: 15px;
+
 }
 
-.block-card-loan .stock {
+.card-stock{
+    border: 4px solid #FCE6A4;
+}
+
+.card-wrap .stock {
     background: #FF7A5C;
     padding:8px 16px;
     color: #fff;
     position: absolute;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 0.8em;
     margin-left:40px;
-    margin-top: -20px ;
+    margin-top: -20px;
 }
-.block-card-loan .top-card-loan {
+.card-wrap .card-header {
     padding: 20px 40px;
 }
 
-.block-card-loan  hr {
+.card-wrap  hr {
     height: 1px;
     border: none;
     background-color:#EBEBEB;
 }
 
-.block-card-loan .top-card-loan .header-card-loan {
+.card-wrap .card-header .card-first-line {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.block-card-loan .top-card-loan .header-card-loan a {
+.card-wrap .card-header .card-first-line a {
     font-family: 'Futura PT';
 }
 
 
-.block-card-loan .top-card-loan .block-loan {
+.card-wrap .card-header .card-top-inner {
     display: flex;
     justify-content: space-between;
 }
 
-.block-card-loan .top-card-loan .block-loan .price {
+.card-wrap .card-header .card-top-inner .price {
     margin-right: 45px;
 }
 
-.block-card-loan .top-card-loan .block-loan .percent {
+.card-wrap .card-header .card-top-inner .percent {
     margin-right: 60px;
 }
 
-.block-card-loan .top-card-loan .block-loan .period{
+.card-wrap .card-header .card-top-inner .period{
     margin-right: 50px;
 }
 
-.block-card-loan .top-card-loan .two-columns {
+.card-wrap .card-header .two-columns {
     display: flex;
     justify-content: space-between;
 }
 
-.block-card-loan .top-card-loan .block-loan .logo {
+.card-wrap .card-header .card-top-inner .logo {
     border: 1px solid #EBEBEB;
     width: 165px;
     height: 95px;
     padding: 26px 24px 27px 24px;
 }
 
-.block-card-loan .top-card-loan .block-loan .logo img {
+.card-wrap .card-header .card-top-inner .logo img {
     margin-right: 20px;
 }
 
-.block-card-loan .top-card-loan .two-columns .scale-card-loan {
+.card-wrap .card-header .two-columns .scale-card {
     width: 165px;
     height: 10px;
     background:#EAEAEA;
     border-radius: 28px;
 }
 
-.block-card-loan .top-card-loan .two-columns .scale-card-loan .percent {
+.card-wrap .card-header .two-columns .scale-card .percent {
     height: 10px;
     background: #A5CA38;
     border-radius: 28px;
     margin: 0;
 }
 
-.block-card-loan .top-card-loan .two-columns .scale-card-loan .scale-text {
-    font-size: 14px;
+.card-wrap .card-header .two-columns .scale-card .scale-text {
+    font-size: 0.9em;
     color:#87919f;
     text-align: center;
     margin-top: 5px;
 }
 
-.block-card-loan .top-card-loan .block-loan p {
+.card-wrap .card-header .card-top-inner p {
     color: #87919F;
 }
 
-.block-card-loan .top-card-loan .block-loan .block-row .loan-head-intro{
+.card-wrap .card-header .card-top-inner .block-row .card-head-intro{
     height: 1em;
     font-weight: 700;
 }
 
-.block-card-loan .top-card-loan .block-loan .block-row .loan-cont {
+.card-wrap .card-header .card-top-inner .block-row .card-cont {
     color: #87919F;
-    font-size:14px;
-    line-height: 20px;
+    font-size:0.9em;
+    line-height: 1.2em;
     margin-top: 10px;
 }
 
-.block-card-loan .top-card-loan .two-columns {
+.card-wrap .card-header .two-columns {
     padding: 15px 0 0 0;
 }
 
-.block-card-loan .top-card-loan .reviews{
+.card-wrap .card-header .reviews{
     margin: 0 10px 15px 15px;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.9em;
+    line-height: 1.3em;
 }
 
-.block-card-loan .top-card-loan .reviews span {
+.card-wrap .card-header .reviews span {
     color: #87919F;
 }
 
-.block-card-loan .top-card-loan .two-columns .comprasion{
+.card-wrap .card-header .two-columns .comprasion{
     margin-right: 50px;
 }
 
-.block-card-loan .top-card-loan .two-columns .comprasion span {
+.card-wrap .card-header .two-columns .comprasion span {
     color: #87919F;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.9em;
+    line-height: 1.3em;
     text-transform: uppercase;
     text-align: center;
 }
 
-.block-card-loan .top-card-loan .two-columns .comprasion span svg {
+.card-wrap .card-header .two-columns .comprasion span svg {
     margin-left: 5px;
 }
 
-.block-card-loan .content-card-loan {
+.card-wrap .card-body {
     padding: 0 40px;
     margin-top: -20px;
 }
 
-.block-card-loan .content-card-loan .head-card-loan .more-loan {
+.card-wrap .card-body .card-body-inner .card-more {
     display: block;
     text-align: center;
     margin: 10px 0 15px;
@@ -149,24 +154,24 @@
     cursor: pointer;
 }
 
-.block-card-loan .content-card-loan .head-card-loan .hidden-card-loan {
+.card-wrap .card-body .card-body-inner .hidden-card-info {
     overflow: hidden;
     max-height: 0;
 }
 
-.block-card-loan .content-card-loan .head-card-loan .hidden-card-loan .text-hidden-card {
+.card-wrap .card-body .card-body-inner .hidden-card-info .text-hidden-card {
     line-height: 28px;
 }
 
-.block-card-loan .content-card-loan .hidden-card-loan .info-card-loan {
+.card-wrap .card-body .hidden-card-info .card-upd {
     font-weight: 600;
     float: right;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.9em;
+    line-height: 1.3em;
     margin-bottom: 40px;
 }
 
-.hidden-card-loan .tab {
+.hidden-card-info .tab {
     display: flex;
     overflow: hidden;
     flex-wrap: wrap;
@@ -174,7 +179,7 @@
     width:100%;
 }
 
-.hidden-card-loan .tab .tablinks {
+.hidden-card-info .tab .tablinks {
     background-color: inherit;
     text-align: center;
     border: none;
@@ -182,54 +187,53 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    border-bottom: 2px solid #EBEBEB ;
+    border-bottom: 2px solid #EBEBEB;
     width: 33%;
     font-family: 'Futura PT';
 }
 
-.hidden-card-loan .tab .tablinks.on {
+.hidden-card-info .tab .tablinks.on {
     color: #017AD3;
     border-bottom: 2px solid #017AD3;
 }
 
-.hidden-card-loan .tabs-items .tabcontent.on{
+.hidden-card-info .tabs-items .tabcontent.on{
     display:block;
 
 }
 
-.hidden-card-loan .tabs-items .tabcontent {
+.hidden-card-info .tabs-items .tabcontent {
     display: none;
     padding: 6px 12px;
     margin-top: 32px;
 }
 
-.hidden-card-loan .tabs-items .tabcontent ul {
+.hidden-card-info .tabs-items .tabcontent ul {
     list-style-type: none;
 }
 
-.hidden-card-loan .tabs-items .tabcontent .table {
+.hidden-card-info .tabs-items .tabcontent .table {
     width: 100%;
     border: 1px solid #ebebeb;
     margin-bottom: 0;
 }
 
-.hidden-card-loan .tabs-items .tabcontent .table .tr {
+.hidden-card-info .tabs-items .tabcontent .table .tr {
     display: flex;
     justify-content: space-between;
 }
 
-.hidden-card-loan .tabs-items .tabcontent .table .tr .td {
+.hidden-card-info .tabs-items .tabcontent .table .tr .td {
     padding: 1.3em;
-    font-size: 14px;
     line-height: 24px;
 }
 
-.hidden-card-loan .tabs-items .tabcontent .table .tr .td svg {
+.hidden-card-info .tabs-items .tabcontent .table .tr .td svg {
     margin-left: 5px;
     cursor: pointer;
 }
 
-.hidden-card-loan .tabs-items .tabcontent .table .tr .td:first-of-type {
+.hidden-card-info .tabs-items .tabcontent .table .tr .td:first-of-type {
     width: 30%;
     background: #FAFAFA;
     font-weight: 600;
@@ -237,60 +241,24 @@
     border-bottom: 1px solid #ebebeb;
 }
 
-.hidden-card-loan .tabs-items .tabcontent .table .tr .td:last-of-type {
+.hidden-card-info .tabs-items .tabcontent .table .tr .td:last-of-type {
     width: 70%;
     border-bottom: 1px solid #ebebeb;
 }
 
-    /*table*/
-table {
-    width: 100%;
-    table-layout:fixed;
-    font-size: 14px;
-    line-height: 24px;
-}
 
-table td {
-    padding: 18px;
-}
-
-table .main {
-    background: #fafafa;
-    font-weight: 600;
-    width: 30%;
-}
-
-table td.main svg {
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-table.table-info {
-    text-align: left;
-    border: 1px solid #ebebeb;
-    border-collapse: collapse;
-}
-
-table.table-info tr {
-    border-bottom: 1px solid #ebebeb;
-}
-
-table.table-info td.main {
-    border-right: 1px solid #ebebeb;
-}
-
-.block-card-loan .hidden-card-loan .slider {
+.card-wrap .hidden-card-info .slider {
     padding-bottom:  60px;
     margin-top: 30px;
 }
 
-.block-card-loan .hidden-card-loan .slider .slider-block {
+.card-wrap .hidden-card-info .slider .slider-block {
     display: flex;
     justify-content: space-between;
 
 }
 
-.block-card-loan .hidden-card-loan  .slider .slider-block .slider-button {
+.card-wrap .hidden-card-info  .slider .slider-block .slider-button {
     width: 50px;
     height: 50px;
     padding: 15px 20px;
@@ -300,15 +268,15 @@ table.table-info td.main {
     cursor: pointer;
 }
 
-.block-card-loan .hidden-card-loan  .slider .slider-block  div.slider-button:last-of-type {
+.card-wrap .hidden-card-info  .slider .slider-block  div.slider-button:last-of-type {
     background-color: #81DAC8;
 }
 
-.block-card-loan .hidden-card-loan  .slider .slider-block .slider-info {
+.card-wrap .hidden-card-info  .slider .slider-block .slider-info {
     cursor:pointer;
 }
 
-.block-card-loan .hidden-card-loan  .slider .slider-block .slider-info .border-radius {
+.card-wrap .hidden-card-info  .slider .slider-block .slider-info .border-radius {
     border: 1px solid #EBEBEB ;
     width:48px;
     height: 48px;
@@ -316,16 +284,16 @@ table.table-info td.main {
     margin: auto;
 }
 
-.block-card-loan .hidden-card-loan .slider .slider-block .slider-info .border-radius svg {
+.card-wrap .hidden-card-info .slider .slider-block .slider-info .border-radius svg {
     width: 23px;
 }
 
-.block-card-loan .hidden-card-loan  .slider .slider-block .slider-info .text-cont {
-    font-size: 14px;
+.card-wrap .hidden-card-info  .slider .slider-block .slider-info .text-cont {
+    font-size: 0.9em;
     margin-top: 10px;
 }
 
-.block-card-loan .hidden-card-loan .print {
+.card-wrap .hidden-card-info .print {
     border: 1px solid #017AD3;
     padding: 15px;
     margin-right: 40px;
@@ -336,272 +304,23 @@ table.table-info td.main {
     cursor: pointer;
 }
 
-.block-card-loan .hidden-card-loan .btn {
+.card-wrap .hidden-card-info .btn {
     padding: 40px;
     display: inline-flex;
     margin-top: 28px;
     margin-bottom: 30px;
 }
 
-.block-card {
-    border: 4px solid #FCE6A4;
-    margin-top: 50px;
-    width: 100%;
-}
-
-.top-card-insurance {
-    padding: 20px 40px;
-}
-
-.block-card hr {
-    height: 1px;
-    border: none;
-    background-color:#EBEBEB;
-}
-
-.top-card-insurance .header-card-insurance {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.top-card-insurance .header-card-insurance a {
-    font-family: 'Futura PT';
-}
-
-.top-card-insurance .block-card-insurance,
-.top-card-insurance .two-columns {
-    display: flex;
-    justify-content: space-between;
-}
-
-.top-card-insurance .two-columns .scale-card-insurance {
-    width: 165px;
-    height: 10px;
-    background:#EAEAEA;
-    border-radius: 28px;
-}
-
-.top-card-insurance .two-columns .scale-card-insurance .percent {
-    height: 10px;
-    background: #A5CA38;
-    border-radius: 28px;
-    margin: 0;
-}
-
-.top-card-insurance .two-columns .scale-card-insurance .scale-text {
-    font-size: 14px;
-    color:#87919f;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.top-card-insurance .two-columns {
-    padding: 15px 0 0 0;
-}
-
-.top-card-insurance .reviews {
-    margin: 0 10px 15px 15px;
-    font-size: 14px;
-}
-
-.top-card-insurance .block-card-insurance .logo {
-    border: 1px solid #EBEBEB;
-    width: 165px;
-    height: 95px;
-    padding: 23px 9px 33px 9px;
-}
-
-.top-card-insurance .block-card-insurance .insura-cont {
-    color: #87919F;
-}
-
-.top-card-insurance .block-card-insurance .fst {
-    margin-right: 30px;
-}
-
-.top-card-insurance .block-card-insurance .sec {
-    margin-right: 50px;
-}
-
-.top-card-insurance .block-card-insurance .block-row .insurance-head-intro {
-    height: 1em;
-    font-weight: 700;
-}
-
-.top-card-insurance .block-card-insurance .block-row .insura-cont {
-    color: #87919F;
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 10px;
-}
-
-.top-card-insurance .reviews span {
-    color: #87919F;
-}
-
-.top-card-insurance .two-columns .comprasion{
-    margin-right: 50px;
-}
-
-.top-card-insurance .two-columns .comprasion span {
-    color: #87919F;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.top-card-insurance .two-columns .comprasion span svg {
-    margin-left: 5px;
-}
-
-.content-bl {
-    padding: 0 40px;
-    margin-top: -20px;
-}
-
-.content-bl .head-card-insurance .more-loan{
-    display: block;
-    text-align: center;
-    margin: 10px 0 15px;
-    color: #017AD3;
-    font-family: 'Futura PT';
-    cursor: pointer;
-}
-
-.content-bl  .head-card-insurance .hidden-card-insurance {
-    overflow: hidden;
-    max-height: 0;
-}
-
-.content-bl .head-card-insurance .hidden-card-insurance .text {
-    line-height: 28px;
-}
-
-.content-bl .hidden-card-insurance .info-card-insurance {
-    font-weight: 600;
-    float: right;
-    font-size: 14px;
-    margin-bottom: 40px;
-}
-
-.content-bl .hidden-card-insurance .tab {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap;
-    padding: 15px 0;
-    width:100%;
-}
-
-.content-bl .hidden-card-insurance .tab .tablinks {
-    background-color: inherit;
-    text-align: center;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    border-bottom: 2px solid #EBEBEB ;
-    width: 33%;
-    font-family: 'Futura PT';
-}
-
-
-.content-bl .hidden-card-insurance .tab .tablinks.on {
-    color: #017AD3;
-    border-bottom: 2px solid #017AD3;
-}
-
-.content-bl .hidden-card-insurance .tabs-items .tabcontent.on{display:block}
-
-
-.content-bl .hidden-card-insurance .tabs-items .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    margin-top: 32px;
-}
-
-.content-bl .hidden-card-insurance .tabs-items .tabcontent .table {
-    width: 100%;
-    border: 1px solid #ebebeb;
-}
-
-.content-bl .hidden-card-insurance .tabs-items .tabcontent .table .tr {
-    display: flex;
-    justify-content: space-between;
-}
-
-.content-bl .hidden-card-insurance .tabs-items .tabcontent .table .tr .td {
-    padding: 1.3em;
-    font-size: 14px;
-}
-
-.content-bl .hidden-card-insurance .tabs-items .tabcontent .table .tr .td svg {
-    margin-left: 5px;
-}
-
-.content-bl .hidden-card-insurance .tabs-items .tabcontent ul {
-    list-style-type: none ;
-}
-
-.content-bl .hidden-card-insurance .tabs-items .tabcontent .table .tr .td:first-of-type {
-    width: 30%;
-    background: #FAFAFA;
-    font-weight: 600;
-    border-right: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
-}
-
-.content-bl  .hidden-card-insurance .tabs-items .tabcontent .table .tr .td:last-of-type {
-    width: 70%;
-    border-bottom: 1px solid #ebebeb;
-}
-
-/*table*/
-table {
-    width: 100%;
-    table-layout:fixed;
-    font-size: 14px;
-}
-
-table td {
-    padding: 18px;
-}
-
-table .main {
-    background: #fafafa;
-    font-weight: 600;
-    width: 30%;
-}
-
-table td.main svg{
-    margin-left: 10px;
-}
-
-table.table-info {
-    text-align: left;
-    border: 1px solid #ebebeb;
-    border-collapse: collapse;
-}
-
-table.table-info tr {
-    border-bottom: 1px solid #ebebeb;
-}
-
-table.table-info td.main {
-    border-right: 1px solid #ebebeb;
-}
-
-.hidden-card-insurance .slider {
+.hidden-card-info .slider {
     padding-bottom: 40px;
 }
 
-.hidden-card-insurance .slider .slider-block {
+.hidden-card-info .slider .slider-block {
     display: flex;
     justify-content: space-between;
 }
 
-.hidden-card-insurance .slider .slider-block .slider-button {
+.hidden-card-info .slider .slider-block .slider-button {
     width: 50px;
     height: 50px;
     padding: 15px 20px;
@@ -611,27 +330,27 @@ table.table-info td.main {
     cursor:pointer;
 }
 
-.hidden-card-insurance .slider .slider-block  div.slider-button:last-of-type {
+.hidden-card-info .slider .slider-block  div.slider-button:last-of-type {
     background-color: #81DAC8;
 }
 
-.hidden-card-insurance .slider .slider-block .slider-info {
+.hidden-card-info .slider .slider-block .slider-info {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
     width: 100%;
 }
 
-.hidden-card-insurance .slider .slider-block .slider-info li {
+.hidden-card-info .slider .slider-block .slider-info li {
     margin-left: 30px;
     width: 50%;
 }
 
-.hidden-card-insurance .slider .slider-block .slider-info li:last-child {
+.hidden-card-info .slider .slider-block .slider-info li:last-child {
     margin-left: 20px;
 }
 
-.hidden-card-insurance .print {
+.hidden-card-info .print {
     border: 1px solid #017AD3;
     padding: 15px;
     margin-right: 40px;
@@ -642,50 +361,10 @@ table.table-info td.main {
     cursor: pointer;
 }
 
-.hidden-card-insurance .btn {
+.hidden-card-info .btn {
     padding: 40px;
     display: inline-flex;
     margin-top: 28px;
     margin-bottom: 30px;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
