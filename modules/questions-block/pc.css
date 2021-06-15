@@ -20,7 +20,7 @@
 
 .question-block .user-name {
     color: #a3a3a3;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .question-block .experts-reply {
@@ -45,7 +45,7 @@
 
 .question-block .experts-reply .reply-info .expert-post {
     color: #848484;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .question-block .experts-reply .reply-info .reply-text {
@@ -90,7 +90,7 @@
     height: 50px;
     margin-top: 10px;
     padding: 14px;
-    font-size: 14px;
+    font-size: 0.87em;
     font-weight: 600;
     outline: none;
     color: #C0C3C8;

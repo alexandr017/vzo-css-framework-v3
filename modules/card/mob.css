@@ -67,7 +67,7 @@
 }
 
 .top-card-loan .reviews {
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .top-card-loan  .reviews a {
@@ -89,7 +89,7 @@
 
 .top-card-loan .block-loan .block-row .loan-cont{
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 0.87em;
     color:#87919f;
 }
 
@@ -105,7 +105,7 @@
 .top-card-loan .comprasion .comp {
     margin-top: 22px;
     color: #87919F;
-    font-size: 14px;
+    font-size: 0.87em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -135,12 +135,12 @@
 }
 
 .content-card-loan .head-card-loan .hidden-card-loan .text-card-loan {
-    line-height: 28px;
+    line-height: 1.75em;
 }
 
 .content-card-loan .hidden-card-loan .info-card-loan {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .hidden-card-loan .tab-wrap {
@@ -220,7 +220,7 @@
 }
 
 .hidden-card-loan .slider .slider-block .slider-info .slide-cont {
-    font-size: 14px;
+    font-size: 0.87em;
     margin-top: 5px;
 }
 
@@ -291,7 +291,7 @@
 }
 
 .top-card-insurance .scale-card-insurance .scale-text{
-    font-size: 14px;
+    font-size: 0.87em;
     color:#87919f;
     text-align: center;
     margin-top: 5px;
@@ -300,17 +300,17 @@
     display:flex;
     justify-content: space-between;
     margin-top:30px;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .top-card-insurance .reviews a {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .top-card-insurance .reviews span {
     color:#87919f;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .top-card-insurance .block-card-insurance {
@@ -330,14 +330,14 @@
 .top-card-insurance .comprasion .comp {
     margin-top: 22px;
     color: #87919F;
-    font-size: 14px;
+    font-size: 0.87em;
     text-transform: uppercase;
     text-align: center;
 }
 
 .top-card-insurance .block-card-insurance .insura-cont {
     color: #87919F;
-    font-size: 14px;
+    font-size: 0.87em;
     margin-top: 5px;
 }
 
@@ -352,13 +352,11 @@
 }
 
 .content-bl .head-card-insurance {
-    font-size: 16px;
     font-weight: 400;
 }
 
 .content-bl .head-card-insurance .more-loan{
     color: #017AD3;
-    font-size: 16px;
     font-family: 'Futura PT';
     font-weight: 400;
     cursor: pointer;
@@ -373,12 +371,12 @@
 }
 
 .content-bl .head-card-insurance .hidden-card-insurance .text-card-insurance {
-    line-height: 28px;
+    line-height: 1.75em;
 }
 
 .content-bl .hidden-card-insurance .info-card-insurance {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .hidden-card-insurance .tab-wrap {

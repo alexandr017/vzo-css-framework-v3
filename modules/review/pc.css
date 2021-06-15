@@ -18,7 +18,7 @@
 .sorting li {
     display: inline-block;
     padding: 0 6px 5px;
-    line-height: 24px;
+    line-height: 1.5em;
 }
 
 .sorting li:not(:first-child){
@@ -167,14 +167,14 @@
 }
 
 .reviews .aside-rating .info .info-title {
-    font-size: 14px;
+    font-size: 0.87em;
     color:#87919f;
     margin: 5px 0;
     font-weight: 700;
 }
 
 .reviews .aside-rating .info .reviews-count {
-    font-size: 14px;
+    font-size: 0.87em;
     color:#87919f;
     margin-bottom: 0;
     font-weight: 700;
@@ -204,7 +204,7 @@
     height: 50px;
     margin-top: 10px;
     padding: 14px;
-    font-size: 14px;
+    font-size: 0.87em;
     font-weight: 600;
     outline: none;
 }
@@ -249,7 +249,7 @@ h4:not(.review-f h4){
     margin-left: 0;
     cursor: pointer;
     margin-top:10px;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .displayNone {
@@ -334,14 +334,14 @@ h4:not(.review-f h4){
 }
 
 .bank-review-title {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.87em;
+    line-height: 1.06em;
 }
 .bank-review-title svg {
     margin: 20px 0;
 }
 .bank-review-name {
-    line-height: 22px;
+    line-height: 1.37em;
     display: block;
     font-weight: bold;
     margin: 5px 0 20px 0;

@@ -46,14 +46,14 @@
 }
 
 .reviews .center-rating .info .info-title {
-    font-size: 14px;
+    font-size: 0.87em;
     color:#87919f;
     margin: 5px 0;
     font-weight: 700;
 }
 
 .reviews .center-rating .info .reviews-count {
-    font-size: 14px;
+    font-size: 0.87em;
     color:#87919f;
     font-weight: 700;
     margin-left: 234px;
@@ -85,7 +85,7 @@
     background: #fff;
     outline: none;
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .reviews .block-reviews .text-review .user-logo {
@@ -148,7 +148,7 @@
 
 .reviews .replace div span:not(:last-of-type){
     margin-left: 30px;
-    line-height: 18px;
+    line-height: 1.12em;
     font-weight: 600;
 }
 
@@ -179,7 +179,7 @@
     height: 50px;
     margin-top: 10px;
     padding: 14px;
-    font-size: 14px;
+    font-size: 0.87em;
     font-weight: 600;
     outline: none;
 }

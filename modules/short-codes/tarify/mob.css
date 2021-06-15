@@ -5,7 +5,7 @@
 .tariff-block .header-tariff a {
     font-family: 'Futura PT';
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 
 .tariff-block .logo {
@@ -36,7 +36,7 @@
 
 .tariff-block .block-loan .block-row .traffic-cont {
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 0.87em;
     color: #87919F;
     font-weight: 500;
 

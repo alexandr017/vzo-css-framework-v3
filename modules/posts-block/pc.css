@@ -23,7 +23,7 @@
 }
 
 .main-posts .main-post-item a.main-post-link time {
-    font-size: 14px;
+    font-size: 0.87em;
     color: #87919F;
     padding: 15px 22px 15px 20px;
     margin: 0;
@@ -31,7 +31,7 @@
 }
 
 .main-posts .main-post-item a.main-post-link .main-post-title {
-    line-height: 22px;
+    line-height: 1.37em;
     font-weight: bold;
     color: #292929;
     padding: 0 10px 31px 20px;

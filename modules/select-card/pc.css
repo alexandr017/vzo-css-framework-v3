@@ -3,16 +3,16 @@
 }
 
 .select-card h1 {
-    font-size: 48px;
-    line-height: 62px;
+    font-size: 3em;
+    line-height:3.87em;
     font-weight: 500;
     font-family: 'Futura PT';
 }
 
 .select-card .container-text p ,
 .select-card .container-cards .container-type-cards p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 .select-card .container-text p:first-of-type {
