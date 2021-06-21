@@ -34,6 +34,7 @@ input[type=range] {
     -webkit-appearance: none;
     z-index: 1;
 }
+
 input.tick:before{
     content: "";
     position: absolute;
@@ -42,6 +43,7 @@ input.tick:before{
     background-color: #ebebeb;
     margin-top: -9px;
 }
+
 input[type=range]::-webkit-slider-runnable-track {
     box-shadow: none;
     border: none;
@@ -49,6 +51,7 @@ input[type=range]::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     z-index: 1;
 }
+
 input[type=range]::-moz-range-track {
     box-shadow: none;
     border: none;
@@ -56,11 +59,13 @@ input[type=range]::-moz-range-track {
     opacity: 1;
     z-index: 1;
 }
+
 input[type=range]::-moz-focus-outer {
     border: 0;
     opacity: 1;
     z-index: 1;
 }
+
 input[type=range]::-webkit-slider-thumb {
     width: 20px;
     height: 20px;
@@ -71,6 +76,7 @@ input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     z-index: 1;
 }
+
 input[type=range]::-moz-range-thumb {
     width: 20px;
     height: 20px;
@@ -84,8 +90,8 @@ input[type=range]::-moz-range-thumb {
     padding-top: 4px;
 }
 .range-slider-point {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.87em;
+    line-height: 1em;
     cursor: pointer;
     list-style-type: none;
     padding: 0;

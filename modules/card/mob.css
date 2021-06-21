@@ -1,250 +1,10 @@
-.block-card-loan {
+.block-card {
     border: 4px solid #FCE6A4;
     width: 100%;
-}
-
-.block-card-loan .top-card-loan {
-    padding: 20px 30px;
-}
-
-.block-card-loan hr {
-    height: 1px;
-    border: none;
-    background-color:#EBEBEB;
-    margin-top:53px;
-}
-
-.top-card-loan .header-card-loan {
-    display: flex;
-    justify-content: space-between;
-}
-
-.top-card-loan .header-card-loan a {
-    font-family: 'Futura PT';
-    font-weight: 600;
-}
-
-.top-card-loan .logo {
-    border: 1px solid #EBEBEB;
-    width:100%;
-    height: 134px;
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.top-card-loan .logo img {
-    margin: 0 auto;
-}
-
-.top-card-loan .scale-card-loan {
-    width: 100%;
-    height: 10px;
-    background:#EAEAEA;
-    border-radius: 28px;
-    margin-top: 10px;
-}
-
-.top-card-loan .scale-card-loan .percent {
-    height: 10px;
-    background: #A5CA38;
-    border-radius: 28px;
-    margin: 0;
-}
-
-.top-card-loan .scale-card-loan .scale-text{
-    font-size: 0.87em;
-    color:#87919f;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.top-card-loan .reviews {
-    display:flex;
-    justify-content: space-between;
-    margin-top:30px;
-}
-
-.top-card-loan .reviews {
-    font-size: 0.87em;
-}
-
-.top-card-loan  .reviews a {
-    font-weight: 600;
-}
-
-.top-card-loan .reviews span {
-    color: #87919F;
-}
-
-.top-card-loan .block-loan {
-    margin-top: 37px;
-}
-
-.top-card-loan .block-loan .block-row {
-    margin-top: 33px;
-    text-align: center;
-}
-
-.top-card-loan .block-loan .block-row .loan-cont{
-    margin-top: 5px;
-    font-size: 0.87em;
-    color:#87919f;
-}
-
-.top-card-loan .comprasion {
-    text-align: center;
-    margin-top: 35px;
-}
-
-.top-card-loan .comprasion .btn {
-    margin-top: 35px;
-}
-
-.top-card-loan .comprasion .comp {
-    margin-top: 22px;
-    color: #87919F;
-    font-size: 0.87em;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.top-card-loan .block-loan .block-row .loan-head-intro {
-    height: 1em;
-    font-weight: 700;
-}
-
-.content-card-loan {
-    padding: 0 40px;
-    margin-top: -20px;
-}
-
-.content-card-loan .head-card-loan .more-loan{
-    color: #017AD3;
-    font-family: 'Futura PT';
-    cursor: pointer;
-    display: block;
-    text-align: center;
-    margin: 10px 0 15px;
-}
-
-.content-card-loan .head-card-loan .hidden-card-loan {
-    overflow: hidden;
-    max-height: 0;
-}
-
-.content-card-loan .head-card-loan .hidden-card-loan .text-card-loan {
-    line-height: 1.75em;
-}
-
-.content-card-loan .hidden-card-loan .info-card-loan {
-    font-weight: 600;
-    font-size: 0.87em;
-}
-
-.hidden-card-loan .tab-wrap {
-    padding: 40px 0;
-}
-
-.hidden-card-loan .tab .tablinks {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    border-bottom: 2px solid #EBEBEB ;
-    width: 100%;
-    font-family: 'Futura PT';
-}
-
-.hidden-card-loan .tab .tablinks.on {
-    color: #017AD3;
-    border-bottom: 2px solid #017AD3;
-}
-
-.hidden-card-loan .tabs-items .tabcontent.on{display:block}
-
-.hidden-card-loan .tabs-items .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    margin-top: 200px;
-}
-
-.hidden-card-loan .tabs-items .tabcontent ul {
-    list-style-type: none;
-}
-
-.hidden-card-loan .tablinks svg.arrow {
-    float: right;
-    color: #87919F;
-}
-
-.hidden-card-loan .tablinks.on svg.arrow {
-    transform: rotate(180deg);
-    stroke: #017AD3 !important;
-    stroke-width: 1px;
-}
-
-.hidden-card-loan .slider .slider-block {
-    display: flex;
-    justify-content: space-between;
-}
-
-.hidden-card-loan .slider .slider-block .slider-button {
-    width: 50px;
-    height: 50px;
-    padding: 15px 20px;
-    border-radius: 50%;
-    border: 1px solid #EBEBEB ;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.hidden-card-loan  .slider .slider-block  div.slider-button:last-of-type {
-   background-color: #81DAC8;
-}
-
-.hidden-card-loan  .slider .slider-block .slider-info .border-radius {
-    border: 1px solid #EBEBEB ;
-    width:48px;
-    height: 48px;
-    padding: 12px;
-    margin: auto;
-}
-
-.hidden-card-loan .slider .slider-block .slider-info div svg {
-    width: 23px;
-}
-
-.hidden-card-loan .slider .slider-block .slider-info .slide-cont {
-    font-size: 0.87em;
-    margin-top: 5px;
-}
-
-.hidden-card-loan .btn {
-    display: block;
-    margin-top: 28px;
-
-}
-
-.hidden-card-loan .btn:last-of-type {
-    margin-bottom: 55px ;
-}
-
-.hidden-card-loan .btn .btn-auth {
     margin-top: 20px;
 }
 
-
-.block-card{
-    border: 4px solid #FCE6A4;
-    margin-top: 50px;
-}
-
-.top-card-insurance {
+.block-card .top-card {
     padding: 20px 30px;
 }
 
@@ -255,18 +15,17 @@
     margin-top:53px;
 }
 
-.top-card-insurance .header-card-insurance {
-    width: 100%;
+.top-card .header-card {
     display: flex;
     justify-content: space-between;
 }
 
-.top-card-insurance .header-card-insurance a {
+.top-card .header-card a {
     font-family: 'Futura PT';
     font-weight: 600;
 }
 
-.top-card-insurance .logo {
+.top-card .logo {
     border: 1px solid #EBEBEB;
     width:100%;
     height: 134px;
@@ -276,114 +35,121 @@
     justify-content: center;
 }
 
-.top-card-insurance .scale-card-insurance {
+.top-card .logo img {
+    margin: 0 auto;
+}
+
+.top-card .scale-card {
     width: 100%;
     height: 10px;
     background:#EAEAEA;
     border-radius: 28px;
     margin-top: 10px;
 }
-.top-card-insurance .scale-card-insurance .percent {
+
+.top-card .scale-card .percent {
     height: 10px;
     background: #A5CA38;
     border-radius: 28px;
     margin: 0;
 }
 
-.top-card-insurance .scale-card-insurance .scale-text{
+.top-card .scale-card .scale-text{
     font-size: 0.87em;
     color:#87919f;
     text-align: center;
     margin-top: 5px;
 }
-.top-card-insurance .reviews {
+
+.top-card .reviews {
     display:flex;
     justify-content: space-between;
     margin-top:30px;
+}
+
+.top-card .reviews {
     font-size: 0.87em;
 }
 
-.top-card-insurance .reviews a {
+.top-card .reviews a {
     font-weight: 600;
-    font-size: 0.87em;
 }
 
-.top-card-insurance .reviews span {
-    color:#87919f;
-    font-size: 0.87em;
+.top-card .reviews span {
+    color: #87919F;
 }
 
-.top-card-insurance .block-card-insurance {
+.top-card .card-top-inner {
     margin-top: 37px;
 }
 
-.top-card-insurance .block-card-insurance .block-row {
+.top-card .card-top-inner .block-row {
     margin-top: 33px;
     text-align: center;
 }
 
-.top-card-insurance .comprasion {
+.top-card .card-top-inner .block-row .card-cont{
+    margin-top: 5px;
+    font-size: 0.87em;
+    color:#87919f;
+}
+
+.top-card .comprasion {
     text-align: center;
     margin-top: 35px;
 }
 
-.top-card-insurance .comprasion .comp {
+.top-card .comprasion .btn {
+    margin-top: 35px;
+}
+
+.top-card .comprasion .comp {
     margin-top: 22px;
     color: #87919F;
     font-size: 0.87em;
     text-transform: uppercase;
     text-align: center;
+    cursor: pointer;
 }
 
-.top-card-insurance .block-card-insurance .insura-cont {
-    color: #87919F;
-    font-size: 0.87em;
-    margin-top: 5px;
-}
-
-.top-card-insurance .block-card-insurance .block-row .insurance-head-intro {
+.top-card .card-top-inner .block-row .card-head-intro {
     height: 1em;
     font-weight: 700;
 }
 
-.content-bl{
+.content-card {
     padding: 0 40px;
     margin-top: -20px;
 }
 
-.content-bl .head-card-insurance {
-    font-weight: 400;
-}
-
-.content-bl .head-card-insurance .more-loan{
+.content-card .head-card .card-more{
     color: #017AD3;
     font-family: 'Futura PT';
-    font-weight: 400;
     cursor: pointer;
     display: block;
     text-align: center;
     margin: 10px 0 15px;
 }
 
-.content-bl .head-card-insurance .hidden-card-insurance {
+.content-card .head-card .hidden-card {
     overflow: hidden;
     max-height: 0;
 }
 
-.content-bl .head-card-insurance .hidden-card-insurance .text-card-insurance {
+.content-card .head-card .hidden-card .text-card{
     line-height: 1.75em;
 }
 
-.content-bl .hidden-card-insurance .info-card-insurance {
+.content-card .hidden-card .info-card{
     font-weight: 600;
     font-size: 0.87em;
 }
 
-.hidden-card-insurance .tab-wrap {
+.hidden-card .tab-wrap {
     padding: 40px 0;
 }
 
-.hidden-card-insurance .tab .tablinks {
+.hidden-card .tab .tablinks {
     background-color: inherit;
     float: left;
     border: none;
@@ -396,42 +162,40 @@
     font-family: 'Futura PT';
 }
 
-.hidden-card-insurance .tab .tablinks.on {
+.hidden-card .tab .tablinks.on {
     color: #017AD3;
     border-bottom: 2px solid #017AD3;
 }
 
-.hidden-card-insurance .tabs-items .tabcontent {display:none}
+.hidden-card .tabs-items .tabcontent.on{display:block}
 
-.hidden-card-insurance .tabs-items .tabcontent ul {
-    list-style-type: none;
-}
-
-.hidden-card-insurance .tabs-items .tabcontent.on {display:block}
-
-.hidden-card-insurance .tabs-items .tabcontent {
+.hidden-card .tabs-items .tabcontent {
     display: none;
     padding: 6px 12px;
     margin-top: 200px;
 }
 
-.hidden-card-insurance .tablinks svg.arrow {
+.hidden-card .tabs-items .tabcontent ul {
+    list-style-type: none;
+}
+
+.hidden-card .tablinks svg.arrow {
     float: right;
     color: #87919F;
 }
 
-.hidden-card-insurance .tablinks.on svg.arrow {
+.hidden-card .tablinks.on svg.arrow {
     transform: rotate(180deg);
     stroke: #017AD3 !important;
     stroke-width: 1px;
 }
 
-.hidden-card-insurance .slider .slider-block {
+.hidden-card .slider .slider-block {
     display: flex;
     justify-content: space-between;
 }
 
-.hidden-card-insurance .slider .slider-block .slider-button {
+.hidden-card .slider .slider-block .slider-button {
     width: 50px;
     height: 50px;
     padding: 15px 20px;
@@ -441,20 +205,37 @@
     cursor: pointer;
 }
 
-.hidden-card-insurance  .slider .slider-block  div.slider-button:last-of-type {
-    background-color: #81DAC8;
+.hidden-card .slider .slider-block  div.slider-button:last-of-type {
+   background-color: #81DAC8;
 }
 
-.hidden-card-insurance .btn {
+.hidden-card .slider .slider-block .slider-info .border-radius {
+    border: 1px solid #EBEBEB ;
+    width:48px;
+    height: 48px;
+    padding: 12px;
+    margin: auto;
+}
+
+.hidden-card .slider .slider-block .slider-info div svg {
+    width: 23px;
+}
+
+.hidden-card .slider .slider-block .slider-info .slide-cont {
+    font-size: 0.87em;
+    margin-top: 5px;
+}
+
+.hidden-card .btn {
     display: block;
     margin-top: 28px;
 }
 
-.hidden-card-insurance .btn:last-of-type {
+.hidden-card .btn:last-of-type {
     margin-bottom: 55px ;
 }
 
-.hidden-card-insurance .btn .btn-auth {
+.hidden-card.btn .btn-auth {
     margin-top: 20px;
 }
 

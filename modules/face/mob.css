@@ -16,6 +16,7 @@
 .card .top-card .logo img {
     margin: 0 auto;
 }
+
 .card .top-card .scale-card {
     width: 100%;
     height: 10px;
@@ -23,6 +24,7 @@
     border-radius: 28px;
     margin-top: 10px;
 }
+
 .card .top-card .scale-card .percent {
     height: 10px;
     background: #A5CA38;
@@ -54,7 +56,6 @@
 .card .top-card .reviews span {
     color: #87919F;
 }
-
 
 .card .conditions .first {
     margin-top: 20px;

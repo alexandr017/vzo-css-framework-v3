@@ -45,9 +45,11 @@
     margin-left: 25px;
 }
 
-.question-block .experts-reply .expert-logo .expert.expert-name {
+.question-block .experts-reply .expert-logo .expert .expert-name {
     font-weight: 600;
     text-decoration-line: underline;
+    cursor: pointer;
+    color: #292929;
 }
 
 .question-block .experts-reply .expert-logo .expert .expert-post {
@@ -66,15 +68,18 @@
 
 .question-block .experts-reply .reply-info .reply-bottom-block .down-likes {
     margin-left: 13px;
+    cursor: pointer;
 }
 
 .question-block .experts-reply .reply-info .reply-bottom-block .up-likes,
 .question-block .experts-reply .reply-info .reply-bottom-block .down-likes {
     display: inline-flex;
+    cursor: pointer;
 }
 
 .question-block .experts-reply .reply-info .reply-bottom-block .reply-comment {
     margin-left: 28px;
+    cursor: pointer;
 }
 
 .question-block .experts-reply .reply-info .reply-bottom-block time {

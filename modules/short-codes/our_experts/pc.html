@@ -31,37 +31,3 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script>
-    function actionMoreLess(){
-        var boxOuter = ".data-more-less",
-            boxInner = ".data-more-less-inner",
-            boxBody = ".data-more-less-body",
-            showMore = $(".action-more");
-        $(boxInner).each(function(){
-            var $this = $(this),
-                bodyDataH = $this.find(boxBody).height();
-            $this.css("max-height", $this.data("height"));
-            var $thisH = $this.height();
-            if(bodyDataH > $thisH){
-                $this.closest(boxOuter).removeClass("action-disabled");
-            } else {
-                $this.closest(boxOuter).addClass("action-disabled");
-            }
-        })
-        showMore.click(function(e){
-            e.preventDefault();
-            var $this = $(this),
-                boxInnerH = $this.closest(boxOuter).find(boxInner).height(),
-                boxInnerUpdate = boxInnerH + $this.closest(boxOuter).find(boxInner).data("increase-by"),
-                boxBodyH = $this.closest(boxOuter).find(boxBody).height();
-            setTimeout(function(){
-                if(boxBodyH > boxInnerUpdate){
-                    $this.closest(boxOuter).removeClass("less-active").find(boxInner).css("max-height", boxInnerUpdate);
-                } else {
-                    $this.closest(boxOuter).addClass("less-active").find(boxInner).css("max-height", "none");
-                }
-            },10);
-        });
-    } actionMoreLess();
-</script>

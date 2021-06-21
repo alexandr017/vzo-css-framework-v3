@@ -1,6 +1,5 @@
 
-
-.hidden-card-loan .btn{
+.hidden-card .btn{
     width: 90%;
 }
 .btn .btn-support, .btn .btn-auth {
@@ -9,13 +8,13 @@
 .btn .btn-auth {
     margin-bottom: 1em;
 }
-.scale-card-loan .approval-percent {
+.scale-card .approval-percent {
     height: 10px;
     background: #A5CA38;
     border-radius: 28px;
     margin: 0;
 }
-.scale-card-loan {
+.scale-card {
     margin-top: 1em;
 }
 .scale-text {
@@ -23,32 +22,32 @@
     color: #87919f;
     margin-top: 5px;
 }
-.scale-card-loan {
+.scale-card {
     width: 100%;
     height: 10px;
     background: #EAEAEA;
     margin-top: 10px;
 }
-.block-card-loan {
+.block-card {
     border: 4px solid #FCE6A4;
 }
 
-.block-card-loan .top {
+.block-card .top {
     padding: 20px 30px;
 }
-.block-card-loan .top .header {
+.block-card .top .header {
     display: flex;
     justify-content: space-between;
 }
 
-.block-card-loan .top .header a {
+.block-card .top .header a {
     text-decoration: none;
     color: #017AD3;
     font-family: 'Futura PT';
     font-weight: 600;
 }
 
-.block-card-loan .top .logo {
+.block-card .top .logo {
     height: 134px;
     margin-top: 15px;
     display: flex;
@@ -56,55 +55,55 @@
     align-items: center;
 }
 
-.block-card-loan .top .reviews {
+.block-card .top .reviews {
     display:flex;
     justify-content: space-between;
     margin-top:20px;
 }
 
-.block-card-loan .top .reviews div {
+.block-card .top .reviews div {
     font-size: 0.8em;
 }
 
-.block-card-loan .top  .reviews a {
+.block-card .top  .reviews a {
     text-decoration: none;
     color: #017AD3;
     font-weight: 600;
 }
 
-.block-card-loan .top .reviews span {
+.block-card.top .reviews span {
     color: #87919F;
 }
 
-.block-card-loan .top .block {
+.block-card .top .block {
     margin-top: 37px;
 }
 
-.block-card-loan .top .block .block-row {
+.block-card .top .block .block-row {
     margin-top: 33px;
     text-align: center;
 }
 
-.block-card-loan .top .block p {
+.block-card .top .block p {
     color: #87919F;
     font-size: 0.8em;
 }
 
-.block-card-loan .top .block .block-row .loan-head-intro {
+.block-card .top .block .block-row .card-head-intro {
     height: 1em;
     font-weight: 700;
 }
-.block-card-loan .content {
+.block-card .content {
     padding: 0 40px;
     margin-top: -20px;
 }
 
-.block-card-loan .content .head {
+.block-card .content .head {
     font-family: 'Futura PT';
     font-weight: 400;
 }
 
-.block-card-loan .content .head .more-loan{
+.block-card .content .head .card-more{
     text-align: center;
     color: #017AD3;
     font-family: 'Futura PT';
@@ -112,23 +111,22 @@
     cursor: pointer;
 }
 
-.block-card-loan .content .head .hidden-card-loan {
+.block-card .content .head .hidden-card {
     padding: 1em 0;
     display: none;
 }
 .open-hidden-info {
     display: none;
 }
-.content .open-hidden-info:checked + .hidden-card-loan {
+.content .open-hidden-info:checked + .hidden-card {
     display: block;
 }
 
-.block-card-loan .content .head .hidden-card-loan .text {
-    color: #292929;
+.block-card .content .head .hidden-card .text {
     line-height: 1.6em;
 }
 
-.block-card-loan .content .hidden-card-loan .info {
+.block-card .content .hidden-card .info {
     color: #292929;
     font-weight: 600;
     font-size: 0.8em;
