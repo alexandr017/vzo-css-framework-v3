@@ -1,20 +1,23 @@
-.main-posts .main-post-item a.main-post-link {
+.main-posts .main-post-block a.main-post-link {
     background: #FFFFFF;
     margin-top: 15px;
     display: flex;
 }
 
-.main-posts .main-post-item a.main-post-link img{
-    border: 1px solid #ebebeb;
-    border-radius: 5px 0 0 5px;
-    width: 33.3%;
+.main-posts .main-post-block a.main-post-link .img{
+    width: 40%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
 }
 
 .main-post-title-wrap{
-    width: 66.5%;
+    width: 60%;
 }
 
-.main-posts .main-post-item a.main-post-link time {
+.main-posts .main-post-block a.main-post-link time {
     font-size: 0.87em;
     color: #87919F;
     padding: 15px 22px 15px 20px;
@@ -22,7 +25,7 @@
     display: block;
 }
 
-.main-posts .main-post-item a.main-post-link .main-post-title {
+.main-posts .main-post-block a.main-post-link .main-post-title {
     line-height: 1.37em;
     font-weight: bold;
     color: #292929;
@@ -30,7 +33,7 @@
     display: block;
 }
 
-.main-posts .main-post-item a.btn {
+.main-posts .main-post-block a.btn {
     margin-top: 15%;
     width: 45px;
     height: 45px;

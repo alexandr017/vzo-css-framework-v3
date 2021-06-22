@@ -1,28 +1,31 @@
 .main-posts {
-    padding-left: 79px;
-    padding-right: 78px;
+    padding-left:0;
+    margin: 0;
 }
 
 
-.main-posts .main-post-item {
+.main-posts .main-post-block {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
-.main-posts .main-post-item a.main-post-link {
-    width: 30%;
+.main-posts .main-post-block a.main-post-link {
     background: #FFFFFF;
-    margin-left:3%;
     margin-top: 37px;
+    margin-right: 30px;
+    width: 27%;
+    padding: 0;
 }
 
-.main-posts .main-post-item a.main-post-link img{
+.main-posts .main-post-block a.main-post-link img{
     border: 1px solid #ebebeb;
     border-radius: 5px 5px 0 0;
-    width: 100%;
+    padding: 0;
 }
 
-.main-posts .main-post-item a.main-post-link time {
+.main-posts .main-post-block a.main-post-link time {
     font-size: 0.87em;
     color: #87919F;
     padding: 15px 22px 15px 20px;
@@ -30,7 +33,7 @@
     display: block;
 }
 
-.main-posts .main-post-item a.main-post-link .main-post-title {
+.main-posts .main-post-block a.main-post-link .main-post-title {
     line-height: 1.37em;
     font-weight: bold;
     color: #292929;
@@ -38,9 +41,61 @@
     display: block;
 }
 
-.main-posts .main-post-item a.btn {
+.main-posts .main-post-block a.btn {
     margin-top: 15%;
     width: 45px;
     height: 45px;
 }
 
+.main-posts-wrap {
+    padding-left:0;
+    margin: 0;
+}
+
+.main-posts-wrap h4 {
+    margin-top: 50px;
+}
+
+
+.main-posts-wrap .main-post-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.main-posts-wrap .main-post-block a.main-post-link {
+    background: #FFFFFF;
+    margin-top: 37px;
+    margin-right: 30px;
+    width: 20.5%;
+    padding: 0;
+}
+
+.main-posts-wrap .main-post-block a.main-post-link img{
+    border: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+    padding: 0;
+}
+
+.main-posts-wrap .main-post-block a.main-post-link time {
+    font-size: 0.87em;
+    color: #87919F;
+    padding: 15px 22px 15px 20px;
+    margin: 0;
+    display: block;
+}
+
+.main-posts-wrap .main-post-block a.main-post-link .main-post-title {
+    line-height: 1.37em;
+    font-weight: bold;
+    color: #292929;
+    padding: 0 10px 31px 20px;
+    display: block;
+}
+
+.main-posts-wrap .main-post-block a.btn {
+    margin-top: 15%;
+    width: 45px;
+    height: 45px;
+}
