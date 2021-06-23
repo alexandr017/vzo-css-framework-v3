@@ -1,0 +1,28 @@
+.card-sel-wrap{
+    padding: 15px 0;
+    margin: 15px 0;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.card-sel-flex {
+    display: flex;
+}
+
+.card-sel-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.card-sel-left {
+    width: 70%;
+}
+
+.card-sel-right {
+    width: 30%;
+    text-align: right;
+}
+
+.card-sel-description {
+    margin-top: 10px;
+}
+

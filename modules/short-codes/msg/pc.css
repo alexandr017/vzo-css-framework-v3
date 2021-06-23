@@ -1,0 +1,53 @@
+.msg-wrap {
+    padding: 35px 70px 25px;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+.msg-title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.msg-wrap.info {
+    background: rgba(186, 229, 255, 0.3);
+}
+
+.msg-wrap.primary {
+    background: rgba(1, 122, 211, 0.3);
+}
+
+.msg-wrap.warning {
+    background: rgba(255, 193, 7, 0.3);
+}
+
+.msg-wrap.default {
+    background: rgba(196, 196, 196, 0.3);
+}
+
+.msg-wrap.success {
+    background: rgba(165, 202, 56, 0.3);
+}
+
+.msg-wrap.danger {
+    background: rgba(255, 122, 92, 0.3);
+}
+
+.msg-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg-flex-left {
+    width: 10%;
+}
+
+.msg-flex-right {
+    width: 90%;
+}
+
+.msg-icon{
+    float: left;
+    margin-right: 25px;
+}

@@ -1,44 +1,12 @@
-.expert-img {
+.expert-photo {
     width: 118px;
     height: 118px;
+    background: #FFFFFF;
     border: 1px solid #D0D0D0;
     border-radius: 18px;
     margin: 0 auto;
+    margin-bottom: 1em;
 }
-.expert-name {
-    display: block;
-    margin-top: 1em;
-}
-.expert-opinion-block {
-    border: 4px solid #F9D057;
-    box-shadow: 0px 6px 20px rgba(65, 81, 92, 0.1);
-    border-radius: 5px;
-}
-
-.data-more-less-inner {
-    overflow: hidden;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.less-active .action-more {display: none;}
-
-.data-more-less:not(.less-active):not(.action-disabled) .data-more-less-inner:after {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
-    height: 80px;}
-
-.data-more-less.action-disabled .more-less-action {display: none;}
-
-.action-more {
-    margin-left: 30%;
-    width: 150px !important;
+.expert-item-block {
+    background: #F8F8F8;
 }

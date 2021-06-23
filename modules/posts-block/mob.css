@@ -1,20 +1,26 @@
+.main-posts .main-post-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .main-posts .main-post-block a.main-post-link {
     background: #FFFFFF;
     margin-top: 15px;
     display: flex;
 }
 
-.main-posts .main-post-block a.main-post-link .img{
-    width: 40%;
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-
+.main-posts .main-post-block a.main-post-link img {
+    display: block;
+    width:33.3%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    object-fit: cover;
 }
 
 .main-post-title-wrap{
-    width: 60%;
+    width: 66.5%;
+    margin-top: 20px;
 }
 
 .main-posts .main-post-block a.main-post-link time {
@@ -29,7 +35,7 @@
     line-height: 1.37em;
     font-weight: bold;
     color: #292929;
-    padding: 0 10px 31px 20px;
+    padding: 0 10px 0 20px;
     display: block;
 }
 

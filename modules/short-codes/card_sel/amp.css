@@ -1,0 +1,13 @@
+.card-sel-wrap{
+    padding: 15px 0;
+    margin: 15px 0;
+    border-bottom: 1px solid #EBEBEB;
+}
+.card-sel-wrap img{
+    margin: 0 auto 10px;
+    display: inherit;
+}
+.card-sel-title{
+    display: block;
+    text-align: center !important; /* убрать после редизайна */
+}
