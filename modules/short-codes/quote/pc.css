@@ -1,9 +1,11 @@
 .short-code-quote{
     margin: 15px 0;
+    font-weight: bold;
 }
 .quote-author{
     margin-top: 30px;
     display: block;
     color: #848484;
     font-size: 0.9em;
+    font-weight: normal;
 }

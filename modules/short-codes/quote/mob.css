@@ -1,13 +1,16 @@
 .short-code-quote{
     margin: 15px 0;
+    font-weight: bold;
 }
 .short-code-quote svg{
     margin: 0 15px 15px 0;
     float: left;
+    max-width: 32px;
 }
 .quote-author{
     margin-top: 30px;
     display: block;
     color: #848484;
     font-size: 0.9em;
+    font-weight: normal;
 }
