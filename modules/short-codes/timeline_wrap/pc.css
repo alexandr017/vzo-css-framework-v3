@@ -11,7 +11,7 @@
     height: 24px;
     border-radius: 50%;
     background: #fcfcfc;
-    border: 2px solid #a4ca38;
+    border: 3px solid #a4ca38;
     left: -2.5em;
     z-index: 11;
 }
@@ -23,4 +23,7 @@
     top: 0;
     left: -1.7em;
     background: #A5CA38;
+}
+.timeline-item:last-child .timeline-item-title:after{
+    display: none;
 }

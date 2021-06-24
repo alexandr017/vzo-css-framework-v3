@@ -1,9 +1,6 @@
 .people-wrap .shadow {
     margin: 15px 0;
-}
-
-.people-flex{
-    display: flex;
+    padding: 15px;
 }
 
 .people-img {
@@ -12,17 +9,19 @@
     min-width: 150px;
     border-radius: 10px;
     background: #F1F1F1;
-    margin: 15px;
+    margin: 0 auto 15px;
+    display: block;
 }
 
 .people-info{
-    margin: 15px 15px 15px 0;
+    margin: 15px 0 0;
 }
 
 .people-name {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .people-email{
