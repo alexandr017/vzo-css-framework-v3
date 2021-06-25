@@ -15,33 +15,15 @@
     padding: 14px 16px;
     transition: 0.3s;
     border-bottom: 2px solid #EBEBEB ;
-    width: 15%;
     color: #87919F;
     font-family: 'Futura PT';
-}
-
-.dashboard-menu .tab .tab-text {
-    width: 15%;
-}
-
-.dashboard-menu .tab .icon {
-    width: 5%;
-}
-
-.dashboard-menu  .tab .icon .ellipse {
-    position: absolute;
-    margin-top: -3px;
-    margin-left: -8px;
 }
 
 .dashboard-menu .tab .tablinks.on,.dashboard-menu .tab .tablink.active {
     color: #017AD3;
     border-bottom: 2px solid #017AD3;
 }
-
 .dashboard-menu .tabs-items .tabcontent.on{display:block}
-
-
 .dashboard-menu .tabs-items .tabcontent {
     display: none;
     padding: 6px 12px;
