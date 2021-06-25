@@ -37,9 +37,9 @@
     text-align: left;
 }
 
-
-
-
+.accordion svg {
+    min-width: 15px;
+}
 
 
 
