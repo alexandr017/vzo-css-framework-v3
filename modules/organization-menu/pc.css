@@ -6,7 +6,7 @@
     width:100%;
 }
 
-.dashboard-menu  .tab .tablinks {
+.dashboard-menu  .tab .tablinks, .dashboard-menu  .tab .tablink {
     background-color: inherit;
     text-align: center;
     border: none;
@@ -34,7 +34,7 @@
     margin-left: -8px;
 }
 
-.dashboard-menu .tab .tablinks.on {
+.dashboard-menu .tab .tablinks.on,.dashboard-menu .tab .tablink.active {
     color: #017AD3;
     border-bottom: 2px solid #017AD3;
 }
