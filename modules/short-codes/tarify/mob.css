@@ -22,19 +22,19 @@
     margin: 0 auto;
 }
 
-.tariff-block .block-loan {
+.tariff-block .tariff-inner {
     margin-top: 15px;
 }
 
-.tariff-block .block-loan .block-row {
+.tariff-block .tariff-inner .block-row {
     margin-top: 15px;
 }
 
-.tariff-block .block-loan .block-row .traffic-head-intro {
+.tariff-block .tariff-inner .block-row .traffic-head-intro {
     font-weight: 600;
 }
 
-.tariff-block .block-loan .block-row .traffic-cont {
+.tariff-block .tariff-inner .block-row .traffic-cont {
     margin-top: 5px;
     font-size: 0.87em;
     color: #87919F;
